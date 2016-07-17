@@ -829,3 +829,5 @@ Que mange-t-il ?
 Qu'est-ce qu'elle aime ?
 La chatte est grise.
 Le chat est gris.
+S'il te plaît !
+un cheval

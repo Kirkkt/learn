@@ -1,0 +1,33 @@
+<!-- bash -->
+<p></p>
+<h1 id="wildcards">Wildcards <!-- {{{1 --></h1>
+<ul>
+<li><code>*</code> : matches zero or more characters
+<ul>
+<li><code>whereis ~/git/*e*</code></li>
+</ul></li>
+<li><code>?</code> : matches exactly 1 characters
+<ul>
+<li><code>whereis ~/git/?e*</code></li>
+</ul></li>
+<li><code>[abc]</code> : matches any one of a, b or c, notice this doesn't work in fish
+<ul>
+<li><code>whereis ~/git/[dl]*</code></li>
+</ul></li>
+<li><code>[e-m]</code> : matches any one of e to m, inclusive, notice this doesn't work in fish
+<ul>
+<li><code>whereis ~/git/[e-m][a-g][d-h]*</code></li>
+</ul></li>
+</ul>
+<p></p>
+<h1 id="lxsplit">lxsplit <!-- {{{1 --></h1>
+<ul>
+<li><code>lxsplit -s {file_name} 300m</code> : split huge.file into chunks not exceeding 300m
+<ul>
+<li><code>cd resources/; lxsplit -s lxsplit-big-file 20k; cd ..</code></li>
+</ul></li>
+<li><code>lxsplit -j {file_name}.001</code> : join parts starting huge.file.001
+<ul>
+<li><code>cd resources/; lxsplit -j lxsplit-parts.001; cd ..</code></li>
+</ul></li>
+</ul>
