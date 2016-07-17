@@ -12,3 +12,88 @@ Open apps in mac <!-- {{{2 -->
 ----------------
     open -a Safari http://localhost:2534/github/Smart-App-Banner-Deep-Linking-Web-SDK/test/test.html
 
+\pagebreak
+
+Apps <!-- {{{1 -->
+====
+Use Quicktime to record screencasts <!-- {{{2 -->
+-----------------------------------
+Quicktime -> File -> new screen recording
+
+Invoke dictionary quickly <!-- {{{2 -->
+-------------------------
+todo Ctrl+Alt+D
+
+Merge all opened finder windows into one <!-- {{{2 -->
+----------------------------------------
+Window -> merge all windows
+
+\pagebreak
+
+System <!-- {{{1 -->
+======
+Invert screen colors <!-- {{{2 -->
+--------------------
+Ctrl+Super+Alt+8
+
+Key files and directories <!-- {{{2 -->
+-------------------------
+    /var/mail : mail
+
+    ~/Library/KeyBindings/DefaultKeyBinding.dict : system keyboard shortcut settings
+
+    ~/.bash_profile : root bashrc
+    ~/.tmux.conf : tmux configuration
+    ~/.config/fish/config.fish : root fishrc
+
+\pagebreak
+
+Software <!-- {{{1 -->
+========
+Essential <!-- {{{2 -->
+---------
+- Android File Transfer
+- Caffeine
+- ClipMenu
+- Dash
+- Dropbox
+- Google Chrome
+- Karabiner
+- MacVim
+- Mou
+- QQ
+- Seil
+- Shortcat
+- Spectacle
+- UnRarX
+- VLC
+- iTerm
+
+Command line <!-- {{{2 -->
+------------
+- brew
+- curl
+- ffmpeg
+- git
+- mupdf
+- pandoc
+- python
+- tmux
+- tree
+- wget
+
+Software engineering <!-- {{{2 -->
+--------------------
+- Xcode
+
+Non-essential <!-- {{{2 -->
+-------------
+- Day-O
+- Firefox
+- Fluid
+- Google Drive
+- Mouse Server
+- OpenOffice
+- Sublime Text
+- VirtualBox
+- XMind
