@@ -1,3 +1,0 @@
-File extension
-==============
-`git@oschina` doesn't render .mkd as markdown, only .md

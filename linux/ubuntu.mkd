@@ -1,0 +1,55 @@
+<!-- Ubuntu -->
+\pagebreak
+
+Ubuntu <!-- {{{1 -->
+======
+Global <!-- {{{2 -->
+------
+    ctrl+alt+f1 : switch to text command mode
+    ctrl+alt+f7 : switch to graphical command mode
+
+map `capslock` to `esc` permanently <!-- {{{2 -->
+-----------------------------------
+    dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:escape']"
+
+swap 'alt' and 'super' permanently <!-- {{{2 -->
+--------------------------------
+    sudo apt-get install gnome-tweak-tool
+    gnome-tweak-tool
+
+When the tool is opened, typing -> swap alt and win key
+
+Permanently disable trackpad <!-- {{{2 -->
+----------------------------
+system settings -> mouse -> trackpad off
+
+\pagebreak
+
+Lubuntu <!-- {{{1 -->
+=======
+map `capslock` to `esc` permanently <!-- {{{2 -->
+-----------------------------------
+    setxkbmap -option caps:escape
+
+\pagebreak
+
+Software <!-- {{{1 -->
+========
+download .deb <!-- {{{2 -->
+-------------
+- chrome
+
+\pagebreak
+
+Hardware <!-- {{{1 -->
+========
+Touchpad on Acer Aspire ES1-111M doesn't work <!-- {{{2 -->
+---------------------------------------------
+On `BIOS`, set touchpad from advanced to basic solves it.
+
+Hardware info <!-- {{{2 -->
+-------------
+    sudo lshw | less
+
+\pagebreak
+
