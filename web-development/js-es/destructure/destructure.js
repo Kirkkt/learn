@@ -365,4 +365,3 @@ const returnObjectsOverArrays = () => {
   console.log('left', left, 'right', right)
 };
 returnObjectsOverArrays();
-0

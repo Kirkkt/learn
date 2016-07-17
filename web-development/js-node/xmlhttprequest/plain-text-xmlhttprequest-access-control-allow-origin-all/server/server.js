@@ -4,6 +4,7 @@
  */
 var http = require('http');
 var router = require('node-router')();
+var accessControlAllowOrigin = '*';
 
 var genericHandler = function(
   request /* incoming request */,
@@ -14,48 +15,13 @@ var genericHandler = function(
 
 var rootHandler = function(request, response, next) {
   if (request.path === '/') {
+    response.setHeader('access-control-allow-origin', accessControlAllowOrigin);
     response.send(200, 'this is root');
   } else {
     next();
   }
 };
 router.push('GET', '/', rootHandler);
-
-var jsonHandler = function(request, response, next) {
-  if (request.path !== '/json') {
-    next();
-  } else if (request.query.json === 'true') {
-    response.send(200, {json: true});
-  } else {
-    response.send(200, {
-      json: false,
-      message: 'did you forget to include the `?json=true` query?',
-    });
-  }
-};
-router.push('GET', '/json', jsonHandler);
-
-var htmlHandler = function(request, response, next) {
-  const html = `
-      <html>
-          <head>
-              <title>Quiz Wall</title>
-          </head>
-          <body>
-              <div id="react-view"/>
-              <div>
-                <h1>this</h1>
-                <b>is</b>
-                <i>some</i>
-                html
-                <a href='#'>code</a>
-              </div>
-          </body>
-      </html>
-  `;
-  response.end(html);
-};
-router.push('GET', '/html', htmlHandler);
 
 var notFoundHandler = function(request, response, next) {
   response.send(404, 'page not found, try some other cool paths');
