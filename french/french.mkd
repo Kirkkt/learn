@@ -1,0 +1,831 @@
+Alphabet <!-- {{{1 -->
+========
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+
+\pagebreak
+
+Numerals <!-- {{{1 -->
+========
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+
+\pagebreak
+
+Proposition <!-- {{{1 -->
+===========
+je
+tu
+elle
+il
+nous
+vous
+
+\pagebreak
+
+Article <!-- {{{1 -->
+=======
+le, les
+la
+
+\pagebreak
+
+Verb <!-- {{{1 -->
+====
+Be <!-- {{{2 -->
+--
+suis
+sont
+sommes
+est
+
+Have <!-- {{{2 -->
+----
+a
+
+        Person│ Present
+            je│      ai
+            tu│      as
+    il/elle/on│       a
+          nous│   avons
+          vous│    avez
+     ils/elles│     ont
+
+Other verbs <!-- {{{2 -->
+-----------
+écris
+mange - je mange, tu manges, il/elle/on mange, nous mangeons, vous mangez, ils/elles mangent
+aime - like (thing), love (people/pets)
+    When it comes to things:
+        j'aime bien = j'aime = I like
+        j'aime beaucoup = I really like / I really enjoy
+        j'adore = I love
+    When it comes to people (and pets):
+        j'aime = I love
+        j'aime bien = I like
+        j'aime beaucoup = I really like
+faire
+
+\pagebreak
+
+Nouns <!-- {{{1 -->
+=====
+Animals <!-- {{{2 -->
+------
+insecte m
+araignée f
+dauphin m
+requin m
+baleine f
+mouche f
+fourmi f
+singe m
+chat m
+chatte f
+canard m
+cane f
+éléphant m
+oiseau m pl oiseaux
+chien m
+chienne f
+cheval m pl chevaux
+lion m
+animal m
+souris f
+loup m
+bête f
+tigre m
+
+Food and drink <!-- {{{2 -->
+--------------
+sel m
+sucre m
+gâteau m
+beurre m
+fromage m
+carotte f
+chocolat m
+abricot m
+soupe f
+citron m
+poulet m
+bœuf m
+boisson f
+crêpe f pancake, crepe
+banane f
+salade f
+pomme f
+orange f
+eau f
+bière f
+alcool m
+lait m
+viande f
+fraise f
+menu m
+oignon m
+baguette f
+poivre m: du poivre
+pain m
+tomate f
+café m
+thé m
+
+Clothes <!-- {{{2 -->
+-------
+confiture f
+écharpe f
+cravate f
+parapluie m
+botte f
+ceinture f
+chapeau m
+chaussure f
+capsule f
+chemise f
+costume m
+jupe f
+manteau m
+pantalon m
+portefeuille m
+sac m
+vêtement m
+
+People <!-- {{{2 -->
+------
+homme, hommes
+femme
+fille
+garçon
+enfant
+
+Colors <!-- {{{2 -->
+-----
+rouge, rouges
+noir
+vert, verte
+jaune
+bleu, bleue
+
+Other nouns <!-- {{{2 -->
+-----------
+français m
+intérieur m
+électricité f
+lettre f
+journal (newspaper, diary) m
+livre m
+robe f
+
+\pagebreak
+
+Other words <!-- {{{1 -->
+===========
+et
+
+\pagebreak
+
+Grammar <!-- {{{1 -->
+=======
+Ce <!-- {{{2 -->
+--
+Pronoun "ce" has no plural.
+
+"ces" is a demonstrative adjective, to agree with the noun it modifies: ces hommes or ces femmes
+
+Contraction <!-- {{{2 -->
+-----------
+In French, je becomes j' when the next word begins with a vowel.
+
+J'ai <!-- {{{2 -->
+----
+In French, there are many phrases which use avoir + something. To express hunger, thirst, age, if
+you're hot or cold, and some others you will have to use avoir. Here are some other avoir phrases:
+
+J'ai vingt ans - I am 20 years old
+
+Vous avez froid - You are cold
+
+Il avait soif - He was thirsty
+
+Inversion in questions <!-- {{{2 -->
+----------------------
+In spoken French, questions are almost always indicated just by tone of voice. Inversion
+(Savez-vous?) is mainly used in writing. In French, there is no difference in meaning, only a
+difference in how informally they come across (you would not use Vous savez? in formal writing).
+
+Que <!-- {{{2 -->
+---
+when you have "que" in front of the question you must use the inversion of a veb. (Que penses-tu ?)
+
+When using inversion with the third person singular ( il , elle , or on ) and a verb that ends in a
+vowel, you must add t- between the verb and subject pronoun => (A-t-on décidé ?)
+
+<http://french.about.com/od/grammar/a/questions.htm>
+
+Adjectives <!-- {{{2 -->
+----------
+Most adjectives come after the noun they refer to.
+
+A few adjectives come before the noun. They are normally short, commonly used adjectives.
+
+If there is an adjective in front of the noun, the indefinite plural article des becomes "de". In
+spoken French however, you are very likely to hear des.
+
+Genders <!-- {{{2 -->
+-------
+Adjectives which already end in -e are the same for both genders.
+
+Mon, ton, son versus ma, ta, sa <!-- {{{2 -->
+-------------------------------
+<http://www.thefrenchexperiment.com/learn-french/possessive-adjectives.php>
+
+The possessives ending in -on are used with masculine nouns: Mon livre means My book. They are also
+used with feminine nouns starting with a vowel: Mon amie means My girlfriend.
+
+             English│ Masculine│ Feminine│ Before vowel│ Plural
+                  my│       mon│       ma│          mon│    mes
+   your (sing./fam.)│       ton│       ta│          ton│    tes
+         his/her/its│       son│       sa│          son│    ses
+                 our│     notre│    notre│        notre│    nos
+   your (plur./form)│     votre│    votre│        votre│    vos
+               their│      leur│     leur│         leur│  leurs
+
+My...
+    mon père = my father
+    ma mère = my mother
+    mes parents = my parents
+
+Your (informal)...
+    ton père = your father
+    ta mère = your mother
+    tes parents = your parents
+
+Your (polite)...
+    votre père = your father
+    votre mère = your mother
+    vos parents = your parents
+
+His/her...
+    son père = his/her father
+    sa mère = his/her mother
+    ses parents = his/her parents
+
+Their...
+    leur père = their father
+    leur mère = their mother
+    leurs parents = their parents
+
+Les, des, du, de la <!-- {{{2 -->
+-------------------
+le chat, la chatte, les chats, les chattes
+un chat, une chatte, des chats, des chattes
+le pain
+du pain
+l'eau
+de l'eau
+la soupe
+de la soupe
+
+\pagebreak
+
+Sentence <!-- {{{1 -->
+========
+Bienvenue!
+Bonjour le lapin! Comment ça va?
+C'est ta nouvelle ceinture?
+C'est un oiseau jaune.
+C'est une couleur.
+C'est votre jolie robe noire?
+Ce sont nos livres.
+De rien!
+De rien, à bientôt !
+Des haricots et du pain
+Du café et du thé
+Elle a du vin et du lait.
+Elle a un manteau rouge et noir.
+Elle a un parapluie noir.
+Elle a un portefeuille.
+Elle a une robe rouge.
+Elle est avec ses enfants.
+Elle est calme.
+Elle mange de la viande.
+Elle mange des fraises.
+Elle mange du bœuf.
+Elle mange du poisson et du poulet.
+Elle mange une pomme.
+Elles ont du vin.
+Elles sont calmes.
+Elles sont rouges.
+Il a un enfant.
+Il a un nouveau chapeau.
+Il a un petit requin.
+Il a une cravate.
+Il a une fraise.
+Il est calme.
+Il mange une banane.
+Il mange une orange.
+Ils mangent du bœuf.
+Ils mangent une banane.
+Ils ont une jolie fille.
+J'ai un chapeau bleu.
+J'aime le bœuf.
+J'aime les couleurs des légumes.
+J'aime les jupes.
+J'aime les robes.
+J'aime manger des frites.
+J'écris un livre.
+J'écris une lettre.
+J'écris.
+Je bois de l'alcool.
+Je bois de l'eau.
+Je mange des pommes.
+Je mange des pâtes.
+Je mange des sandwichs.
+Je mange la baguette.
+Je mange une banane.
+Je mange une salade.
+Je mange une tomate.
+Je mange.
+Je suis jeune.
+Je suis un garçon.
+Je suis une femme.
+L'araignée est un animal.
+L'homme a des chaussures marron.
+L'oiseau mange la pomme.
+L'éléphant mange une pomme.
+La ceinture est noire.
+La ceinture est orange.
+La chatte et la souris
+La chatte mange la souris.
+La chienne mange l'oiseau.
+La fille a un manteau bleu.
+La fille mange de la soupe.
+La fille mange une fraise.
+La fourmi est un insecte.
+La lettre est rouge.
+La petite tomate est rouge.
+La pomme et le livre sont rouges.
+La robe est rouge.
+La robe est verte.
+La tomate est verte.
+La tortue est verte.
+La vache est petite.
+La viande
+Le canard mange une mouche.
+Le chapeau du garçon est noir.
+Le chapeau est grand.
+Le chat a une botte rouge.
+Le chat est noir.
+Le cheval est un animal.
+Le chien mange l'oiseau.
+Le citron a une couleur jaune.
+Le garçon a un singe.
+Le garçon a une casquette.
+Le garçon mange des fruits.
+Le lait est froid.
+Le livre est noir.
+Le livre et la lettre sont rouges.
+Le loup et le chien
+Le manteau est chaud.
+Le manteau est rouge.
+Le requin est rouge.
+Le requin mange une tortue.
+Le sac est rouge.
+Le sandwich est chaud.
+Le thé est chaud.
+Les chemises des hommes
+Les citrons sont jaunes.
+Les enfants mangent les fraises.
+Les enfants mangent seuls.
+Les enfants écrivent des lettres
+Les femmes boivent du thé.
+Les femmes sont seules.
+Les filles lisent un journal.
+Les filles lisent un livre.
+Les filles mangent des fruits.
+Les filles sont petites.
+Les haricots sont rouges.
+Les hommes mangent du fromage.
+Les hommes mangent une fraise.
+Les hommes sont calmes et riches.
+Les jeunes enfants mangent le chocolat.
+Les poches des chemises
+Les poches des vêtements
+Les pommes des filles
+Les pommes sont rouges.
+Les robes sont bleues.
+Les robes sont rouges.
+Ma mère
+Merci et à bientôt!
+Mon père
+Nous avons des chaussures.
+Nous avons des vêtements bleus.
+Nous avons un chien.
+Nous mangeons de la viande.
+Nous mangeons du bœuf.
+Nous mangeons du fromage et ils mangent du poisson.
+Nous mangeons du poulet.
+Nous sommes riches.
+Sa mère
+Son père
+Tes pommes sont rouges.
+Tu as des bottes.
+Tu as un chapeau marron.
+Tu as une chemise bleue.
+Tu es riche.
+Tu es un garçon.
+Tu es un homme.
+Tu manges des légumes.
+Tu manges le citron.
+Tu manges une carotte.
+Tu manges une orange.
+Un dauphin et une baleine
+Une fourmi rouge et un canard noir
+Vous avez des bottes.
+Vous avez des vêtements.
+Vous avez un chat.
+Vous mangez des pommes.
+Vous mangez le citron.
+Vous êtes grandes.
+Vous êtes jeune.
+une fourmi rouge et un canard noir
+À bientôt!
+À plus tard!
+C'est ta nouvelle ceinture ?
+Elle lit tes livres.
+une souris et un éléphant
+Les enfants doivent manger.
+Les enfants doivent boire.
+La fille appelle le garçon.
+Il faut faire tes devoirs.
+Il est quatre heures.
+Les enfants doivent boire.
+Tes garçons lisent un journal.
+Bonjour, vas-tu bien ?
+Je veux un poisson rouge.
+Il faut du pain.
+Il nous faut du pain.
+Il faut manger.
+Elle apporte du lait.
+Il faut boire.
+Elles achètent le cheval.
+Nous sommes seuls.
+Je mange des pâtes.
+J'aime ce repas.
+Oui, je dois manger et boire.
+Elle a tes gants.
+J'ai un chat.
+Elle a les cheveux blonds.
+Il a un petit chien.
+Ta femme est jolie.
+mon parapluie
+Vous mangez une carotte.
+Nous achetons des pommes vertes.
+Je veux une boisson.
+Nous voulons une chienne.
+Un homme apporte du vin.
+Elle a un manteau rouge et noir.
+Je parle.
+Il parle.
+Il parle des couleurs.
+Il a un grand sac noir.
+L'abeille est un insecte.
+Elle veut une robe.
+l'ami (m)
+l'amie (f)
+L'informaticien travaille beaucoup.
+L'étudiant fait un stage à la radio.
+Les limonades coûtent neuf euros.
+Anne est la collègue de Pauline.
+Hélène est la professeur.
+Les pastis ne sont pas chers.
+un frère
+une fleur
+des fleurs
+la bière
+une bière
+les bières
+des bières
+le vin
+un vin
+l'eau
+une eau
+les vins
+des vins
+les olives
+des olives
+Je prends une salade.
+Elle coûte combien, la salade ?
+Tu prends un croque-monsieur ?
+Il coûte combien, le croque-monsieur ?
+Vous prenez des chips?
+Oui, elles coûtent combien, les chips ?
+Elle est mince.
+Ils sont très contents.
+C'est une jolie photo.
+Regarde la jolie photo !
+Qui est ce monsieur ?
+Le grand monsieur à côté de la jolie fille ?
+Oui, oui, le monsieur à côté de la fille très mince
+Mais ce sont papa et maman !
+Waouh ! Ils sont vraiment contents sur la photo !
+Il est content.
+Elle est contente.
+un homme content
+une femme contente
+un grand homme
+une grande femme
+un homme mince
+une femme mince
+une femme moderne
+une fille blonde
+une jolie fille
+un garçon drôle
+un homme sympathique
+des hommes sympathiques
+une fille contente
+des filles contentes
+un homme intelligent
+des hommes intelligents
+une femme mince
+des femmes minces
+un homme blond
+des hommes blonds
+une femme romantique
+des femmes romantiques
+une jolie femme
+un grand homme
+de jolies filles
+de grands hommes
+Ce sont de grands hommes avec de petits chapeaux.
+Nous avons des clients contents.
+C'est un grand garçon très mince.
+Elle est grande et jolie.
+Elles sont contentes d'habiter à New York.
+Pierre et Tim sont très contents.
+Comme papa et maman sont minces !
+Le gâteau est joli.
+Nous mangeons le chocolat.
+J'apporte des fraises et du vin.
+Ils achètent le cheval.
+Elles achètent le cheval.
+Est-ce qu'il aime mon chapeau ?
+Cet enfant mange du poisson.
+Qu'est-ce que tu bois ?
+Elle mange du pain quand elle veut.
+Le garçon achète une chienne.
+Qu'est-ce que tu veux ?
+J'apporte des fraises et du vin.
+Elles achètent le cheval.
+Est-ce qu'il aime mon chapeau ?
+L'homme adore la femme.
+C'est votre jolie robe noire ?
+Tes garçons lisent un journal.
+L'homme a une cravate.
+Il a un livre et un portefeuille.
+Tu manges des légumes.
+Le portefeuille est noir.
+Elle adore les chats.
+Elle aime ses enfants.
+Elle adore ses enfants.
+Il a un costume et un portefeuille.
+Que lit-elle ?
+Quand lit-elle ?
+Bonjour ! Comment ça va ?
+Nous apprenons le français.
+Qu'est-ce que c'est ?
+La fourmi mange une pomme.
+Elle boit, donc je bois.
+La fille appelle le garçon.
+Est-ce qu'elle a un parapluie ?
+Laquelle connaît-il ?
+Qu'avez-vous ?
+Qu as-tu ?
+Ça, c'est une orange.
+Qu'a-t-il ?
+Est-ce qu'elle aime bien ta cravate ?
+Est-ce qu'elle aime ta cravate ?
+Quoi ?
+une fourmi rouge et un canard noir
+Vous savez ?
+Le singe sait manger.
+Combien ?
+Il aime ça.
+Nous avons une voiture verte.
+Nous sommes contents.
+Il est content parce qu'il a un nouveau stylo.
+Les filles mangent du beurre.
+Vous apprenez le français.
+Quand, pourquoi et comment ?
+Il apprend le français.
+Le garçon a une casquette.
+Tu apprends le français.
+Quand lit-elle ?
+J'aime bien le thé, mais j'adore le café.
+J'aime le thé, mais j'adore le café.
+Il apprend quoi ?
+Les femmes veulent des robes bleues.
+Nous lisons ses lettres.
+Pourquoi écrit-il ?
+Un homme cherche une femme.
+Il mange quand je bois.
+L'araignée est un animal.
+Tu manges quand je bois.
+Vous voulez une vache.
+Je suis une araignée.
+J'ai froid.
+Je cherche ma chienne.
+Je cherche mon chien.
+Tu aides ta femme.
+Vous aidez votre femme.
+Tu veux un cheval noir.
+Vous voulez un cheval noir.
+Nous cherchons un livre.
+Pourquoi manges-tu du pain ?
+Il veut une pomme.
+C'est notre enfant.
+Est-ce qu'il aime mon chapeau ?
+L'homme mange de la viande.
+leurs enfants
+J'aime la confiture.
+Nous comprenons le journal.
+Je comprends mes enfants.
+Oui, je comprends. Merci.
+la confiture
+Leurs chiens mangent du poisson.
+Les haricots sont rouges.
+Nous mangeons du sucre.
+L'homme comprend les enfants.
+Ce cochon est grand.
+Tu manges une crêpe.
+Des lettres, lesquelles ?
+Vous voulez lesquels ?
+les poches des chemises
+Les enfants doivent manger.
+Des pommes, lesquelles ?
+J'écris ce livre.
+La tortue mange des pâtes.
+Ce garçon lit un menu.
+J'aime manger des pâtes.
+Lesquels parlent ?
+Lesquelles parlent ?
+les chemises des hommes
+Que lis-je ?
+Lesquelles parlent ?
+Lesquels parlent ?
+Elles lisent ce menu.
+Les enfants doivent manger.
+C'est du café, mais il aime ça !
+Qu'est-ce que tu bois ?
+Lesquels aiment-ils ?
+J'aime manger des pâtes.
+Que lis-je ?
+J'aime bien manger des pâtes.
+Les enfants doivent boire.
+Lesquels voulez-vous ?
+Que lit-elle ?
+Tu veux lesquelles ?
+Ses vêtements sont petits.
+Le chat est gris.
+Nous sommes ses enfants.
+Elles ont des livres.
+Ce sont des chats.
+Elle a tes gants.
+Ils ont une jolie fille.
+nos chemises
+mes chemises
+notre chemise
+Qu'est-ce qu'elle boit ?
+Ce sont des chats.
+Cette robe est bleue.
+Oui ou non ?
+Est-ce que vous aimez le chocolat ?
+As-tu des légumes ?
+Est-ce que vous avez des légumes ?
+Que mange-t-il ?
+Qu'est-ce qu'elle aime ?
+La chatte est grise.
+Le chat est gris.
