@@ -309,6 +309,12 @@ et
 
 Grammar <!-- {{{1 -->
 =======
+Verbs expressing taste <!-- {{{2 -->
+----------------------
+Verbs expressing taste (aimer, détester, préférer, etc.) require the definite article (le, la, l', les) for the direct object that follows them.
+
+This means that "I like the salad" and "I like salad" are both translated to "J'aime la salade."
+
 Ce <!-- {{{2 -->
 --
 Pronoun "ce" has no plural.
@@ -831,3 +837,29 @@ La chatte est grise.
 Le chat est gris.
 S'il te plaît !
 un cheval
+un repas
+Tu veux mon portefeuille.
+Nous mangeons une salade.
+Ils écrivent leurs lettres.
+Le garçon mange des frites.
+Le garçon a un singe.
+Qui ?
+Vous voulez une vache.
+J'aime la salade.
+leurs enfants
+Je lis, car j'aime ce livre.
+Qui veut des frites ?
+Ils veulent un sandwich.
+J'aime la salade.
+Ils veulent un chien.
+Vous voulez des fraises ?
+Les filles mangent des fruits.
+Est-ce que vous avez des légumes ?
+Le parapluie est noir.
+Est-ce que tu aimes le chocolat ?
+Est-ce que vous aimez le chocolat ?
+Je mange un poisson orange.
+J'aime la confiture.
+Elle a une jupe orange.
+L'ours est orange !
+Est-ce que vous avez des légumes ?
