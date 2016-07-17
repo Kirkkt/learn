@@ -1,0 +1,15 @@
+{
+  "name": "webpack-dev-server_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src.js",
+  "scripts": {
+    "start": "webpack-dev-server ./src.js"
+  },
+  "author": "",
+  "dependencies": {
+    "uniq": "^1.0.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
