@@ -173,6 +173,15 @@ a
           vous│    avez
      ils/elles│     ont
 
+Make <!-- {{{2 -->
+----
+je	fais
+tu	fais
+il/elle/on	fait
+nous	faisons
+vous	faites
+ils/elles	font
+
 Other verbs <!-- {{{2 -->
 -----------
 écris
@@ -221,6 +230,7 @@ tigre m
 Food and drink <!-- {{{2 -->
 --------------
 huile f
+jus m
 sel m
 sucre m
 gâteau m
@@ -426,78 +436,199 @@ de la soupe
 
 Sentence <!-- {{{1 -->
 ========
+Anne est la collègue de Pauline.
+As-tu des légumes ?
+Au revoir et merci beaucoup.
 Bienvenue!
+Bonjour ! Comment ça va ?
 Bonjour le lapin! Comment ça va?
+Bonjour, vas-tu bien ?
+Bonsoir !
+C'est du café, mais il aime ça !
+C'est notre enfant.
+C'est ta nouvelle ceinture ?
 C'est ta nouvelle ceinture?
+C'est un grand garçon très mince.
 C'est un oiseau jaune.
 C'est une couleur.
+C'est une jolie photo.
+C'est votre jolie robe noire ?
 C'est votre jolie robe noire?
+Ce cochon est grand.
+Ce garçon lit un menu.
+Ce sont de grands hommes avec de petits chapeaux.
+Ce sont des chats.
 Ce sont nos livres.
+Ces enfants mangent.
+Cet enfant mange du poisson.
+Cet homme est jeune.
+Cet insecte est noir et jaune.
+Cette robe est bleue.
+Combien ?
+Comme papa et maman sont minces !
+D'accord, merci beaucoup !
 De rien!
 De rien, à bientôt !
 Des haricots et du pain
+Des lettres, lesquelles ?
+Des poissons mangent du riz.
+Des pommes, lesquelles ?
 Du café et du thé
 Elle a du vin et du lait.
+Elle a les cheveux blonds.
+Elle a tes gants.
 Elle a un manteau rouge et noir.
 Elle a un parapluie noir.
 Elle a un portefeuille.
+Elle a une grande robe.
+Elle a une jupe orange.
 Elle a une robe rouge.
+Elle adore les chats.
+Elle adore ses enfants.
+Elle aime ses enfants.
+Elle apporte du lait.
+Elle boit, donc je bois.
+Elle cherche son chat.
+Elle coûte combien, la salade ?
 Elle est avec ses enfants.
 Elle est calme.
+Elle est contente.
+Elle est grande et jolie.
+Elle est mince.
+Elle lit tes livres.
 Elle mange de la viande.
 Elle mange des fraises.
 Elle mange du bœuf.
+Elle mange du pain quand elle veut.
 Elle mange du poisson et du poulet.
+Elle mange une crêpe.
 Elle mange une pomme.
+Elle veut une robe.
+Elles achètent le cheval.
+Elles lisent ce menu.
+Elles ont des livres.
 Elles ont du vin.
 Elles sont calmes.
+Elles sont contentes d'habiter à New York.
 Elles sont rouges.
+Est-ce qu'elle a un parapluie ?
+Est-ce qu'elle aime bien ta cravate ?
+Est-ce qu'elle aime ta cravate ?
+Est-ce qu'il aime mon chapeau ?
+Est-ce que tu aimes le chocolat ?
+Est-ce que vous aimez le chocolat ?
+Est-ce que vous avez des légumes ?
+Hélène est la professeur.
+Il a un costume et un portefeuille.
 Il a un enfant.
+Il a un grand sac noir.
+Il a un livre et un portefeuille.
 Il a un nouveau chapeau.
+Il a un petit chien.
 Il a un petit requin.
 Il a une cravate.
 Il a une fraise.
+Il aide sa chienne.
+Il aime ça.
+Il apprend le français.
+Il apprend quoi ?
+Il coûte combien, le croque-monsieur ?
 Il est calme.
+Il est content parce qu'il a un nouveau stylo.
+Il est content.
+Il est quatre heures.
+Il faut boire.
+Il faut du pain.
+Il faut faire tes devoirs.
+Il faut manger.
+Il mange quand je bois.
 Il mange une banane.
 Il mange une orange.
+Il nous faut du pain.
+Il parle des couleurs.
+Il parle.
+Il veut une pomme.
+Ils achètent le cheval.
 Ils mangent du bœuf.
 Ils mangent une banane.
 Ils ont une jolie fille.
+Ils sont très contents.
+Ils veulent un chien.
+Ils veulent un sandwich.
+Ils écrivent leurs lettres.
+J'ai froid.
 J'ai un chapeau bleu.
+J'ai un chat.
+J'aime bien le thé, mais j'adore le café.
+J'aime bien manger des pâtes.
+J'aime ce repas.
+J'aime la confiture.
+J'aime la salade.
 J'aime le bœuf.
+J'aime le thé, mais j'adore le café.
+J'aime les chaussures.
 J'aime les couleurs des légumes.
 J'aime les jupes.
 J'aime les robes.
 J'aime manger des frites.
+J'aime manger des pâtes.
+J'apporte des fraises et du vin.
+J'attends mes enfants.
+J'écris ce livre.
 J'écris un livre.
 J'écris une lettre.
 J'écris.
 Je bois de l'alcool.
 Je bois de l'eau.
+Je cherche ma chienne.
+Je cherche mon chien.
+Je comprends mes enfants.
+Je lis, car j'aime ce livre.
 Je mange des pommes.
 Je mange des pâtes.
 Je mange des sandwichs.
 Je mange la baguette.
+Je mange les légumes.
+Je mange un poisson orange.
 Je mange une banane.
 Je mange une salade.
 Je mange une tomate.
 Je mange.
+Je parle.
+Je prends une salade.
 Je suis jeune.
 Je suis un garçon.
+Je suis une araignée.
+Je suis une baleine.
 Je suis une femme.
+Je vais manger une baguette.
+Je veux un poisson rouge.
+Je veux une boisson.
+L'abeille est un insecte.
 L'araignée est un animal.
 L'homme a des chaussures marron.
+L'homme a une cravate.
+L'homme adore la femme.
+L'homme comprend les enfants.
+L'homme mange de la viande.
+L'informaticien travaille beaucoup.
 L'oiseau mange la pomme.
+L'ours est orange !
 L'éléphant mange une pomme.
+L'étudiant fait un stage à la radio.
+La bière est froide.
 La ceinture est noire.
 La ceinture est orange.
+La chatte est grise.
 La chatte et la souris
 La chatte mange la souris.
 La chienne mange l'oiseau.
 La fille a un manteau bleu.
+La fille appelle le garçon.
 La fille mange de la soupe.
 La fille mange une fraise.
 La fourmi est un insecte.
+La fourmi mange une pomme.
 La lettre est rouge.
 La petite tomate est rouge.
 La pomme et le livre sont rouges.
@@ -505,417 +636,253 @@ La robe est rouge.
 La robe est verte.
 La tomate est verte.
 La tortue est verte.
+La tortue mange des pâtes.
 La vache est petite.
 La viande
+Laquelle connaît-il ?
 Le canard mange une mouche.
 Le chapeau du garçon est noir.
 Le chapeau est grand.
 Le chat a une botte rouge.
+Le chat est gris.
 Le chat est noir.
 Le cheval est un animal.
 Le chien mange l'oiseau.
 Le citron a une couleur jaune.
 Le garçon a un singe.
 Le garçon a une casquette.
+Le garçon achète un chien.
+Le garçon achète une chienne.
+Le garçon mange des frites.
 Le garçon mange des fruits.
+Le grand monsieur à côté de la jolie fille ?
+Le gâteau est joli.
 Le lait est froid.
 Le livre est noir.
 Le livre et la lettre sont rouges.
 Le loup et le chien
 Le manteau est chaud.
 Le manteau est rouge.
+Le parapluie est noir.
+Le portefeuille est noir.
 Le requin est rouge.
 Le requin mange une tortue.
 Le sac est rouge.
 Le sandwich est chaud.
+Le singe sait manger.
 Le thé est chaud.
-Les chemises des hommes
+Les chats mangent des poissons.
+les chemises des hommes
 Les citrons sont jaunes.
+Les enfants doivent boire.
+Les enfants doivent manger.
 Les enfants mangent les fraises.
 Les enfants mangent seuls.
 Les enfants écrivent des lettres
 Les femmes boivent du thé.
 Les femmes sont seules.
+Les femmes veulent des robes bleues.
 Les filles lisent un journal.
 Les filles lisent un livre.
 Les filles mangent des fruits.
+Les filles mangent du beurre.
 Les filles sont petites.
 Les haricots sont rouges.
 Les hommes mangent du fromage.
 Les hommes mangent une fraise.
 Les hommes sont calmes et riches.
 Les jeunes enfants mangent le chocolat.
+Les limonades coûtent neuf euros.
+Les pastis ne sont pas chers.
 Les poches des chemises
 Les poches des vêtements
 Les pommes des filles
 Les pommes sont rouges.
 Les robes sont bleues.
 Les robes sont rouges.
+Lesquelles parlent ?
+Lesquels aiment-ils ?
+Lesquels parlent ?
+Lesquels voulez-vous ?
+Leurs chiens mangent du poisson.
 Ma mère
+Mais ce sont papa et maman !
+Merci beaucoup !
 Merci et à bientôt!
 Mon père
+Nous achetons des pommes vertes.
+Nous allons manger.
+Nous apprenons le français.
 Nous avons des chaussures.
+Nous avons des clients contents.
 Nous avons des vêtements bleus.
 Nous avons un chien.
+Nous avons une voiture verte.
+Nous cherchons un livre.
+Nous comprenons le journal.
+Nous lisons ses lettres.
+Nous lisons tes lettres.
+Nous lisons vos lettres.
 Nous mangeons de la viande.
 Nous mangeons du bœuf.
 Nous mangeons du fromage et ils mangent du poisson.
 Nous mangeons du poulet.
+Nous mangeons du sucre.
+Nous mangeons le chocolat.
+Nous mangeons une salade.
+Nous sommes contents.
 Nous sommes riches.
+Nous sommes ses enfants.
+Nous sommes seuls.
+Nous voulons une chienne.
+Oui ou non ?
+Oui, elles coûtent combien, les chips ?
+Oui, je comprends. Merci.
+Oui, je dois manger et boire.
+Oui, oui, le monsieur à côté de la fille très mince
+Où sont les chaussures ?
+Où sont mes chaussures ?
+Où sont mes chaussures vertes ?
+Pierre et Tim sont très contents.
+Pourquoi aimes-tu bien les poissons ?
+Pourquoi aimes-tu le poisson ?
+Pourquoi manges-tu du pain ?
+Pourquoi parle-t-elle ?
+Pourquoi écrit-il ?
+Qu as-tu ?
+Qu'a-t-il ?
+Qu'avez-vous ?
+Qu'est-ce qu'elle aime ?
+Qu'est-ce qu'elle boit ?
+Qu'est-ce que c'est ?
+Qu'est-ce que tu bois ?
+Qu'est-ce que tu veux ?
+Quand lit-elle ?
+Quand manges-tu du pain ?
+Quand, pourquoi et comment ?
+Quant, pourquoi et comment ?
+Que font-ils seuls ?
+Que lis-je ?
+Que lit-elle ?
+Que mange-t-il ?
+Qui ?
+Qui est ce monsieur ?
+Qui veut des frites ?
+Quoi ?
+Regarde la jolie photo !
+S'il te plaît !
+S'il vous plaît, non !
 Sa mère
+Ses vêtements sont petits.
 Son père
+Ta femme est jolie.
+Tes garçons lisent un journal.
 Tes pommes sont rouges.
+Tu aides les enfants.
+Tu aides ta femme.
+Tu apprends le français.
 Tu as des bottes.
 Tu as un chapeau marron.
 Tu as une chemise bleue.
 Tu es riche.
 Tu es un garçon.
 Tu es un homme.
+Tu manges comme un cochon.
 Tu manges des légumes.
 Tu manges le citron.
+Tu manges quand je bois.
 Tu manges une carotte.
+Tu manges une crêpe.
 Tu manges une orange.
+Tu prends un croque-monsieur ?
+Tu veux lesquelles ?
+Tu veux mon portefeuille.
+Tu veux un cheval noir.
 Un dauphin et une baleine
+Un homme apporte du vin.
+Un homme cherche une femme.
+Une baleine est un animal.
 Une fourmi rouge et un canard noir
+Vous aidez votre femme.
+Vous apprenez le français.
 Vous avez des bottes.
 Vous avez des vêtements.
 Vous avez un chat.
 Vous mangez des pommes.
 Vous mangez le citron.
+Vous mangez une carotte.
+Vous parlez des filles.
+Vous parlez.
+Vous prenez des chips?
+Vous savez ?
+Vous voulez des fraises ?
+Vous voulez lesquels ?
+Vous voulez un cheval noir.
+Vous voulez une vache.
 Vous êtes grandes.
 Vous êtes jeune.
-une fourmi rouge et un canard noir
-À bientôt!
-À plus tard!
-C'est ta nouvelle ceinture ?
-Elle lit tes livres.
-une souris et un éléphant
-Les enfants doivent manger.
-Les enfants doivent boire.
-La fille appelle le garçon.
-Il faut faire tes devoirs.
-Il est quatre heures.
-Les enfants doivent boire.
-Tes garçons lisent un journal.
-Bonjour, vas-tu bien ?
-Je veux un poisson rouge.
-Il faut du pain.
-Il nous faut du pain.
-Il faut manger.
-Elle apporte du lait.
-Il faut boire.
-Elles achètent le cheval.
-Nous sommes seuls.
-Je mange des pâtes.
-J'aime ce repas.
-Oui, je dois manger et boire.
-Elle a tes gants.
-J'ai un chat.
-Elle a les cheveux blonds.
-Il a un petit chien.
-Ta femme est jolie.
-mon parapluie
-Vous mangez une carotte.
-Nous achetons des pommes vertes.
-Je veux une boisson.
-Nous voulons une chienne.
-Un homme apporte du vin.
-Elle a un manteau rouge et noir.
-Je parle.
-Il parle.
-Il parle des couleurs.
-Il a un grand sac noir.
-L'abeille est un insecte.
-Elle veut une robe.
+Waouh ! Ils sont vraiment contents sur la photo !
+de grands hommes
+de jolies filles
+des bières
+des femmes minces
+des femmes romantiques
+des filles contentes
+des fleurs
+des hommes blonds
+des hommes intelligents
+des hommes sympathiques
+des olives
+des vins
 l'ami (m)
 l'amie (f)
-L'informaticien travaille beaucoup.
-L'étudiant fait un stage à la radio.
-Les limonades coûtent neuf euros.
-Anne est la collègue de Pauline.
-Hélène est la professeur.
-Les pastis ne sont pas chers.
-un frère
-une fleur
-des fleurs
-la bière
-une bière
-les bières
-des bières
-le vin
-un vin
 l'eau
-une eau
-les vins
-des vins
+l'huile
+la bière
+la confiture
+la mouche
+le sel
+le vin
+les bières
+les chemises des hommes
 les olives
-des olives
-Je prends une salade.
-Elle coûte combien, la salade ?
-Tu prends un croque-monsieur ?
-Il coûte combien, le croque-monsieur ?
-Vous prenez des chips?
-Oui, elles coûtent combien, les chips ?
-Elle est mince.
-Ils sont très contents.
-C'est une jolie photo.
-Regarde la jolie photo !
-Qui est ce monsieur ?
-Le grand monsieur à côté de la jolie fille ?
-Oui, oui, le monsieur à côté de la fille très mince
-Mais ce sont papa et maman !
-Waouh ! Ils sont vraiment contents sur la photo !
-Il est content.
-Elle est contente.
-un homme content
-une femme contente
+les petits poissons rouges
+les poches des chemises
+les poches des vêtements
+les vins
+leurs enfants
+ma chaussure
+mes chemises
+mon parapluie
+nos chemises
+notre chemise
+un cheval
+un frère
+un garçon drôle
 un grand homme
-une grande femme
+un homme blond
+un homme content
+un homme intelligent
 un homme mince
+un homme sympathique
+un repas
+un vin
+une baleine
+une bière
+une eau
+une femme contente
 une femme mince
 une femme moderne
-une fille blonde
-une jolie fille
-un garçon drôle
-un homme sympathique
-des hommes sympathiques
-une fille contente
-des filles contentes
-un homme intelligent
-des hommes intelligents
-une femme mince
-des femmes minces
-un homme blond
-des hommes blonds
 une femme romantique
-des femmes romantiques
-une jolie femme
-un grand homme
-de jolies filles
-de grands hommes
-Ce sont de grands hommes avec de petits chapeaux.
-Nous avons des clients contents.
-C'est un grand garçon très mince.
-Elle est grande et jolie.
-Elles sont contentes d'habiter à New York.
-Pierre et Tim sont très contents.
-Comme papa et maman sont minces !
-Le gâteau est joli.
-Nous mangeons le chocolat.
-J'apporte des fraises et du vin.
-Ils achètent le cheval.
-Elles achètent le cheval.
-Est-ce qu'il aime mon chapeau ?
-Cet enfant mange du poisson.
-Qu'est-ce que tu bois ?
-Elle mange du pain quand elle veut.
-Le garçon achète une chienne.
-Qu'est-ce que tu veux ?
-J'apporte des fraises et du vin.
-Elles achètent le cheval.
-Est-ce qu'il aime mon chapeau ?
-L'homme adore la femme.
-C'est votre jolie robe noire ?
-Tes garçons lisent un journal.
-L'homme a une cravate.
-Il a un livre et un portefeuille.
-Tu manges des légumes.
-Le portefeuille est noir.
-Elle adore les chats.
-Elle aime ses enfants.
-Elle adore ses enfants.
-Il a un costume et un portefeuille.
-Que lit-elle ?
-Quand lit-elle ?
-Bonjour ! Comment ça va ?
-Nous apprenons le français.
-Qu'est-ce que c'est ?
-La fourmi mange une pomme.
-Elle boit, donc je bois.
-La fille appelle le garçon.
-Est-ce qu'elle a un parapluie ?
-Laquelle connaît-il ?
-Qu'avez-vous ?
-Qu as-tu ?
-Ça, c'est une orange.
-Qu'a-t-il ?
-Est-ce qu'elle aime bien ta cravate ?
-Est-ce qu'elle aime ta cravate ?
-Quoi ?
+une fille blonde
+une fille contente
+une fleur
 une fourmi rouge et un canard noir
-Vous savez ?
-Le singe sait manger.
-Combien ?
-Il aime ça.
-Nous avons une voiture verte.
-Nous sommes contents.
-Il est content parce qu'il a un nouveau stylo.
-Les filles mangent du beurre.
-Vous apprenez le français.
-Quand, pourquoi et comment ?
-Il apprend le français.
-Le garçon a une casquette.
-Tu apprends le français.
-Quand lit-elle ?
-J'aime bien le thé, mais j'adore le café.
-J'aime le thé, mais j'adore le café.
-Il apprend quoi ?
-Les femmes veulent des robes bleues.
-Nous lisons ses lettres.
-Pourquoi écrit-il ?
-Un homme cherche une femme.
-Il mange quand je bois.
-L'araignée est un animal.
-Tu manges quand je bois.
-Vous voulez une vache.
-Je suis une araignée.
-J'ai froid.
-Je cherche ma chienne.
-Je cherche mon chien.
-Tu aides ta femme.
-Vous aidez votre femme.
-Tu veux un cheval noir.
-Vous voulez un cheval noir.
-Nous cherchons un livre.
-Pourquoi manges-tu du pain ?
-Il veut une pomme.
-C'est notre enfant.
-Est-ce qu'il aime mon chapeau ?
-L'homme mange de la viande.
-leurs enfants
-J'aime la confiture.
-Nous comprenons le journal.
-Je comprends mes enfants.
-Oui, je comprends. Merci.
-la confiture
-Leurs chiens mangent du poisson.
-Les haricots sont rouges.
-Nous mangeons du sucre.
-L'homme comprend les enfants.
-Ce cochon est grand.
-Tu manges une crêpe.
-Des lettres, lesquelles ?
-Vous voulez lesquels ?
-les poches des chemises
-Les enfants doivent manger.
-Des pommes, lesquelles ?
-J'écris ce livre.
-La tortue mange des pâtes.
-Ce garçon lit un menu.
-J'aime manger des pâtes.
-Lesquels parlent ?
-Lesquelles parlent ?
-les chemises des hommes
-Que lis-je ?
-Lesquelles parlent ?
-Lesquels parlent ?
-Elles lisent ce menu.
-Les enfants doivent manger.
-C'est du café, mais il aime ça !
-Qu'est-ce que tu bois ?
-Lesquels aiment-ils ?
-J'aime manger des pâtes.
-Que lis-je ?
-J'aime bien manger des pâtes.
-Les enfants doivent boire.
-Lesquels voulez-vous ?
-Que lit-elle ?
-Tu veux lesquelles ?
-Ses vêtements sont petits.
-Le chat est gris.
-Nous sommes ses enfants.
-Elles ont des livres.
-Ce sont des chats.
-Elle a tes gants.
-Ils ont une jolie fille.
-nos chemises
-mes chemises
-notre chemise
-Qu'est-ce qu'elle boit ?
-Ce sont des chats.
-Cette robe est bleue.
-Oui ou non ?
-Est-ce que vous aimez le chocolat ?
-As-tu des légumes ?
-Est-ce que vous avez des légumes ?
-Que mange-t-il ?
-Qu'est-ce qu'elle aime ?
-La chatte est grise.
-Le chat est gris.
-S'il te plaît !
-un cheval
-un repas
-Tu veux mon portefeuille.
-Nous mangeons une salade.
-Ils écrivent leurs lettres.
-Le garçon mange des frites.
-Le garçon a un singe.
-Qui ?
-Vous voulez une vache.
-J'aime la salade.
-leurs enfants
-Je lis, car j'aime ce livre.
-Qui veut des frites ?
-Ils veulent un sandwich.
-J'aime la salade.
-Ils veulent un chien.
-Vous voulez des fraises ?
-Les filles mangent des fruits.
-Est-ce que vous avez des légumes ?
-Le parapluie est noir.
-Est-ce que tu aimes le chocolat ?
-Est-ce que vous aimez le chocolat ?
-Je mange un poisson orange.
-J'aime la confiture.
-Elle a une jupe orange.
-L'ours est orange !
-Est-ce que vous avez des légumes ?
-Des poissons mangent du riz.
-S'il vous plaît, non !
-Un homme cherche une femme.
-D'accord, merci beaucoup !
-Merci beaucoup !
-Tu aides les enfants.
-Elle cherche son chat.
-Les chats mangent des poissons.
-Il aide sa chienne.
-Quant, pourquoi et comment ?
-Bonsoir !
-les petits poissons rouges
-Au revoir et merci beaucoup.
-Vous aidez votre femme.
-Tu aides ta femme.
-ma chaussure
-Le garçon achète un chien.
-Pourquoi parle-t-elle ?
-Cet insecte est noir et jaune.
-Nous achetons des pommes vertes.
-Où sont mes chaussures ?
-Où sont les chaussures ?
-J'aime les chaussures.
-Tu manges comme un cochon.
-Nous achetons des pommes vertes.
-Cet homme est jeune.
-Pourquoi aimes-tu bien les poissons ?
-Pourquoi aimes-tu le poisson ?
-Où sont mes chaussures vertes ?
-l'huile
-une baleine
-Nous lisons tes lettres.
-Nous lisons vos lettres.
-Ces enfants mangent.
-Elle mange une crêpe.
-Nous allons manger.
-Une baleine est un animal.
-la mouche
-Je vais manger une baguette.
-Elle a une grande robe.
-Vous parlez.
-Il parle.
-Je mange les légumes.
-Elle a une grande robe.
-Je suis une baleine.
-Vous parlez des filles.
-le sel
-Nous cherchons un livre.
-Quand manges-tu du pain ?
+une grande femme
+une jolie femme
+une jolie fille
+une souris et un éléphant
+votre chapeau
+À bientôt!
+À plus tard!
+Ça, c'est une orange.
