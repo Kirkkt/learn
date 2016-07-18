@@ -1,6 +1,22 @@
 <!-- node -->
 \pagebreak
 
+Why node js? <!-- {{{1 -->
+============
+node js is good at streaming and event-based real-time applications like:
+- online collaborative applications (chat, multi-player games, collaborative online document
+  editing)
+- streaming servers
+- ad servers (that needs to respond differently per incoming ad query)
+
+node js is great for when you need high level of concurrency but you don't need to perform
+CPU-intensive tasks.
+
+node js is designed to be single-threaded with one dedicated event loop, so it's not the right tool
+if the concurrent threads each requires long blocking run time.
+
+\pagebreak
+
 Install NodeJS on linux <!-- {{{1 -->
 =======================
 
