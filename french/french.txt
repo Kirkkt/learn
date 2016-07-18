@@ -606,6 +606,7 @@ Je veux un poisson rouge.
 Je veux une boisson.
 L'abeille est un insecte.
 L'araignée est un animal.
+L'eau est froide.
 L'homme a des chaussures marron.
 L'homme a une cravate.
 L'homme adore la femme.
@@ -634,6 +635,7 @@ La petite tomate est rouge.
 La pomme et le livre sont rouges.
 La robe est rouge.
 La robe est verte.
+La soupe est froide.
 La tomate est verte.
 La tortue est verte.
 La tortue mange des pâtes.
@@ -671,8 +673,8 @@ Le sac est rouge.
 Le sandwich est chaud.
 Le singe sait manger.
 Le thé est chaud.
+Le tigre attend le repas.
 Les chats mangent des poissons.
-les chemises des hommes
 Les citrons sont jaunes.
 Les enfants doivent boire.
 Les enfants doivent manger.
@@ -772,7 +774,7 @@ Quoi ?
 Regarde la jolie photo !
 S'il te plaît !
 S'il vous plaît, non !
-Sa mère
+Sa femme attend un enfant. (his wife is pregnant)
 Ses vêtements sont petits.
 Son père
 Ta femme est jolie.
@@ -856,6 +858,7 @@ mes chemises
 mon parapluie
 nos chemises
 notre chemise
+sa mère
 un cheval
 un frère
 un garçon drôle

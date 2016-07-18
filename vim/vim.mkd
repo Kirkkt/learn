@@ -115,3 +115,11 @@ Mark <!-- {{{1 -->
     `> : end of last visual selection
     '> : the ^ of end of last visual selection
 
+\pagebreak
+
+Maps <!-- {{{1 -->
+====
+- `map!` : for Insert and Command-line, i.e. imap & cmap
+    - `noremap! npmjs http://www.npmjs.org/`
+    - then type npmjs in both Insert mode and Command-line mode to see the effect
+
