@@ -220,6 +220,7 @@ tigre m
 
 Food and drink <!-- {{{2 -->
 --------------
+huile f
 sel m
 sucre m
 gâteau m
@@ -321,6 +322,9 @@ Pronoun "ce" has no plural.
 
 "ces" is a demonstrative adjective, to agree with the noun it modifies: ces hommes or ces femmes
 
+ce + masculine noun starting with a vowel/vowel sound → cet. Compare: ce chien, cette chienne, cet
+animal.
+
 Contraction <!-- {{{2 -->
 -----------
 In French, je becomes j' when the next word begins with a vowel.
@@ -354,6 +358,9 @@ vowel, you must add t- between the verb and subject pronoun => (A-t-on décidé 
 Adjectives <!-- {{{2 -->
 ----------
 Most adjectives come after the noun they refer to.
+
+A few adjectives come before the noun. They are normally short, commonly used adjectives. They
+usually have something to do with beauty, age, number, goodness or size (BANGS).
 
 A few adjectives come before the noun. They are normally short, commonly used adjectives.
 
@@ -863,3 +870,52 @@ J'aime la confiture.
 Elle a une jupe orange.
 L'ours est orange !
 Est-ce que vous avez des légumes ?
+Des poissons mangent du riz.
+S'il vous plaît, non !
+Un homme cherche une femme.
+D'accord, merci beaucoup !
+Merci beaucoup !
+Tu aides les enfants.
+Elle cherche son chat.
+Les chats mangent des poissons.
+Il aide sa chienne.
+Quant, pourquoi et comment ?
+Bonsoir !
+les petits poissons rouges
+Au revoir et merci beaucoup.
+Vous aidez votre femme.
+Tu aides ta femme.
+ma chaussure
+Le garçon achète un chien.
+Pourquoi parle-t-elle ?
+Cet insecte est noir et jaune.
+Nous achetons des pommes vertes.
+Où sont mes chaussures ?
+Où sont les chaussures ?
+J'aime les chaussures.
+Tu manges comme un cochon.
+Nous achetons des pommes vertes.
+Cet homme est jeune.
+Pourquoi aimes-tu bien les poissons ?
+Pourquoi aimes-tu le poisson ?
+Où sont mes chaussures vertes ?
+l'huile
+une baleine
+Nous lisons tes lettres.
+Nous lisons vos lettres.
+Ces enfants mangent.
+Elle mange une crêpe.
+Nous allons manger.
+Une baleine est un animal.
+la mouche
+Je vais manger une baguette.
+Elle a une grande robe.
+Vous parlez.
+Il parle.
+Je mange les légumes.
+Elle a une grande robe.
+Je suis une baleine.
+Vous parlez des filles.
+le sel
+Nous cherchons un livre.
+Quand manges-tu du pain ?
