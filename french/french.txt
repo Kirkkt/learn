@@ -610,6 +610,7 @@ L'eau est froide.
 L'homme a des chaussures marron.
 L'homme a une cravate.
 L'homme adore la femme.
+L'homme attend sa femme.
 L'homme comprend les enfants.
 L'homme mange de la viande.
 L'informaticien travaille beaucoup.
@@ -859,6 +860,7 @@ mon parapluie
 nos chemises
 notre chemise
 sa mère
+ses grandes poches
 un cheval
 un frère
 un garçon drôle
