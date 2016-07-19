@@ -489,12 +489,14 @@ Elle aime ses enfants.
 Elle apporte du lait.
 Elle boit, donc je bois.
 Elle cherche son chat.
+Elle connaît les hommes.
 Elle coûte combien, la salade ?
 Elle est avec ses enfants.
 Elle est calme.
 Elle est contente.
 Elle est grande et jolie.
 Elle est mince.
+Elle est petite.
 Elle lit tes livres.
 Elle mange de la viande.
 Elle mange des fraises.
@@ -520,6 +522,7 @@ Est-ce que vous aimez le chocolat ?
 Est-ce que vous avez des légumes ?
 Hélène est la professeur.
 Il a un costume et un portefeuille.
+Il a un costume noir.
 Il a un enfant.
 Il a un grand sac noir.
 Il a un livre et un portefeuille.
@@ -544,6 +547,7 @@ Il faut manger.
 Il mange quand je bois.
 Il mange une banane.
 Il mange une orange.
+Il mange, donc je mange.
 Il nous faut du pain.
 Il parle des couleurs.
 Il parle.
@@ -583,10 +587,13 @@ Je bois de l'eau.
 Je cherche ma chienne.
 Je cherche mon chien.
 Je comprends mes enfants.
+Je connais le garçon.
+Je connais une femme.
 Je lis, car j'aime ce livre.
 Je mange des pommes.
 Je mange des pâtes.
 Je mange des sandwichs.
+Je mange du beurre.
 Je mange la baguette.
 Je mange les légumes.
 Je mange un poisson orange.
@@ -598,6 +605,7 @@ Je parle.
 Je prends une salade.
 Je suis jeune.
 Je suis un garçon.
+Je suis une abeille.
 Je suis une araignée.
 Je suis une baleine.
 Je suis une femme.
@@ -610,6 +618,7 @@ L'eau est froide.
 L'homme a des chaussures marron.
 L'homme a une cravate.
 L'homme adore la femme.
+L'homme appelle sa femme.
 L'homme attend sa femme.
 L'homme comprend les enfants.
 L'homme mange de la viande.
@@ -619,6 +628,7 @@ L'ours est orange !
 L'éléphant mange une pomme.
 L'étudiant fait un stage à la radio.
 La bière est froide.
+La bière est nouvelle.
 La ceinture est noire.
 La ceinture est orange.
 La chatte est grise.
@@ -643,6 +653,7 @@ La tortue mange des pâtes.
 La vache est petite.
 La viande
 Laquelle connaît-il ?
+Le bœuf est froid.
 Le canard mange une mouche.
 Le chapeau du garçon est noir.
 Le chapeau est grand.
@@ -654,11 +665,14 @@ Le chien mange l'oiseau.
 Le citron a une couleur jaune.
 Le garçon a un singe.
 Le garçon a une casquette.
+Le garçon a une tortue.
 Le garçon achète un chien.
 Le garçon achète une chienne.
 Le garçon mange des frites.
 Le garçon mange des fruits.
+Le garçon mange un bonbon.
 Le grand monsieur à côté de la jolie fille ?
+Le gâteau contient un œuf.
 Le gâteau est joli.
 Le lait est froid.
 Le livre est noir.
@@ -669,17 +683,23 @@ Le manteau est rouge.
 Le parapluie est noir.
 Le portefeuille est noir.
 Le requin est rouge.
+Le requin mange un dauphin.
 Le requin mange une tortue.
 Le sac est rouge.
+Le sandwich contient du fromage.
 Le sandwich est chaud.
 Le singe sait manger.
 Le thé est chaud.
 Le tigre attend le repas.
+Le vin est froid.
 Les chats mangent des poissons.
 Les citrons sont jaunes.
 Les enfants doivent boire.
 Les enfants doivent manger.
+Les enfants mangent de la soupe.
+Les enfants mangent des légumes.
 Les enfants mangent les fraises.
+Les enfants mangent les pâtes.
 Les enfants mangent seuls.
 Les enfants écrivent des lettres
 Les femmes boivent du thé.
@@ -757,6 +777,7 @@ Qu'a-t-il ?
 Qu'avez-vous ?
 Qu'est-ce qu'elle aime ?
 Qu'est-ce qu'elle boit ?
+Qu'est-ce qu'il mange ?
 Qu'est-ce que c'est ?
 Qu'est-ce que tu bois ?
 Qu'est-ce que tu veux ?
@@ -768,6 +789,10 @@ Que font-ils seuls ?
 Que lis-je ?
 Que lit-elle ?
 Que mange-t-il ?
+Quel est mon manteau ?
+Quel est ton chien ?
+Quelle est ta ceinture ?
+Quelle est ta chienne ?
 Qui ?
 Qui est ce monsieur ?
 Qui veut des frites ?
@@ -781,6 +806,7 @@ Son père
 Ta femme est jolie.
 Tes garçons lisent un journal.
 Tes pommes sont rouges.
+Ton sac contient des légumes.
 Tu aides les enfants.
 Tu aides ta femme.
 Tu apprends le français.
@@ -801,16 +827,19 @@ Tu prends un croque-monsieur ?
 Tu veux lesquelles ?
 Tu veux mon portefeuille.
 Tu veux un cheval noir.
+Un dauphin est un animal.
 Un dauphin et une baleine
 Un homme apporte du vin.
 Un homme cherche une femme.
 Une baleine est un animal.
 Une fourmi rouge et un canard noir
+Votre sac contient des légumes.
 Vous aidez votre femme.
 Vous apprenez le français.
 Vous avez des bottes.
 Vous avez des vêtements.
 Vous avez un chat.
+Vous connaissez ma femme.
 Vous mangez des pommes.
 Vous mangez le citron.
 Vous mangez une carotte.
@@ -842,6 +871,7 @@ l'amie (f)
 l'eau
 l'huile
 la bière
+la ceinture
 la confiture
 la mouche
 le sel
@@ -856,6 +886,7 @@ les vins
 leurs enfants
 ma chaussure
 mes chemises
+mon costume
 mon parapluie
 nos chemises
 notre chemise
@@ -872,6 +903,8 @@ un homme mince
 un homme sympathique
 un repas
 un vin
+une abeille
+une araignée
 une baleine
 une bière
 une eau
