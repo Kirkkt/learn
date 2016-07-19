@@ -300,6 +300,33 @@ vert, verte
 jaune
 bleu, bleue
 
+Days of week <!-- {{{2 -->
+------------
+les jours de la semaine en français:
+lundi
+mardi
+mercredi
+jeudi
+vendredi
+samedi
+dimanche
+
+Months of year <!-- {{{2 -->
+--------------
+les mois de l'année en français:
+janvier
+février
+mars
+avril
+mai
+juin
+juillet
+août
+septembre
+octobre
+novembre
+décembre
+
 Other nouns <!-- {{{2 -->
 -----------
 français m
@@ -732,6 +759,8 @@ Ma mère
 Mais ce sont papa et maman !
 Merci beaucoup !
 Merci et à bientôt!
+Mon anniversaire est en septembre.
+Mon jour préféré est lundi.
 Mon père
 Nous achetons des pommes vertes.
 Nous allons manger.
@@ -781,6 +810,7 @@ Qu'est-ce qu'il mange ?
 Qu'est-ce que c'est ?
 Qu'est-ce que tu bois ?
 Qu'est-ce que tu veux ?
+Quand est votre anniversaire ? Le mien c'est en mai.
 Quand lit-elle ?
 Quand manges-tu du pain ?
 Quand, pourquoi et comment ?
