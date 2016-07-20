@@ -152,40 +152,65 @@ la
 
 \pagebreak
 
-Verb <!-- {{{1 -->
-====
-Be <!-- {{{2 -->
---
-suis
-sont
-sommes
-est
-
-Have <!-- {{{2 -->
+Verbs <!-- {{{1 -->
+=====
+être <!-- {{{2 -->
 ----
-a
+je suis
+tu es
+il/elle/on est
+nous sommes
+vous êtes
+ils/elles sont
 
-        Person│ Present
-            je│      ai
-            tu│      as
-    il/elle/on│       a
-          nous│   avons
-          vous│    avez
-     ils/elles│     ont
+avoir <!-- {{{2 -->
+-----
+j'ai
+tu as
+il/elle/on a
+nous avons
+vous avez
+ils/elles ont
 
-Make <!-- {{{2 -->
-----
-je	fais
-tu	fais
-il/elle/on	fait
-nous	faisons
-vous	faites
-ils/elles	font
+faire <!-- {{{2 -->
+-----
+je fais
+tu fais
+il/elle/on fait
+nous faisons
+vous faites
+ils/elles font
+
+manger <!-- {{{2 -->
+------
+je mange
+tu manges
+il/elle/on mange
+nous mangeons
+vous mangez
+ils/elles mangent
+
+chercher <!-- {{{2 -->
+--------
+je cherche
+tu cherches
+il/elle/on cherche
+nous cherchons
+vous cherchez
+ils/elles cherchent
+
+couper <!-- {{{2 -->
+------
+je coupe
+tu coupes
+il/elle/on coupe
+nous coupons
+vous coupez
+ils/elles coupent
 
 Other verbs <!-- {{{2 -->
 -----------
 écris
-mange - je mange, tu manges, il/elle/on mange, nous mangeons, vous mangez, ils/elles mangent
 aime - like (thing), love (people/pets)
     When it comes to things:
         j'aime bien = j'aime = I like
@@ -195,7 +220,6 @@ aime - like (thing), love (people/pets)
         j'aime = I love
         j'aime bien = I like
         j'aime beaucoup = I really like
-faire
 
 \pagebreak
 
@@ -494,6 +518,7 @@ Cette robe est bleue.
 Combien ?
 Comme papa et maman sont minces !
 D'accord, merci beaucoup !
+D'accord, vous pouvez.
 De rien!
 De rien, à bientôt !
 Des haricots et du pain
@@ -535,6 +560,7 @@ Elle mange une pomme.
 Elle veut une robe.
 Elles achètent le cheval.
 Elles lisent ce menu.
+Elles mangent une fraise.
 Elles ont des livres.
 Elles ont du vin.
 Elles sont calmes.
@@ -578,6 +604,7 @@ Il mange, donc je mange.
 Il nous faut du pain.
 Il parle des couleurs.
 Il parle.
+Il respecte sa femme.
 Il veut une pomme.
 Ils achètent le cheval.
 Ils mangent du bœuf.
@@ -587,6 +614,7 @@ Ils sont très contents.
 Ils veulent un chien.
 Ils veulent un sandwich.
 Ils écrivent leurs lettres.
+J'agis.
 J'ai froid.
 J'ai un chapeau bleu.
 J'ai un chat.
@@ -626,10 +654,12 @@ Je mange les légumes.
 Je mange un poisson orange.
 Je mange une banane.
 Je mange une salade.
+Je mange une tomate rouge.
 Je mange une tomate.
 Je mange.
 Je parle.
 Je prends une salade.
+Je respecte ta femme.
 Je suis jeune.
 Je suis un garçon.
 Je suis une abeille.
@@ -648,6 +678,7 @@ L'homme adore la femme.
 L'homme appelle sa femme.
 L'homme attend sa femme.
 L'homme comprend les enfants.
+L'homme fait la soupe.
 L'homme mange de la viande.
 L'informaticien travaille beaucoup.
 L'oiseau mange la pomme.
@@ -656,6 +687,7 @@ L'éléphant mange une pomme.
 L'étudiant fait un stage à la radio.
 La bière est froide.
 La bière est nouvelle.
+La boisson est rouge.
 La ceinture est noire.
 La ceinture est orange.
 La chatte est grise.
@@ -707,6 +739,7 @@ Le livre et la lettre sont rouges.
 Le loup et le chien
 Le manteau est chaud.
 Le manteau est rouge.
+Le papillon est rouge et noir.
 Le parapluie est noir.
 Le portefeuille est noir.
 Le requin est rouge.
@@ -718,6 +751,7 @@ Le sandwich est chaud.
 Le singe sait manger.
 Le thé est chaud.
 Le tigre attend le repas.
+Le vin agit.
 Le vin est froid.
 Les chats mangent des poissons.
 Les citrons sont jaunes.
@@ -754,6 +788,8 @@ Lesquelles parlent ?
 Lesquels aiment-ils ?
 Lesquels parlent ?
 Lesquels voulez-vous ?
+Leur cochon mange du riz.
+Leur robe noire est jolie.
 Leurs chiens mangent du poisson.
 Ma mère
 Mais ce sont papa et maman !
@@ -765,9 +801,11 @@ Mon père
 Nous achetons des pommes vertes.
 Nous allons manger.
 Nous apprenons le français.
+Nous avons des canards.
 Nous avons des chaussures.
 Nous avons des clients contents.
 Nous avons des vêtements bleus.
+Nous avons du sucre.
 Nous avons un chien.
 Nous avons une voiture verte.
 Nous cherchons un livre.
@@ -782,6 +820,7 @@ Nous mangeons du poulet.
 Nous mangeons du sucre.
 Nous mangeons le chocolat.
 Nous mangeons une salade.
+Nous pouvons manger le repas.
 Nous sommes contents.
 Nous sommes riches.
 Nous sommes ses enfants.
@@ -791,7 +830,9 @@ Oui ou non ?
 Oui, elles coûtent combien, les chips ?
 Oui, je comprends. Merci.
 Oui, je dois manger et boire.
+Oui, je peux !
 Oui, oui, le monsieur à côté de la fille très mince
+Oui, s'il te plaît !
 Où sont les chaussures ?
 Où sont mes chaussures ?
 Où sont mes chaussures vertes ?
@@ -814,7 +855,6 @@ Quand est votre anniversaire ? Le mien c'est en mai.
 Quand lit-elle ?
 Quand manges-tu du pain ?
 Quand, pourquoi et comment ?
-Quant, pourquoi et comment ?
 Que font-ils seuls ?
 Que lis-je ?
 Que lit-elle ?
@@ -829,6 +869,7 @@ Qui veut des frites ?
 Quoi ?
 Regarde la jolie photo !
 S'il te plaît !
+S'il vous plaît !
 S'il vous plaît, non !
 Sa femme attend un enfant. (his wife is pregnant)
 Ses vêtements sont petits.
@@ -854,15 +895,19 @@ Tu manges une carotte.
 Tu manges une crêpe.
 Tu manges une orange.
 Tu prends un croque-monsieur ?
+Tu respectes l'animal.
 Tu veux lesquelles ?
 Tu veux mon portefeuille.
 Tu veux un cheval noir.
+Tu veux un enfant ou un chien ?
 Un dauphin est un animal.
 Un dauphin et une baleine
 Un homme apporte du vin.
 Un homme cherche une femme.
+Un papillon est un animal.
 Une baleine est un animal.
 Une fourmi rouge et un canard noir
+Une tomate est rouge.
 Votre sac contient des légumes.
 Vous aidez votre femme.
 Vous apprenez le français.
@@ -901,17 +946,21 @@ l'amie (f)
 l'eau
 l'huile
 la bière
+la boisson
 la ceinture
 la confiture
 la mouche
 le sel
 le vin
 les bières
+les chaussures blanches
 les chemises des hommes
+les jupes noires
 les olives
 les petits poissons rouges
 les poches des chemises
 les poches des vêtements
+les sacs noirs
 les vins
 leurs enfants
 ma chaussure
