@@ -1,1 +1,2 @@
 - npm start defaults to run node server.js
+- research npm init better auto gen
