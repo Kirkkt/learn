@@ -1,0 +1,2 @@
+<!-- git -->
+- `git commit -a` : only commit modified files, ignoring untracked files
