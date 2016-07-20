@@ -217,6 +217,32 @@ nous buvons
 vous buvez
 ils/elles boivent
 
+aimer <!-- {{{2 -->
+-----
+j'aime
+tu aimes
+il/elle/on aime
+nous aimons
+vous aimez
+ils/elles aiment
+
+parler <!-- {{{2 -->
+------
+je parle
+tu parles
+il/elle/on parle
+nous parlons
+vous parlez
+ils/elles parlent
+
+devoir <!-- {{{2 -->
+------
+je dois
+tu dois
+il/elle/on doit
+nous devons
+vous devez
+ils/elles doivent
 
 Other verbs <!-- {{{2 -->
 -----------
@@ -379,6 +405,15 @@ et
 
 \pagebreak
 
+Adjectives <!-- {{{1 -->
+==========
+m.s., f.s., m.pl., f.pl.
+joli, jolie, , jolies
+noir, noire, noirs, noires
+blanc, blanche, blancs, blanches
+
+\pagebreak
+
 Grammar <!-- {{{1 -->
 =======
 Verbs expressing taste <!-- {{{2 -->
@@ -399,6 +434,10 @@ animal.
 Contraction <!-- {{{2 -->
 -----------
 In French, je becomes j' when the next word begins with a vowel.
+
+They talk about the green ducks swimming on the pond and of their forthcoming
+migration / Ils parlent des (contraction de+les= about the) canards verts qui
+nagent sur la mare et de leur migration à venir.
 
 J'ai <!-- {{{2 -->
 ----
@@ -692,6 +731,7 @@ L'homme comprend les enfants.
 L'homme fait la soupe.
 L'homme mange de la viande.
 L'informaticien travaille beaucoup.
+L'oiseau est joli.
 L'oiseau mange la pomme.
 L'ours est orange !
 L'éléphant mange une pomme.
@@ -800,6 +840,7 @@ Les pommes sont rouges.
 Les robes sont bleues.
 Les robes sont rouges.
 Lesquelles parlent ?
+Lesquelles veux-tu ?
 Lesquels aiment-ils ?
 Lesquels parlent ?
 Lesquels voulez-vous ?
@@ -913,6 +954,7 @@ Tu manges une orange.
 Tu prends un croque-monsieur ?
 Tu respectes l'animal.
 Tu veux lesquelles ?
+Tu veux lesquels ?
 Tu veux mon portefeuille.
 Tu veux un cheval noir.
 Tu veux un enfant ou un chien ?
