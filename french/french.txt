@@ -208,6 +208,16 @@ nous coupons
 vous coupez
 ils/elles coupent
 
+boire <!-- {{{2 -->
+-----
+je bois
+tu bois
+il/elle/on boit
+nous buvons
+vous buvez
+ils/elles boivent
+
+
 Other verbs <!-- {{{2 -->
 -----------
 écris
@@ -609,6 +619,7 @@ Il veut une pomme.
 Ils achètent le cheval.
 Ils mangent du bœuf.
 Ils mangent une banane.
+Ils mangent une fraise.
 Ils ont une jolie fille.
 Ils sont très contents.
 Ils veulent un chien.
@@ -685,6 +696,7 @@ L'oiseau mange la pomme.
 L'ours est orange !
 L'éléphant mange une pomme.
 L'étudiant fait un stage à la radio.
+L'œuf a une couleur blanche.
 La bière est froide.
 La bière est nouvelle.
 La boisson est rouge.
@@ -753,7 +765,10 @@ Le thé est chaud.
 Le tigre attend le repas.
 Le vin agit.
 Le vin est froid.
+Les chats blancs boivent du lait.
 Les chats mangent des poissons.
+Les chiennes noires mangent les canards blancs.
+Les chiens noirs mangent les canards blancs.
 Les citrons sont jaunes.
 Les enfants doivent boire.
 Les enfants doivent manger.
@@ -851,6 +866,7 @@ Qu'est-ce qu'il mange ?
 Qu'est-ce que c'est ?
 Qu'est-ce que tu bois ?
 Qu'est-ce que tu veux ?
+Quand boit-elle ?
 Quand est votre anniversaire ? Le mien c'est en mai.
 Quand lit-elle ?
 Quand manges-tu du pain ?
@@ -950,6 +966,7 @@ la boisson
 la ceinture
 la confiture
 la mouche
+le riz
 le sel
 le vin
 les bières
