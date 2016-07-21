@@ -154,6 +154,78 @@ la
 
 Verb conjugation <!-- {{{1 -->
 ================
+entrer <!-- {{{2 -->
+------
+je entre
+tu entres
+il/elle/on entre
+nous entrons
+vous entrez
+ils/elles entrent
+
+dire <!-- {{{2 -->
+----
+je dis
+tu dis
+il/elle/on dit
+nous disons
+vous dites
+ils/elles disent
+
+finir <!-- {{{2 -->
+-----
+je finis
+tu finis
+il/elle/on finit
+nous finissons
+vous finissez
+ils/elles finissent
+
+gagner <!-- {{{2 -->
+------
+je gagne
+tu gagnes
+il/elle/on gagne
+nous gagneons
+vous gagnez
+ils/elles gagnent
+
+lancer <!-- {{{2 -->
+------
+je lance
+tu lances
+il/elle/on lance
+nous lançons
+vous lancez
+ils/elles lancent
+
+donner <!-- {{{2 -->
+------
+je donne
+tu donnes
+il/elle/on donne
+nous donnons
+vous donnez
+ils/elles donnent
+
+intéresser <!-- {{{2 -->
+----------
+je intéresse
+tu intéresses
+il/elle/on intéresse
+nous intéressons
+vous intéressez
+ils/elles intéressent
+
+aller <!-- {{{2 -->
+-----
+je vais
+tu vas
+il/elle/on va
+nous allons
+vous allez
+ils/elles vont
+
 lire <!-- {{{2 -->
 ----
 je lis
@@ -593,6 +665,7 @@ Cet insecte est noir et jaune.
 Cette robe est bleue.
 Combien ?
 Comme papa et maman sont minces !
+Comment va ta femme ?
 D'accord, merci beaucoup !
 D'accord, vous pouvez.
 De rien!
