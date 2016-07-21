@@ -152,8 +152,26 @@ la
 
 \pagebreak
 
-Verbs <!-- {{{1 -->
-=====
+Verb conjugation <!-- {{{1 -->
+================
+lire <!-- {{{2 -->
+----
+je lis
+tu lis
+il/elle/on lit
+nous lisons
+vous lisez
+ils/elles lisent
+
+adorer <!-- {{{2 -->
+------
+je adore
+tu adores
+il/elle/on adore
+nous adorons
+vous adorez
+ils/elles adorent
+
 être <!-- {{{2 -->
 ----
 je suis
@@ -207,6 +225,15 @@ il/elle/on coupe
 nous coupons
 vous coupez
 ils/elles coupent
+
+courir <!-- {{{2 -->
+------
+je cours
+tu cours
+il/elle/on court
+nous courons
+vous courez
+ills/elles courent
 
 boire <!-- {{{2 -->
 -----
@@ -405,8 +432,8 @@ et
 
 \pagebreak
 
-Adjectives <!-- {{{1 -->
-==========
+Adjective forms <!-- {{{1 -->
+===============
 m.s., f.s., m.pl., f.pl.
 joli, jolie, , jolies
 noir, noire, noirs, noires
@@ -633,6 +660,7 @@ Il a un petit chien.
 Il a un petit requin.
 Il a une cravate.
 Il a une fraise.
+Il adore le chocolat noir.
 Il aide sa chienne.
 Il aime ça.
 Il apprend le français.
@@ -901,12 +929,14 @@ Pourquoi écrit-il ?
 Qu as-tu ?
 Qu'a-t-il ?
 Qu'avez-vous ?
+Qu'est-ce ?
 Qu'est-ce qu'elle aime ?
 Qu'est-ce qu'elle boit ?
 Qu'est-ce qu'il mange ?
 Qu'est-ce que c'est ?
 Qu'est-ce que tu bois ?
 Qu'est-ce que tu veux ?
+Qu'est-ce que vous buvez ?
 Quand boit-elle ?
 Quand est votre anniversaire ? Le mien c'est en mai.
 Quand lit-elle ?
@@ -1030,6 +1060,7 @@ nos chemises
 notre chemise
 sa mère
 ses grandes poches
+tes citrons
 un cheval
 un frère
 un garçon drôle
@@ -1058,6 +1089,7 @@ une grande femme
 une jolie femme
 une jolie fille
 une souris et un éléphant
+vos citrons
 votre chapeau
 À bientôt!
 À plus tard!
