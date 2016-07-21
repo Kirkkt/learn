@@ -1,0 +1,17 @@
+# watchify
+
+## Problem
+We want to run `browserify` but restarting from command line is tedious
+
+## Solution
+Use `watchify` to basically do everything `browserify` does only with watching, i.e. automatically
+restart when files are changed.
+
+## demo
+1. `npm i`
+2. `npm start`
+3. `open index.html`
+
+Notice that it alerts **1,2,3,4**
+
+Now update main.js and reload the page, notice the update.

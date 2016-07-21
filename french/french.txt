@@ -152,8 +152,98 @@ la
 
 \pagebreak
 
-Verbs <!-- {{{1 -->
-=====
+Verb conjugation <!-- {{{1 -->
+================
+entrer <!-- {{{2 -->
+------
+je entre
+tu entres
+il/elle/on entre
+nous entrons
+vous entrez
+ils/elles entrent
+
+dire <!-- {{{2 -->
+----
+je dis
+tu dis
+il/elle/on dit
+nous disons
+vous dites
+ils/elles disent
+
+finir <!-- {{{2 -->
+-----
+je finis
+tu finis
+il/elle/on finit
+nous finissons
+vous finissez
+ils/elles finissent
+
+gagner <!-- {{{2 -->
+------
+je gagne
+tu gagnes
+il/elle/on gagne
+nous gagneons
+vous gagnez
+ils/elles gagnent
+
+lancer <!-- {{{2 -->
+------
+je lance
+tu lances
+il/elle/on lance
+nous lançons
+vous lancez
+ils/elles lancent
+
+donner <!-- {{{2 -->
+------
+je donne
+tu donnes
+il/elle/on donne
+nous donnons
+vous donnez
+ils/elles donnent
+
+intéresser <!-- {{{2 -->
+----------
+je intéresse
+tu intéresses
+il/elle/on intéresse
+nous intéressons
+vous intéressez
+ils/elles intéressent
+
+aller <!-- {{{2 -->
+-----
+je vais
+tu vas
+il/elle/on va
+nous allons
+vous allez
+ils/elles vont
+
+lire <!-- {{{2 -->
+----
+je lis
+tu lis
+il/elle/on lit
+nous lisons
+vous lisez
+ils/elles lisent
+
+adorer <!-- {{{2 -->
+------
+je adore
+tu adores
+il/elle/on adore
+nous adorons
+vous adorez
+ils/elles adorent
+
 être <!-- {{{2 -->
 ----
 je suis
@@ -208,6 +298,15 @@ nous coupons
 vous coupez
 ils/elles coupent
 
+courir <!-- {{{2 -->
+------
+je cours
+tu cours
+il/elle/on court
+nous courons
+vous courez
+ills/elles courent
+
 boire <!-- {{{2 -->
 -----
 je bois
@@ -217,6 +316,32 @@ nous buvons
 vous buvez
 ils/elles boivent
 
+aimer <!-- {{{2 -->
+-----
+j'aime
+tu aimes
+il/elle/on aime
+nous aimons
+vous aimez
+ils/elles aiment
+
+parler <!-- {{{2 -->
+------
+je parle
+tu parles
+il/elle/on parle
+nous parlons
+vous parlez
+ils/elles parlent
+
+devoir <!-- {{{2 -->
+------
+je dois
+tu dois
+il/elle/on doit
+nous devons
+vous devez
+ils/elles doivent
 
 Other verbs <!-- {{{2 -->
 -----------
@@ -379,6 +504,15 @@ et
 
 \pagebreak
 
+Adjective forms <!-- {{{1 -->
+===============
+m.s., f.s., m.pl., f.pl.
+joli, jolie, , jolies
+noir, noire, noirs, noires
+blanc, blanche, blancs, blanches
+
+\pagebreak
+
 Grammar <!-- {{{1 -->
 =======
 Verbs expressing taste <!-- {{{2 -->
@@ -399,6 +533,10 @@ animal.
 Contraction <!-- {{{2 -->
 -----------
 In French, je becomes j' when the next word begins with a vowel.
+
+They talk about the green ducks swimming on the pond and of their forthcoming
+migration / Ils parlent des (contraction de+les= about the) canards verts qui
+nagent sur la mare et de leur migration à venir.
 
 J'ai <!-- {{{2 -->
 ----
@@ -527,6 +665,7 @@ Cet insecte est noir et jaune.
 Cette robe est bleue.
 Combien ?
 Comme papa et maman sont minces !
+Comment va ta femme ?
 D'accord, merci beaucoup !
 D'accord, vous pouvez.
 De rien!
@@ -594,6 +733,7 @@ Il a un petit chien.
 Il a un petit requin.
 Il a une cravate.
 Il a une fraise.
+Il adore le chocolat noir.
 Il aide sa chienne.
 Il aime ça.
 Il apprend le français.
@@ -692,6 +832,7 @@ L'homme comprend les enfants.
 L'homme fait la soupe.
 L'homme mange de la viande.
 L'informaticien travaille beaucoup.
+L'oiseau est joli.
 L'oiseau mange la pomme.
 L'ours est orange !
 L'éléphant mange une pomme.
@@ -800,6 +941,7 @@ Les pommes sont rouges.
 Les robes sont bleues.
 Les robes sont rouges.
 Lesquelles parlent ?
+Lesquelles veux-tu ?
 Lesquels aiment-ils ?
 Lesquels parlent ?
 Lesquels voulez-vous ?
@@ -860,12 +1002,14 @@ Pourquoi écrit-il ?
 Qu as-tu ?
 Qu'a-t-il ?
 Qu'avez-vous ?
+Qu'est-ce ?
 Qu'est-ce qu'elle aime ?
 Qu'est-ce qu'elle boit ?
 Qu'est-ce qu'il mange ?
 Qu'est-ce que c'est ?
 Qu'est-ce que tu bois ?
 Qu'est-ce que tu veux ?
+Qu'est-ce que vous buvez ?
 Quand boit-elle ?
 Quand est votre anniversaire ? Le mien c'est en mai.
 Quand lit-elle ?
@@ -913,6 +1057,7 @@ Tu manges une orange.
 Tu prends un croque-monsieur ?
 Tu respectes l'animal.
 Tu veux lesquelles ?
+Tu veux lesquels ?
 Tu veux mon portefeuille.
 Tu veux un cheval noir.
 Tu veux un enfant ou un chien ?
@@ -988,6 +1133,7 @@ nos chemises
 notre chemise
 sa mère
 ses grandes poches
+tes citrons
 un cheval
 un frère
 un garçon drôle
@@ -1016,6 +1162,7 @@ une grande femme
 une jolie femme
 une jolie fille
 une souris et un éléphant
+vos citrons
 votre chapeau
 À bientôt!
 À plus tard!
