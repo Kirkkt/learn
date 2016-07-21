@@ -362,6 +362,7 @@ Nouns <!-- {{{1 -->
 =====
 Animals <!-- {{{2 -->
 ------
+tortue f
 insecte m
 araignée f
 dauphin m
@@ -453,7 +454,6 @@ enfant
 
 Colors <!-- {{{2 -->
 -----
-rouge, rouges
 noir
 vert, verte
 jaune
@@ -510,6 +510,10 @@ m.s., f.s., m.pl., f.pl.
 joli, jolie, , jolies
 noir, noire, noirs, noires
 blanc, blanche, blancs, blanches
+petit, petite, petits, petites
+vert, verte, verts, vertes
+rouge, rouge, rouges, rouges
+bleu, bleue, bleus, bleues
 
 \pagebreak
 
@@ -662,8 +666,10 @@ Ces enfants mangent.
 Cet enfant mange du poisson.
 Cet homme est jeune.
 Cet insecte est noir et jaune.
+Cette femme est ma femme !
 Cette robe est bleue.
 Combien ?
+Combien gagnent-elles ?
 Comme papa et maman sont minces !
 Comment va ta femme ?
 D'accord, merci beaucoup !
@@ -691,6 +697,8 @@ Elle apporte du lait.
 Elle boit, donc je bois.
 Elle cherche son chat.
 Elle connaît les hommes.
+Elle coupe du pain.
+Elle coupe la pomme.
 Elle coûte combien, la salade ?
 Elle est avec ses enfants.
 Elle est calme.
@@ -738,6 +746,7 @@ Il aide sa chienne.
 Il aime ça.
 Il apprend le français.
 Il apprend quoi ?
+Il coupe le sandwich.
 Il coûte combien, le croque-monsieur ?
 Il est calme.
 Il est content parce qu'il a un nouveau stylo.
@@ -772,7 +781,9 @@ J'ai un chat.
 J'aime bien le thé, mais j'adore le café.
 J'aime bien manger des pâtes.
 J'aime ce repas.
+J'aime cette tortue verte.
 J'aime la confiture.
+J'aime la couleur rose.
 J'aime la salade.
 J'aime le bœuf.
 J'aime le thé, mais j'adore le café.
@@ -823,6 +834,7 @@ Je veux une boisson.
 L'abeille est un insecte.
 L'araignée est un animal.
 L'eau est froide.
+L'enfant gagne un vêtement.
 L'homme a des chaussures marron.
 L'homme a une cravate.
 L'homme adore la femme.
@@ -863,7 +875,6 @@ La tomate est verte.
 La tortue est verte.
 La tortue mange des pâtes.
 La vache est petite.
-La viande
 Laquelle connaît-il ?
 Le bœuf est froid.
 Le canard mange une mouche.
@@ -910,6 +921,7 @@ Les chats blancs boivent du lait.
 Les chats mangent des poissons.
 Les chiennes noires mangent les canards blancs.
 Les chiens noirs mangent les canards blancs.
+Les chiens sont petits.
 Les citrons sont jaunes.
 Les enfants doivent boire.
 Les enfants doivent manger.
@@ -1015,10 +1027,12 @@ Quand est votre anniversaire ? Le mien c'est en mai.
 Quand lit-elle ?
 Quand manges-tu du pain ?
 Quand, pourquoi et comment ?
+Que boivent les hommes ?
 Que font-ils seuls ?
 Que lis-je ?
 Que lit-elle ?
 Que mange-t-il ?
+Que mangent les filles ?
 Quel est mon manteau ?
 Quel est ton chien ?
 Quelle est ta ceinture ?
@@ -1042,6 +1056,7 @@ Tu aides les enfants.
 Tu aides ta femme.
 Tu apprends le français.
 Tu as des bottes.
+Tu as des chemises roses.
 Tu as un chapeau marron.
 Tu as une chemise bleue.
 Tu es riche.
@@ -1067,7 +1082,6 @@ Un homme apporte du vin.
 Un homme cherche une femme.
 Un papillon est un animal.
 Une baleine est un animal.
-Une fourmi rouge et un canard noir
 Une tomate est rouge.
 Votre sac contient des légumes.
 Vous aidez votre femme.
@@ -1102,6 +1116,7 @@ des hommes intelligents
 des hommes sympathiques
 des olives
 des vins
+des éléphants roses
 l'ami (m)
 l'amie (f)
 l'eau
@@ -1111,6 +1126,7 @@ la boisson
 la ceinture
 la confiture
 la mouche
+la viande
 le riz
 le sel
 le vin
