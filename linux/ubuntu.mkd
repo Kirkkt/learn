@@ -3,10 +3,14 @@
 
 Ubuntu <!-- {{{1 -->
 ======
-Global <!-- {{{2 -->
-------
-    ctrl+alt+f1 : switch to text command mode
-    ctrl+alt+f7 : switch to graphical command mode
+Virtual terminal <!-- {{{2 -->
+----------------
+    ctrl+alt+f1 : switch to virtual terminal
+    ctrl+alt+f7 : switch to GUI
+
+Check ubuntu version <!-- {{{2 -->
+--------------------
+    lsb_release -a
 
 map `capslock` to `esc` permanently <!-- {{{2 -->
 -----------------------------------
