@@ -27,3 +27,9 @@ Inline equations look like this $1+2=3$, yeah!
 square^2^
 
     square^2^
+
+\pagebreak
+
+Miscellaneous <!-- {{{1 -->
+=============
+[Pandoc User's Guide](http://pandoc.org/README.html)
