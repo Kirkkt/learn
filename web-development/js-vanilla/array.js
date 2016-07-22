@@ -218,21 +218,80 @@ const forEach = function() {
 };
 forEach();
 
+/**
+  $array.filter(function($item) {return true || false;}) creates a new array with items in $array
+  that make the function inside filter() return true. $array is intact.
+ */
+const filter = function() {
+  console.log('filter');
+  const a = [
+    {
+      name: 'john',
+      age: 38,
+      gender: 'm',
+    },
+    {
+      name: 'jane',
+      age: 27,
+      gender: 'f',
+    },
+    {
+      name: 'joel',
+      age: 51,
+      gender: 'm',
+    },
+  ];
+  const b = a.filter(function(item) {
+    return item.gender === 'm';
+  });
+  console.log(b);
+  // [
+  //   {
+  //     name: 'john',
+  //     age: 38,
+  //     gender: 'm',
+  //   },
+  //   {
+  //     name: 'joel',
+  //     age: 51,
+  //     gender: 'm',
+  //   },
+  // ]
+  console.log(a); // intact
+};
+filter();
 
-/*
-    var array = [1,2,3,4];
-    array.reduce(function(prev, item) {return prev + item;}, 0); // get the sum of the array, 0 is
-        // the starting point, or default prev value.
-    var array = [1,2,3,4];
-    array.reduce((prev, item) => prev + item, 0); // same as above, but with arrow functions
-
-    // use reduce on an array of objects
-    'use strict';
-    const a = [
-      {a: 1},
-      {a: 2},
-      {a: 3}
-    ];
-    a.reduce((prev, item) => prev + item.a, 0);
-
-*/
+/**
+  $array.reduce(function($prev, $item) {return $nextPrevValue;}, $initialPrevValue) is a general
+  tool to reduce $array into something simpler. It works by setting $initialPrevValue as the initial
+  value for $prev, and update $prev with every return value of the function.
+ */
+const reduce = function() {
+  console.log('reduce');
+  const a = [
+    {
+      name: 'john',
+      age: 38,
+      gender: 'm',
+    },
+    {
+      name: 'jane',
+      age: 27,
+      gender: 'f',
+    },
+    {
+      name: 'joel',
+      age: 51,
+      gender: 'm',
+    },
+  ];
+  const b = a.reduce(
+    function(prev, item) {
+      return prev + item.age;
+    },
+    0
+  );
+  console.log(b); // 116
+  console.log(a); // intact
+};
+reduce();
