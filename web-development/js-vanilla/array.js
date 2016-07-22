@@ -2,7 +2,8 @@
 
 /**
   $array.push($item) adds $item to the end of $array and returns the new length
-  array_.pop() removes the item at the end of array_ and returns it
+
+  $array.pop() removes the item at the end of $array and returns it
  */
 const pushAndPop = function() {
   console.log('pushAndPop');
@@ -18,8 +19,9 @@ const pushAndPop = function() {
 pushAndPop();
 
 /**
-  array_.unshift(newItem) adds a new item to the head of the array and returns the new length
-  array.shift() removes the item at the head of array and returns it
+  $array.unshift($item) adds $item to the head of $array and returns the new length
+
+  $array.shift() removes the item at the head of $array and returns it
  */
 const unshiftAndShift = function() {
   console.log('unshiftAndShift');
@@ -35,9 +37,10 @@ const unshiftAndShift = function() {
 unshiftAndShift();
 
 /**
-  array.indexOf(item) returns the smallest index of the item that is stricted equal (===) to item,
-  and if there is no such item, it returns -1
-  array.lastIndexOf(item) acts similarly, only except that it returns the largest index instead
+  $array.indexOf($item) returns the smallest index of the item that is stricted equal (===) to
+  $item, and if there is no such item, it returns -1
+
+  $array.lastIndexOf($item) acts similarly, only except that it returns the largest index instead
  */
 const indexOfAndLastIndexOf = function() {
   console.log('indexOfAndLastIndexOf');
@@ -52,10 +55,11 @@ const indexOfAndLastIndexOf = function() {
 indexOfAndLastIndexOf();
 
 /**
-  array.concat(anotherArray) returns a new array as a joint of both original arrays, while leaving
+  $array.concat($anotherArray) returns a new array as a joint of both original arrays, while leaving
   the original arrays intact.
-  array.concat(item) returns a new array as a joint of array and item (if it's not an array) to the
-  end of the array, while leaving the original array intact.
+
+  $array.concat($item) returns a new array as a joint of $array and $item (assuming it's not an
+  array), with $item being the last item of $array, while leaving the original array intact.
  */
 const concat = function() {
   console.log('concat');
@@ -72,10 +76,12 @@ const concat = function() {
 concat();
 
 /**
-  array.slice(start, end) returns a segment of the array from start (inclusive) to end
+  $array.slice($start, $end) returns a segment of $array from $start (inclusive) to $end
   (non-inclusive), while leaving the original array intact.
-  array.slice(start) same as array.slice(start, array.length)
-  array.slice(0) clones the array
+
+  $array.slice(start) same as $array.slice(start, $array.length)
+
+  $array.slice(0) clones $array
  */
 const slice = function() {
   console.log('slice');
@@ -86,11 +92,134 @@ const slice = function() {
 };
 slice();
 
+/**
+  $array.splice is a powerful and general tool to add items to and remove items from $array. It
+  returns an array with items removed from $array
+
+  $array.splice($from, howMany) extracts howMany consecutive items from $from (inclusive), turns
+  these items into an array and returns it. $array is modified with these items removed.
+
+  $array.splice($from, null, item0, item1, ..., itemn) inserts item0, item1, ... itemn into $array,
+  with item0 being place at index $from, and returns [], since nothing is removed. $array is then
+  modified.
+
+  $array.splice($from, howMany, item0, item1, ..., itemn) combines the two, whereas it removes
+  howMany consecutive items starting from $from (inclusive), inserts item0, item1, ..., itemn there
+  instead, and returns an array with all items removed from $array. $array is then modified.
+ */
+
+const splice = function() {
+  console.log('splice');
+  let a;
+
+  a = [0, 1, 2, 3, 4, 5, 6];
+  console.log(a.splice(2, 0)); // []
+  console.log(a); // [0, 1, 2, 3, 4, 5 ,6]
+
+  a = [0, 1, 2, 3, 4, 5, 6];
+  console.log(a.splice(2, 999)); // [2, 3, 4, 5, 6]
+  console.log(a); // [0, 1]
+
+  a = [0, 1, 2, 3, 4, 5, 6];
+  console.log(a.splice(2, 2)); // [2, 3]
+  console.log(a); // [0, 1, 4, 5 ,6]
+
+  a = [0, 1, 2, 3, 4, 5, 6];
+  console.log(a.splice(2, null, 'william', 'shakespeare')); // []
+  console.log(a); // [0, 1, 'william', 'shakespeare', 2, 3, 4, 5 ,6]
+
+  a = [0, 1, 2, 3, 4, 5, 6];
+  console.log(a.splice(2, 999, 'william', 'shakespeare')); // [2, 3, 4, 5, 6]
+  console.log(a); // [0, 1, 'william', 'shakespeare']
+
+  a = [0, 1, 2, 3, 4, 5, 6];
+  console.log(a.splice(2, 1, 'william')); // [2]
+  console.log(a); // [0, 1, 'william', 3, 4, 5, 6]
+}
+splice();
+
+/**
+  $array.map(function($item) {return ...;}) transforms $array into an array of equal length with
+  each item being what the function specifies. $array is intact.
+ */
+const map = function() {
+  console.log('map');
+  const a = [
+    {
+      name: 'john',
+      age: 38,
+      gender: 'm',
+    },
+    {
+      name: 'jane',
+      age: 27,
+      gender: 'f',
+    },
+    {
+      name: 'joel',
+      age: 51,
+      gender: 'm',
+    },
+  ];
+  const b = a.map(function(item) {
+    return item.name;
+  });
+  console.log(b); // ['john', 'jane', 'joel']
+  console.log(a); // intact
+};
+map();
+
+/**
+  $array.forEach(function($item) {$item...}) behaves similarly to map, except that it actually
+  modifies $array. forEach itself returns undefined
+ */
+const forEach = function() {
+  console.log('forEach');
+  const a = [
+    {
+      name: 'john',
+      age: 38,
+      gender: 'm',
+    },
+    {
+      name: 'jane',
+      age: 27,
+      gender: 'f',
+    },
+    {
+      name: 'joel',
+      age: 51,
+      gender: 'm',
+    },
+  ];
+  const b = a.forEach(function(item) {
+    item.age -= 10;
+    item.gender = item.gender === 'm' ? 'f' : 'm';
+  });
+  console.log(b); // undefined
+  console.log(a);
+  // [
+  //   {
+  //     name: 'john',
+  //     age: 28,
+  //     gender: 'f',
+  //   },
+  //   {
+  //     name: 'jane',
+  //     age: 17,
+  //     gender: 'm',
+  //   },
+  //   {
+  //     name: 'joel',
+  //     age: 41,
+  //     gender: 'f',
+  //   },
+  // ]
+};
+forEach();
+
+
 /*
-
-    array.slice(start); // Omitting end means end = array.length.
-    array.slice(0); // Clone array.
-
     var array = [1,2,3,4];
     array.reduce(function(prev, item) {return prev + item;}, 0); // get the sum of the array, 0 is
         // the starting point, or default prev value.
