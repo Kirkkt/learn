@@ -39,3 +39,13 @@ lxsplit <!-- {{{1 -->
     - `cd resources/; lxsplit -s lxsplit-big-file 20k; cd ..`
 - `lxsplit -j {file_name}.001` : join parts starting huge.file.001
     - `cd resources/; lxsplit -j lxsplit-parts.001; cd ..`
+
+\pagebreak
+
+uname <!-- {{{1 -->
+=====
+Determine if my system is 32bit or 64bit <!-- {{{2 -->
+----------------------------------------
+- `uname -m`
+    - if the output is **i686** or **i386**, it means 32bit
+    - if the output is **x86_64**, it means 64bit
