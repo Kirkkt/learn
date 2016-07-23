@@ -659,6 +659,7 @@ C'est votre jolie robe noire ?
 C'est votre jolie robe noire?
 Ce cochon est grand.
 Ce garçon lit un menu.
+Ce peut être.
 Ce sont de grands hommes avec de petits chapeaux.
 Ce sont des chats.
 Ce sont nos livres.
@@ -700,6 +701,7 @@ Elle connaît les hommes.
 Elle coupe du pain.
 Elle coupe la pomme.
 Elle coûte combien, la salade ?
+Elle dit que oui.
 Elle est avec ses enfants.
 Elle est calme.
 Elle est contente.
@@ -714,6 +716,7 @@ Elle mange du pain quand elle veut.
 Elle mange du poisson et du poulet.
 Elle mange une crêpe.
 Elle mange une pomme.
+Elle te lit un journal.
 Elle veut une robe.
 Elles achètent le cheval.
 Elles lisent ce menu.
@@ -748,6 +751,7 @@ Il apprend le français.
 Il apprend quoi ?
 Il coupe le sandwich.
 Il coûte combien, le croque-monsieur ?
+Il dit non.
 Il est calme.
 Il est content parce qu'il a un nouveau stylo.
 Il est content.
@@ -756,14 +760,17 @@ Il faut boire.
 Il faut du pain.
 Il faut faire tes devoirs.
 Il faut manger.
+Il l'aime.
 Il mange quand je bois.
 Il mange une banane.
 Il mange une orange.
 Il mange, donc je mange.
+Il me cherche.
 Il nous faut du pain.
 Il parle des couleurs.
 Il parle.
 Il respecte sa femme.
+Il s'aime.
 Il veut une pomme.
 Ils achètent le cheval.
 Ils mangent du bœuf.
@@ -861,6 +868,7 @@ La chatte mange la souris.
 La chienne mange l'oiseau.
 La fille a un manteau bleu.
 La fille appelle le garçon.
+La fille lance une chaussure.
 La fille mange de la soupe.
 La fille mange une fraise.
 La fourmi est un insecte.
@@ -1020,6 +1028,7 @@ Qu'est-ce qu'elle boit ?
 Qu'est-ce qu'il mange ?
 Qu'est-ce que c'est ?
 Qu'est-ce que tu bois ?
+Qu'est-ce que tu lances ?
 Qu'est-ce que tu veux ?
 Qu'est-ce que vous buvez ?
 Quand boit-elle ?
@@ -1182,4 +1191,5 @@ vos citrons
 votre chapeau
 À bientôt!
 À plus tard!
+Ça se peut.
 Ça, c'est une orange.
