@@ -1,24 +1,52 @@
 /**
-  Inside each function, an object is
+  Inside each function, arguments.callee returns the function itself.
   */
-const $arguments = function() {
-  console.log('# $arguments');
+const argumentsCallee = function() {
+  console.log('# argumentsCallee');
   const a = function() {
-    console.log(arguments instanceof Object);
+    if (arguments[0] === 'I am callee') {
+      console.log(arguments[0]);
+    } else {
+      console.log('arguments.callee', arguments.callee);
+      arguments.callee('I am callee');
+    }
   }
   a();
+  // arguments.callee {function a}
+  // I am callee
 }
-$arguments();
+argumentsCallee();
+
+/**
+  argument.length return the length of the actual argument list
+  */
+const argumentsLength = function() {
+  console.log('# argumentsLength');
+  const a = function() {
+    console.log(arguments.length);
+  };
+  a(1); // 1
+  a([1, 2]); // 1
+  a(0, '', null, [], {}, false, undefined); // 7
+};
+argumentsLength();
+
+/**
+  arguments[n] return the (n+1)th argument, if n is too large, it returns undefined
+  */
+const argumentsN = function() {
+  console.log('# argumentsN');
+  const a = function() {
+    console.log(arguments[2]);
+  };
+  a(); // undefined
+  a(0, 1, 2, 3); // 2
+};
+argumentsN();
 
 /*
 Function <!-- {{{2 -->
 --------
-If a functions is called with too many arguments, the extra arguments are ignored.
-
-If a funcitons is called with too few arguments, the missing arguments are assigned the value of
-`undefined`.
-
-There are two ways to assign a function to a variable:
 
     var a = function() {}; // way 1
     function a() {}; // way 2
