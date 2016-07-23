@@ -4,6 +4,7 @@
   Unlike primitive values, arrays are passed by reference and mutable. Be careful.
  */
 const passByReferenceAndMutability = function() {
+  console.log('# passByReferenceAndMutability');
   const a = [1, 2, 3];
   const doSomeChange = function(a) {
     a.shift();
@@ -25,7 +26,7 @@ passByReferenceAndMutability();
   $array.pop() removes the item at the end of $array and returns it
  */
 const pushAndPop = function() {
-  console.log('pushAndPop');
+  console.log('# pushAndPop');
   const arr = [];
   console.log(arr.push('a')); // 1
   console.log(arr.push('b')); // 2
@@ -43,7 +44,7 @@ pushAndPop();
   $array.shift() removes the item at the head of $array and returns it
  */
 const unshiftAndShift = function() {
-  console.log('unshiftAndShift');
+  console.log('# unshiftAndShift');
   const arr = [];
   console.log(arr.unshift(0)); // 1
   console.log(arr.unshift(1)); // 2
@@ -62,7 +63,7 @@ unshiftAndShift();
   $array.lastIndexOf($item) acts similarly, only except that it returns the largest index instead
  */
 const indexOfAndLastIndexOf = function() {
-  console.log('indexOfAndLastIndexOf');
+  console.log('# indexOfAndLastIndexOf');
   const arr = [0, 1, 0, '1', 0, '1'];
   console.log(arr.indexOf(1)); // 1
   console.log(arr.indexOf('1')); // 3
@@ -81,7 +82,7 @@ indexOfAndLastIndexOf();
   array), with $item being the last item of $array, while leaving the original array intact.
  */
 const concat = function() {
-  console.log('concat');
+  console.log('# concat');
   const a = [0, 1, 2];
   const b = [2, 3, 4];
   const c = a.concat(b);
@@ -103,7 +104,7 @@ concat();
   $array.slice(0) clones $array
  */
 const slice = function() {
-  console.log('slice');
+  console.log('# slice');
   const a = [0, 1, 2, 3, 4, 5, 6];
   const b = a.slice(2, 5);
   console.log(a); // [0, 1, 2, 3, 4, 5, 6]
@@ -128,7 +129,7 @@ slice();
  */
 
 const splice = function() {
-  console.log('splice');
+  console.log('# splice');
   let a;
 
   a = [0, 1, 2, 3, 4, 5, 6];
@@ -162,7 +163,7 @@ splice();
   each item being what the function specifies. $array is intact.
  */
 const map = function() {
-  console.log('map');
+  console.log('# map');
   const a = [
     {
       name: 'john',
@@ -193,7 +194,7 @@ map();
   modifies $array. forEach itself returns undefined
  */
 const forEach = function() {
-  console.log('forEach');
+  console.log('# forEach');
   const a = [
     {
       name: 'john',
@@ -242,7 +243,7 @@ forEach();
   that make the function inside filter() return true. $array is intact.
  */
 const filter = function() {
-  console.log('filter');
+  console.log('# filter');
   const a = [
     {
       name: 'john',
@@ -286,7 +287,7 @@ filter();
   value for $prev, and update $prev with every return value of the function.
  */
 const reduce = function() {
-  console.log('reduce');
+  console.log('# reduce');
   const a = [
     {
       name: 'john',
@@ -324,7 +325,7 @@ reduce();
   for-in loop also works for objects
  */
 const forIn = function() {
-  console.log('forIn');
+  console.log('# forIn');
   const a = ['william', 'shakespeare'];
   for (const key in a) {
     console.log(key);
@@ -356,7 +357,7 @@ forIn();
   for-of loop does not work for objects
  */
 const forOf = function() {
-  console.log('forOf');
+  console.log('# forOf');
   const a = ['william', 'shakespeare'];
   for (const item of a) {
     console.log(item);
