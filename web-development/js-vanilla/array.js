@@ -295,3 +295,65 @@ const reduce = function() {
   console.log(a); // intact
 };
 reduce();
+
+/**
+  for (const $key in $array) {
+    ...
+  }
+  loops $array with $key being 0, 1, ..., $array.length - 1
+
+  for-in loop also works for objects
+ */
+const forIn = function() {
+  console.log('forIn');
+  const a = ['william', 'shakespeare'];
+  for (const key in a) {
+    console.log(key);
+  }
+  // 0
+  // 1
+  const o = {
+    name: 'john',
+    address: {
+      city: 'san jose, ca',
+      street: 'el camino real',
+    },
+  };
+  for (const key in o) {
+    console.log(key);
+  }
+  // name
+  // address
+};
+forIn();
+
+/**
+  ES6 feature
+  for (const $item of $array) {
+    ...
+  }
+  loops $array with $item being each item
+
+  for-of loop does not work for objects
+ */
+const forOf = function() {
+  console.log('forOf');
+  const a = ['william', 'shakespeare'];
+  for (const item of a) {
+    console.log(item);
+  }
+  // william
+  // shakespeare
+  const o = {
+    name: 'john',
+    address: {
+      city: 'san jose, ca',
+      street: 'el camino real',
+    },
+  };
+  // this won't work:
+  // for (const value of o) {
+  //   console.log(value);
+  // }
+};
+forOf();
