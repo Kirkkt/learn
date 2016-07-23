@@ -1,6 +1,25 @@
 'use strict';
 
 /**
+  Unlike primitive values, arrays are passed by reference and mutable. Be careful.
+ */
+const passByReferenceAndMutability = function() {
+  const a = [1, 2, 3];
+  const doSomeChange = function(a) {
+    a.shift();
+  };
+  doSomeChange(a);
+  console.log(a); // [2, 3]
+  const b = 1;
+  const doSomeOtherChange = function(b) {
+    b++;
+  };
+  doSomeOtherChange(b);
+  console.log(b); // 1
+};
+passByReferenceAndMutability();
+
+/**
   $array.push($item) adds $item to the end of $array and returns the new length
 
   $array.pop() removes the item at the end of $array and returns it
