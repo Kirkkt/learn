@@ -34,10 +34,28 @@ Vim-shell interactions <!-- {{{1 -->
 
 \pagebreak
 
+File names and paths <!-- {{{1 -->
+====================
+- `pwd` : echo working directory
+- `@%` : path to current file, relative to working directory
+    - `echo @%`
+- `expand('%:t')` : current file name only
+    - `echo expand('%:t')`
+- `expand('%:p')` : absolute path to the current file
+    - `echo expand('%:p')`
+- `expand('%:p:h')` : absolute path to the directory of the current file
+    - `echo expand('%:p:h')`
+- `expand('%:t:r')` : the name of the current file (without file extension)
+    - `echo expand('%:t:r')`
+
+\pagebreak
+
 Buffer management <!-- {{{1 -->
 =================
 - `badd {file_name}` : add {file-name} to the buffer list without opening it
     - `badd resources/a`
+- `bufdo {command}` : run {command} across all buffers.
+    - `bufdo echo expand('%:t')`
 
 \pagebreak
 
@@ -69,16 +87,94 @@ File operation <!-- {{{1 -->
     - `read resources/xwrite`
 - `r! {command}` : run shell command {command}, paste the output here
     - `r!ls -al`
-- `TOhtml` : print the current file (or visual selection) to an html file named **%.html**
+- `TOhtml` : print the current file (or visual selection) to an html file in a quickfix window,
+  defaulted to name **%.html**
     - `TOhtml`
     - `w resources/vim.md.html`
     - `!open resources/vim.md.html`
 
 \pagebreak
 
-Visual selection mode <!-- {{{1 -->
-=====================
+Patterns <!-- {{{1 -->
+========
+Starts and ends <!-- {{{2 -->
+---------------
+- `^` : start of the line (the very first character, not the first non-white one)
+- `$` : end of the line
+- `\zs` and `\ze` : start and end of the match
+    - `/star\zst and end of the m\zeatch`
+- `/v<word>` or `\<word\>` : search for word only, <> sets the boundary for the search pattern,
+  typically symbols and whitespaces
+
+Counts <!-- {{{2 -->
+------
+- `*` : any count of the pattern
+- `{2,5}` : count of 2 to 5 of the pattern
+    - `/\vr{2,5}`
+- `{4,}` : count of at least 4 of the pattern
+    - `/\v[tern]{5,}`
+- `{,4}` : count of at most 4 of the pattern
+    - `/\vt[ern]{,2}$`
+- `{4}` : count of exactly 4 of the pattern
+    - `/\v\D\d{2}\D`
+- `*` : same as {0,}
+- `+` : same as {1,}
+- `?` : same as {0,1}
+
+Wild cards <!-- {{{2 -->
+----------
+- `.` : any single character (empty lines won't match)
+    - same with `[^\r\n]`
+- `\_.` : any single character plus \r and \n
+    - `/\v\-\-\>\_.`
+    - `/-->\_.`
+- `\s` : white space
+- `\S` : [^\s]
+- `\_s` : \s plus \r and \n
+- `\_S` : \S plus \r and \n, similar usage for ``_`` applies to \d, \a, and \w
+- `\d` : [0-9] numbers
+- `\D` : [^\d]
+- `\a` : [a-zA-Z] alphabets
+- `\A` : [^\a]
+- `\w` : `[a-zA-Z0-9_]` numbers, alphabets and underscore
+- `\W` : [^\w]
+
+Sets <!-- {{{2 -->
+----
+- `[some]` : matches a single character that is s, o, m or e
+- `[a-z]` : matches a single lower-case alphabet character
+- `[^{pattern}]` : anything but pattern {pattern}
+    - `/\vc[^e]i`
+
+Magical <!-- {{{2 -->
+-------
+- `\v` : very magical mode, almost all special characters carry special vim-only meaning
+- `\V` : very non-magical mode, almost no special characters carry special vim-only meaning
+
+\pagebreak
+
+Visual selection mode commands <!-- {{{1 -->
+==============================
 - `g?` : turn selected text into gibberish
+- `w {filename}` : write selected text to {filename}, no switch to that file
+- `TOhtml` : print selected text to an html file in a quickfix window, defaulted to name **%.html**
+
+\pagebreak
+
+Maps <!-- {{{1 -->
+====
+- `map!` : for Insert and Command-line, i.e. imap & cmap
+    - `noremap! npmjs http://www.npmjs.org/`
+    - then type npmjs in both Insert mode and Command-line mode to see the effect
+
+\pagebreak
+
+inbox <!-- {{{1 -->
+=====
+    :/^<html>/+1,/^<\/html>/-1d : delete everything between two a html tag, this command starts
+        searching from the current cursor position (exclusive), and do the deletion once
+
+    +[1-9] : line number offset, if no number is provided, it defaults to 1.
 
 \pagebreak
 
@@ -114,12 +210,3 @@ Mark <!-- {{{1 -->
 
     `> : end of last visual selection
     '> : the ^ of end of last visual selection
-
-\pagebreak
-
-Maps <!-- {{{1 -->
-====
-- `map!` : for Insert and Command-line, i.e. imap & cmap
-    - `noremap! npmjs http://www.npmjs.org/`
-    - then type npmjs in both Insert mode and Command-line mode to see the effect
-
