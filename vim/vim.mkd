@@ -56,6 +56,12 @@ Buffer management <!-- {{{1 -->
     - `badd resources/a`
 - `bufdo {command}` : run {command} across all buffers.
     - `bufdo echo expand('%:t')`
+- `:bn` : goto next file in buffer; cycles around
+- `:bp` : goto previous file in buffer; cycles around
+- `:b#` : switch back and forth between the alternate buffer and the current buffer
+- `:bd` : remove file from buffer list, throws error when the current file is dirty
+- `:bd!` : remove file from buffer list; discards changes if the current file is dirty
+- `:ls` / `:buffers` : list all buffers
 
 \pagebreak
 
