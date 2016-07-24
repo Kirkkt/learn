@@ -1,9 +1,17 @@
 <!-- js-npm-general -->
 \pagebreak
 
-npm commands <!-- {{{1 -->
+package.json <!-- {{{1 -->
 ============
-Unless otherwise specified in *package.json - scripts - start*, `npm start` runs as `node server.js`, as long as the current directory has already run npm init, i.e. *package.json* is present.
+npm start defaults to run node server.js <!-- {{{2 -->
+----------------------------------------
+Unless otherwise specified in *package.json - scripts - start*, `npm start` runs as `node
+server.js`, as long as the current directory has already run npm init, i.e. *package.json* is
+present.
+
+conditionally chain commands <!-- {{{2 -->
+----------------------------
+- `{command1} && {command2}` : only run command2 after the running of command1 results in success
 
 \pagebreak
 
