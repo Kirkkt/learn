@@ -22,7 +22,7 @@ Quicktime -> File -> new screen recording
 
 Invoke dictionary quickly <!-- {{{2 -->
 -------------------------
-todo Ctrl+Alt+D
+Ctrl+Alt+D
 
 Merge all opened finder windows into one <!-- {{{2 -->
 ----------------------------------------
