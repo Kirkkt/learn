@@ -52,29 +52,76 @@ function.call(context, 'argument0', 'argument1', 'argument2'])
 do the same thing, but in different forms, context specifies what `this` is inside the function scope
 
 the `this` keyword belongs to a function
+*/
 
-Function <!-- {{{2 -->
---------
+/**
+  There are two ways to define a function:
+    var/let/const a = function() {}; // function expression
+    function a() {}; // function declaration
 
-    var a = function() {}; // way 1
-    function a() {}; // way 2
+  The difference is, function declaration is hoisted to the top of its scope while function
+  expression is not.
 
-There is a difference in that the latter is automatically moved to the top of its scope by the
-JavaScript compiler. This can be dangerous.
+  When to use function declaration:
+    - when you don't want to worry about the order of the functions
+  When to use function expression (especially with const):
+    - when you want to make it absolutely sure that you don't have function name clash
+  */
+const functionHoisting = function() {
+  console.log('# functionHoisting');
+  functionDeclaration(); // i am hoisted and I replace
+  function functionDeclaration() {
+    console.log('i am overwritten and you no see me');
+  };
+  function functionDeclaration() {
+    console.log('i am hoisted and I replace');
+  };
+  // this won't work
+  try {
+    functionExpression();
+  } catch (error) {
+    console.log(error.message); // functionExpression is not a function
+  }
+  const functionExpression = function() {
+    console.log('you no see me');
+  };
+  // this will cause a syntax error
+  // const functionExpression = function() {};
+}
+functionHoisting();
 
-Upon every run, all local vars inside a function are re-created, instead of reused from the last
-run.
+/**
+  Upon every run, all local vars inside a function are re-created, instead of reused from the last
+  run.
 
-    var a = function(b) {
-      return function(){
-        return b;
-      }
-    };
-    console.log(a(1)()); // 1
-    console.log(a(2)()); // 2
+  This feature is called closure. It also means the lifetime of local variables are forever, instead
+  of only until the end of the execution.
+  It also means that the same local variable can be instantiated arbitrarily many time.
 
-This feature is called closure. It also means the lifetime of local variables are forever, instead
-of until the end of the execution.
+  See more in closure.js
+*/
+const closureLocalVarLifeSpan = function() {
+  console.log('# closureLocalVarLifeSpan');
+  var a = function(b) {
+    return function(){
+      return b;
+    }
+  };
+  console.log(a(1)()); // 1
+  console.log(a(2)()); // 2
+};
+closureLocalVarLifeSpan();
+
+/**
+  $function.prototype.length returns the maximum number of arguments it accepts
+*/
+const functionDotPrototype = function() {
+  console.log('# functionDotPrototype');
+  console.log((function() {}).prototype.length);
+};
+functionDotPrototype();
+
+/*
 
 Function.prototype.length returns number of argument it accepts.
 
