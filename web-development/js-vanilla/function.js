@@ -45,6 +45,14 @@ const argumentsN = function() {
 argumentsN();
 
 /*
+
+function.apply(context, ['array', 'of', 'arguments'])
+and
+function.call(context, 'argument0', 'argument1', 'argument2'])
+do the same thing, but in different forms, context specifies what `this` is inside the function scope
+
+the `this` keyword belongs to a function
+
 Function <!-- {{{2 -->
 --------
 
