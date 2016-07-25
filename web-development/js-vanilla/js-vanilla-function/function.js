@@ -67,15 +67,38 @@ the `this` keyword belongs to a function
   When to use function expression (especially with const):
     - when you want to make it absolutely sure that you don't have function name clash
   */
+const functionHoistingPre = function() {
+  functionDeclaration(); // I am hoisted and I replace
+  function functionDeclaration() {
+    console.log('I am overwritten and you no see me');
+  };
+  function functionDeclaration() {
+    console.log('I am hoisted and I replace');
+  };
+};
+const functionHoistingMid = function() {
+  function functionDeclaration() {
+    console.log('I am overwritten and you no see me');
+  };
+  functionDeclaration(); // I am hoisted and I replace
+  function functionDeclaration() {
+    console.log('I am hoisted and I replace');
+  };
+};
+const functionHoistingPost = function() {
+  function functionDeclaration() {
+    console.log('I am overwritten and you no see me');
+  };
+  function functionDeclaration() {
+    console.log('I am hoisted and I replace');
+  };
+  functionDeclaration(); // I am hoisted and I replace
+};
 const functionHoisting = function() {
   console.log('# functionHoisting');
-  functionDeclaration(); // i am hoisted and I replace
-  function functionDeclaration() {
-    console.log('i am overwritten and you no see me');
-  };
-  function functionDeclaration() {
-    console.log('i am hoisted and I replace');
-  };
+  functionHoistingPre();
+  functionHoistingMid();
+  functionHoistingPost();
   // this won't work
   try {
     functionExpression();
