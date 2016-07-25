@@ -22,8 +22,19 @@ Commit <!-- {{{1 -->
 
 Rollback <!-- {{{1 -->
 ========
-HEAD^ TODO
-HEAD~10 TODO
+HEAD <!-- {{{2 -->
+----
+- HEAD is the latest commit
+    - `git diff HEAD` : checks diff against the latest commit, useful when some changes are staged
+      but not committed.
+- HEAD^ is the one before the latest commit
+    - `git diff HEAD HEAD^` : checks the diff between the latest commit and the one before, i.e.
+      check what the latest commit was about. Uncommitted changes are ignored.
+- HEAD~0 is the same as HEAD
+    - `git diff HEAD~0 HEAD` : returns empty
+- HEAD~1 is the same as HEAD^
+    - `git diff HEAD~1 HEAD^` : returns empty
+- HEAD~10 is ten commits before.
 
 Tedious but safe with git checkout <!-- {{{2 -->
 ----------------------------------
@@ -55,6 +66,7 @@ Diff <!-- {{{1 -->
 - `git diff master` : check diff against master. Useful when some changes have been staged but I
   still wish to see their diff (in which case master is the current branch), or when I want to check
   the diff of the current branch against master (in which case I am on a different branch).
+- `git diff HEAD` : same as above but better.
 - `git diff file1 file2` : check diff between 2 files.
 
 \pagebreak
