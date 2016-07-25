@@ -19,6 +19,8 @@ Commit <!-- {{{1 -->
   commit
 - `git commit -m single_word` : quick commit with a one-word (no whitespace in the middle) message
 - `git commit -m 'longer commit message'` : quick commit with a message longer than one word
+- `git commit --allow-empty` : allow empty commits, that is, commits that are identical to its
+  predecessor
 
 \pagebreak
 
