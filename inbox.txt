@@ -1,1 +1,2 @@
 git add -p
+fish: cat (npm get userconfig)

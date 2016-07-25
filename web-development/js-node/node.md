@@ -15,16 +15,25 @@ CPU-intensive tasks.
 node js is designed to be single-threaded with one dedicated event loop, so it's not the right tool
 if the concurrent threads each requires long blocking run time.
 
+##### Another take
+- Faster than Java and PHP
+- Event-base, natural for API-based inquiry processing
+- Mono-threaded
+    - robust, programmers tend to make less mistakes when dealing with one thread
+    - RAM efficient, eliminating overhead of thread management
+
 \pagebreak
 
-Install NodeJS on linux <!-- {{{1 -->
-=======================
+Installation and configuration <!-- {{{1 -->
+==============================
+Install node on linux <!-- {{{2 -->
+---------------------
 
     curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
     sudo apt-get install nodejs
 
-Configure npmrc to point to cnpmjs.org <!-- {{{2 -->
---------------------------------------
+Configure npmrc to point to other npm repo <!-- {{{2 -->
+------------------------------------------
 ### Problem
 <http://npmjs.org> is sporadically blocked in China, and even when it's not, it's slow.
 
@@ -32,18 +41,9 @@ Configure npmrc to point to cnpmjs.org <!-- {{{2 -->
 <http://cnpmjs.org> is a mirror in China. It is much faster and never blocked.
 
 ### How-to
-
-    echo 'registry=http://registry.cnpmjs.org' > ~/.npmrc
-
-\pagebreak
-
-Reasons to use NodeJS <!-- {{{1 -->
-=====================
-- Faster than Java and PHP
-- Event-base, natural for API-based inquiry processing
-- Mono-threaded
-    - robust, programmers tend to make less mistakes when dealing with one thread
-    - RAM efficient, eliminating overhead of thread management
+- `npm get userconfig` : show the user config file, on linux and mac, it is usually `~/.npmrc`
+- `cat (npm get userconfig)` : fish-only, show user config file content
+- `echo 'registry=http://registry.cnpmjs.org' > ~/.npmrc` : point npm to use cnpmjs which is faster
 
 \pagebreak
 

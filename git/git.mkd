@@ -5,7 +5,8 @@ Stage <!-- {{{1 -->
 =====
 - `git add file_or_directory` : stage a single file or directory
     - `git add .`
-- `git add -p` : stage one modified file at a time with prompt (does not care about new files)
+- `git add -p` : stage one modified page at a time with prompt (does not care about new files). A
+  single modified file can have multiple pages.
 
 \pagebreak
 
