@@ -4,7 +4,8 @@
   "description": "",
   "main": "array.js",
   "scripts": {
-    "start": "budo array.js --live"
+    "start:watch": "budo array.js --live",
+    "start": "node array.js"
   },
   "author": "",
   "license": "ISC",
