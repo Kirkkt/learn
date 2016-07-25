@@ -14,5 +14,4 @@
 _notes
 node_modules
 node_modules/**
-npm-debug.lo
-
+npm-debug.log
