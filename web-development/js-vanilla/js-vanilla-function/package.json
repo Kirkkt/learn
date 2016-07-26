@@ -1,0 +1,16 @@
+{
+  "name": "js-vanilla-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "function.js",
+  "scripts": {
+    "start": "node function.js",
+    "start:watch": "budo function.js --live"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "budo": "^8.3.0",
+    "watchify": "^3.7.0"
+  }
+}

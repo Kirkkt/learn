@@ -1,0 +1,16 @@
+{
+  "name": "js-vanilla-variable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "variable.js",
+  "scripts": {
+    "start": "node variable",
+    "start:watch": "budo variable.js --live"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "budo": "^8.3.0",
+    "watchify": "^3.7.0"
+  }
+}
