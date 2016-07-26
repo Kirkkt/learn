@@ -39,6 +39,7 @@ HEAD <!-- {{{2 -->
 - HEAD~1 is the same as HEAD^
     - `git diff HEAD~1 HEAD^` : returns empty
 - HEAD~10 is ten commits before.
+- head works just as fine
 
 Tedious but safe with git checkout <!-- {{{2 -->
 ----------------------------------
