@@ -49,3 +49,44 @@ Determine if my system is 32bit or 64bit <!-- {{{2 -->
 - `uname -m`
     - if the output is **i686** or **i386**, it means 32bit
     - if the output is **x86_64**, it means 64bit
+
+\pagebreak
+
+eval <!-- {{{1 -->
+====
+- `eval "command"` : run a string as a command
+    - `eval "echo $PATH"` : same as echo $PATH
+
+A example with fish <!-- {{{2 -->
+-------------------
+    type _cdanddo > /dev/null 2>&1; or function _cdanddo
+      cd $argv[1]
+      eval $argv[2]
+      cd -
+    end
+
+    type gitdo > /dev/null 2>&1; or function gitdo
+      _cdanddo ~/github/dot-files $argv[1]
+      _cdanddo ~/github/learn $argv[1]
+      _cdanddo ~/git/active-notes $argv[1]
+      _cdanddo ~/git/legacy-notes $argv[1]
+      _cdanddo ~/git/drawer $argv[1]
+      _cdanddo ~/git/stash $argv[1]
+    end
+
+    type pullall > /dev/null 2>&1; or function pullall
+      gitdo "git pull"
+    end
+
+    type pushall > /dev/null 2>&1; or function pushall
+      gitdo "git push"
+    end
+
+    type stall > /dev/null 2>&1; or function stall
+      gitdo "git status"
+    end
+
+    type gdall > /dev/null 2>&1; or function gdall
+      gitdo "git diff"
+    end
+
