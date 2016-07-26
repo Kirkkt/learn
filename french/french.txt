@@ -514,6 +514,8 @@ petit, petite, petits, petites
 vert, verte, verts, vertes
 rouge, rouge, rouges, rouges
 bleu, bleue, bleus, bleues
+jeune, jeune, jeunes, jeunes
+second, seconde, seconds, secondes
 
 \pagebreak
 
@@ -648,6 +650,7 @@ Bonjour le lapin! Comment ça va?
 Bonjour, vas-tu bien ?
 Bonsoir !
 C'est du café, mais il aime ça !
+C'est ma seconde chaussure.
 C'est notre enfant.
 C'est ta nouvelle ceinture ?
 C'est ta nouvelle ceinture?
@@ -671,6 +674,7 @@ Cette femme est ma femme !
 Cette robe est bleue.
 Combien ?
 Combien gagnent-elles ?
+Combien il gagne ?
 Comme papa et maman sont minces !
 Comment va ta femme ?
 D'accord, merci beaucoup !
@@ -716,6 +720,8 @@ Elle mange du pain quand elle veut.
 Elle mange du poisson et du poulet.
 Elle mange une crêpe.
 Elle mange une pomme.
+Elle met son manteau.
+Elle mêrite ça.
 Elle te lit un journal.
 Elle veut une robe.
 Elles achètent le cheval.
@@ -725,12 +731,14 @@ Elles ont des livres.
 Elles ont du vin.
 Elles sont calmes.
 Elles sont contentes d'habiter à New York.
+Elles sont jeunes et elles s'aiment.
 Elles sont rouges.
 Est-ce qu'elle a un parapluie ?
 Est-ce qu'elle aime bien ta cravate ?
 Est-ce qu'elle aime ta cravate ?
 Est-ce qu'il aime mon chapeau ?
 Est-ce que tu aimes le chocolat ?
+Est-ce que tu l'aides ?
 Est-ce que vous aimez le chocolat ?
 Est-ce que vous avez des légumes ?
 Hélène est la professeur.
@@ -749,6 +757,7 @@ Il aide sa chienne.
 Il aime ça.
 Il apprend le français.
 Il apprend quoi ?
+Il cache son portefeuille.
 Il coupe le sandwich.
 Il coûte combien, le croque-monsieur ?
 Il dit non.
@@ -761,6 +770,7 @@ Il faut du pain.
 Il faut faire tes devoirs.
 Il faut manger.
 Il l'aime.
+Il le fait.
 Il mange quand je bois.
 Il mange une banane.
 Il mange une orange.
@@ -771,12 +781,15 @@ Il parle des couleurs.
 Il parle.
 Il respecte sa femme.
 Il s'aime.
+Il s'appelle comment ?
 Il veut une pomme.
 Ils achètent le cheval.
 Ils mangent du bœuf.
 Ils mangent une banane.
 Ils mangent une fraise.
+Ils mettent leurs chaussures.
 Ils ont une jolie fille.
+Ils sont jeunes et ils s'aiment.
 Ils sont très contents.
 Ils veulent un chien.
 Ils veulent un sandwich.
@@ -802,6 +815,9 @@ J'aime manger des frites.
 J'aime manger des pâtes.
 J'apporte des fraises et du vin.
 J'attends mes enfants.
+J'entre quand ?
+J'entre.
+J'y vais
 J'écris ce livre.
 J'écris un livre.
 J'écris une lettre.
@@ -813,6 +829,8 @@ Je cherche mon chien.
 Je comprends mes enfants.
 Je connais le garçon.
 Je connais une femme.
+Je l'ai.
+Je l'attends.
 Je lis, car j'aime ce livre.
 Je mange des pommes.
 Je mange des pâtes.
@@ -829,18 +847,22 @@ Je mange.
 Je parle.
 Je prends une salade.
 Je respecte ta femme.
+Je sais où c'est.
 Je suis jeune.
+Je suis second.
 Je suis un garçon.
 Je suis une abeille.
 Je suis une araignée.
 Je suis une baleine.
 Je suis une femme.
 Je vais manger une baguette.
+Je veux boire quelque chose.
 Je veux un poisson rouge.
 Je veux une boisson.
 L'abeille est un insecte.
 L'araignée est un animal.
 L'eau est froide.
+L'enfant cache le chocolat.
 L'enfant gagne un vêtement.
 L'homme a des chaussures marron.
 L'homme a une cravate.
@@ -902,6 +924,7 @@ Le garçon achète une chienne.
 Le garçon mange des frites.
 Le garçon mange des fruits.
 Le garçon mange un bonbon.
+Le garçon veut du beurre.
 Le grand monsieur à côté de la jolie fille ?
 Le gâteau contient un œuf.
 Le gâteau est joli.
@@ -975,6 +998,7 @@ Merci et à bientôt!
 Mon anniversaire est en septembre.
 Mon jour préféré est lundi.
 Mon père
+Mon second parapluie est noir.
 Nous achetons des pommes vertes.
 Nous allons manger.
 Nous apprenons le français.
@@ -1003,6 +1027,8 @@ Nous sommes riches.
 Nous sommes ses enfants.
 Nous sommes seuls.
 Nous voulons une chienne.
+Nous écrivons quelque chose.
+On fait ce qu'on peut.
 Oui ou non ?
 Oui, elles coûtent combien, les chips ?
 Oui, je comprends. Merci.
@@ -1068,6 +1094,7 @@ Tu as des bottes.
 Tu as des chemises roses.
 Tu as un chapeau marron.
 Tu as une chemise bleue.
+Tu entres et elle entre.
 Tu es riche.
 Tu es un garçon.
 Tu es un homme.
@@ -1078,6 +1105,7 @@ Tu manges quand je bois.
 Tu manges une carotte.
 Tu manges une crêpe.
 Tu manges une orange.
+Tu montres tes vêtements.
 Tu prends un croque-monsieur ?
 Tu respectes l'animal.
 Tu veux lesquelles ?
@@ -1092,6 +1120,7 @@ Un homme cherche une femme.
 Un papillon est un animal.
 Une baleine est un animal.
 Une tomate est rouge.
+Veux-tu des fraises ?
 Votre sac contient des légumes.
 Vous aidez votre femme.
 Vous apprenez le français.
@@ -1102,6 +1131,7 @@ Vous connaissez ma femme.
 Vous mangez des pommes.
 Vous mangez le citron.
 Vous mangez une carotte.
+Vous montrez vos vêtements.
 Vous parlez des filles.
 Vous parlez.
 Vous prenez des chips?
