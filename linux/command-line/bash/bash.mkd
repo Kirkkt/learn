@@ -30,6 +30,15 @@ A preceding or trailing colon actually has a meaning - it includes the current d
 - `new_path:new_path1:` : `new_path` first, then `new_path1`, and then the current directory
 - `new_path:new_path1` : `new_path` first, and the `new_path1`
 
+\pagebreak
+
+Pipe <!-- {{{1 -->
+====
+Show no error message <!-- {{{2 -->
+---------------------
+- `some_commend 2> /dev/null` : display no error message
+    - `mkdir /tmp` : displays error message: dir /tmp exists
+    - `mkdir /tmp 2> /dev/null` : displays no error message
 
 \pagebreak
 
