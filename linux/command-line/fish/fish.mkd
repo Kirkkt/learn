@@ -158,8 +158,8 @@ In addition to standard piping using a vertical bar, fish has its own syntax for
 
 - `vim (grep -r mark * | grep -v 'fish.md:' | cut -f1 -d: | sort -u)` : us vim to open all the files
     returned by the grep command group
-- `vim (fs nocolor \/findme\$)` : open all .js files, ignoring
-        certain file paths
+- `vim (fs nocolor \/findme\$)` : open all files that has findme in their names
+- `cat (npm get userconfig)` : show the content of the file that npm get userconfig specifies
 
 \pagebreak
 
