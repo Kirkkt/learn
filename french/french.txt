@@ -343,6 +343,15 @@ nous devons
 vous devez
 ils/elles doivent
 
+sauver <!-- {{{2 -->
+------
+je sauve
+tu sauves
+il/elle/on sauve
+nous sauvons
+vous sauvez
+ils/elles sauvent
+
 Other verbs <!-- {{{2 -->
 -----------
 écris
@@ -516,6 +525,7 @@ rouge, rouge, rouges, rouges
 bleu, bleue, bleus, bleues
 jeune, jeune, jeunes, jeunes
 second, seconde, seconds, secondes
+,,, mauvais
 
 \pagebreak
 
@@ -655,6 +665,7 @@ C'est notre enfant.
 C'est ta nouvelle ceinture ?
 C'est ta nouvelle ceinture?
 C'est un grand garçon très mince.
+C'est un homme mauvais.
 C'est un oiseau jaune.
 C'est une couleur.
 C'est une jolie photo.
@@ -721,7 +732,8 @@ Elle mange du poisson et du poulet.
 Elle mange une crêpe.
 Elle mange une pomme.
 Elle met son manteau.
-Elle mêrite ça.
+Elle mérite une jolie jupe.
+Elle mérite ça.
 Elle te lit un journal.
 Elle veut une robe.
 Elles achètent le cheval.
@@ -776,7 +788,10 @@ Il mange une banane.
 Il mange une orange.
 Il mange, donc je mange.
 Il me cherche.
+Il mérite des frites.
+Il nous aime.
 Il nous faut du pain.
+Il nous lit un journal.
 Il parle des couleurs.
 Il parle.
 Il respecte sa femme.
@@ -784,6 +799,7 @@ Il s'aime.
 Il s'appelle comment ?
 Il veut une pomme.
 Ils achètent le cheval.
+Ils lavent des légumes.
 Ils mangent du bœuf.
 Ils mangent une banane.
 Ils mangent une fraise.
@@ -815,6 +831,7 @@ J'aime manger des frites.
 J'aime manger des pâtes.
 J'apporte des fraises et du vin.
 J'attends mes enfants.
+J'en ai.
 J'entre quand ?
 J'entre.
 J'y vais
@@ -831,6 +848,7 @@ Je connais le garçon.
 Je connais une femme.
 Je l'ai.
 Je l'attends.
+Je les aime.
 Je lis, car j'aime ce livre.
 Je mange des pommes.
 Je mange des pâtes.
@@ -888,6 +906,7 @@ La chatte est grise.
 La chatte et la souris
 La chatte mange la souris.
 La chienne mange l'oiseau.
+La femme lave son enfant.
 La fille a un manteau bleu.
 La fille appelle le garçon.
 La fille lance une chaussure.
@@ -999,6 +1018,7 @@ Mon anniversaire est en septembre.
 Mon jour préféré est lundi.
 Mon père
 Mon second parapluie est noir.
+Nos lêgumes sont mauvais.
 Nous achetons des pommes vertes.
 Nous allons manger.
 Nous apprenons le français.
@@ -1011,6 +1031,7 @@ Nous avons un chien.
 Nous avons une voiture verte.
 Nous cherchons un livre.
 Nous comprenons le journal.
+Nous lavons nos chaussettes.
 Nous lisons ses lettres.
 Nous lisons tes lettres.
 Nous lisons vos lettres.
@@ -1042,6 +1063,7 @@ Où sont mes chaussures vertes ?
 Pierre et Tim sont très contents.
 Pourquoi aimes-tu bien les poissons ?
 Pourquoi aimes-tu le poisson ?
+Pourquoi lave-t-il le citron ?
 Pourquoi manges-tu du pain ?
 Pourquoi parle-t-elle ?
 Pourquoi écrit-il ?
@@ -1055,8 +1077,10 @@ Qu'est-ce qu'il mange ?
 Qu'est-ce que c'est ?
 Qu'est-ce que tu bois ?
 Qu'est-ce que tu lances ?
+Qu'est-ce que tu laves ?
 Qu'est-ce que tu veux ?
 Qu'est-ce que vous buvez ?
+Qu'est-ce que vous lavez ?
 Quand boit-elle ?
 Quand est votre anniversaire ? Le mien c'est en mai.
 Quand lit-elle ?
@@ -1082,6 +1106,7 @@ S'il vous plaît !
 S'il vous plaît, non !
 Sa femme attend un enfant. (his wife is pregnant)
 Ses vêtements sont petits.
+Sommes-nous mauvais ?
 Son père
 Ta femme est jolie.
 Tes garçons lisent un journal.
@@ -1122,6 +1147,7 @@ Une baleine est un animal.
 Une tomate est rouge.
 Veux-tu des fraises ?
 Votre sac contient des légumes.
+Voulez-vous un enfant ou une chienne ?
 Vous aidez votre femme.
 Vous apprenez le français.
 Vous avez des bottes.
