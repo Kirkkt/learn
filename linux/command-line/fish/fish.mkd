@@ -249,8 +249,8 @@ use `'` or `"` to escape spaces for file names and grep key words. In bash, `'` 
 different, as `"` doesn't prevent special characters from expanding, but in fish they are identical
 (which is really nice).
 
-Clean up SET and SET_EXPORT <!-- {{{2 -->
----------------------------
+Clean up <!-- {{{2 -->
+--------
 Often times I forget to clean up environment variables that I have created, but they remain there.
 
 To clean them up, go to `~/.config/fish` and delete the file named something like
