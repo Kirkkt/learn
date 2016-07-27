@@ -14,9 +14,9 @@ Solution <!-- {{{2 -->
 How <!-- {{{2 -->
 ---
 1. `npm i forever --global`
-2. `forever server.js &` or whatever the name of the js file is that I want to run forever
+2. `forever start server.js` or whatever the name of the js file is that I want to run forever
 3. `sudo vim /etc/rc.local`
-    - add `cd /absolute/path/to/the/directory;forever server.js &`
+    - add `cd /absolute/path/to/the/directory;forever start server.js`
 
 Helper commands <!-- {{{2 -->
 ---------------
