@@ -4,3 +4,4 @@ budo+watchify single js files
 bash `killall node` kills all node commands
 node `npm i forever --global` and then `forever start server.js`, `forever list`, `forever stop server.js` `forever stopall`
 linux /etc/rc.local is run automatically on boot
+q: how to detect os on fish?
