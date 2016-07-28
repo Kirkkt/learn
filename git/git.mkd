@@ -5,8 +5,8 @@ Stage <!-- {{{1 -->
 =====
 - `git add file_or_directory` : stage a single file or directory
     - `git add .`
-- `git add -p` : stage one modified page at a time with prompt (does not care about new files). A
-  single modified file can have multiple pages.
+- `git add -p` : stage one modified chunk at a time with prompt (does not care about new files). A
+  single modified file can have multiple modified chunks.
 - `git add --all` : add everything new under the git repository, including new files and files above
   the current directory
 
