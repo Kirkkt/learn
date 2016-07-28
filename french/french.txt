@@ -526,6 +526,7 @@ bleu, bleue, bleus, bleues
 jeune, jeune, jeunes, jeunes
 second, seconde, seconds, secondes
 ,,, mauvais
+nouveau, nouvel (before vowel) nouvelle, nouveaux, nouvelles
 
 \pagebreak
 
@@ -663,7 +664,6 @@ C'est du café, mais il aime ça !
 C'est ma seconde chaussure.
 C'est notre enfant.
 C'est ta nouvelle ceinture ?
-C'est ta nouvelle ceinture?
 C'est un grand garçon très mince.
 C'est un homme mauvais.
 C'est un oiseau jaune.
@@ -737,7 +737,9 @@ Elle mérite ça.
 Elle te lit un journal.
 Elle veut une robe.
 Elles achètent le cheval.
+Elles donnent des vêtements.
 Elles lisent ce menu.
+Elles lisent seules.
 Elles mangent une fraise.
 Elles ont des livres.
 Elles ont du vin.
@@ -773,6 +775,7 @@ Il cache son portefeuille.
 Il coupe le sandwich.
 Il coûte combien, le croque-monsieur ?
 Il dit non.
+Il donne une pomme.
 Il est calme.
 Il est content parce qu'il a un nouveau stylo.
 Il est content.
@@ -805,6 +808,7 @@ Ils mangent une banane.
 Ils mangent une fraise.
 Ils mettent leurs chaussures.
 Ils ont une jolie fille.
+Ils respectent ta femme.
 Ils sont jeunes et ils s'aiment.
 Ils sont très contents.
 Ils veulent un chien.
@@ -820,6 +824,7 @@ J'aime ce repas.
 J'aime cette tortue verte.
 J'aime la confiture.
 J'aime la couleur rose.
+J'aime la nouvelle veste.
 J'aime la salade.
 J'aime le bœuf.
 J'aime le thé, mais j'adore le café.
@@ -843,6 +848,8 @@ Je bois de l'alcool.
 Je bois de l'eau.
 Je cherche ma chienne.
 Je cherche mon chien.
+Je commande mon repas.
+Je commande.
 Je comprends mes enfants.
 Je connais le garçon.
 Je connais une femme.
@@ -866,6 +873,7 @@ Je parle.
 Je prends une salade.
 Je respecte ta femme.
 Je sais où c'est.
+Je sais que tu sais que je sais.
 Je suis jeune.
 Je suis second.
 Je suis un garçon.
@@ -873,6 +881,8 @@ Je suis une abeille.
 Je suis une araignée.
 Je suis une baleine.
 Je suis une femme.
+Je te lis un livre.
+Je te veux.
 Je vais manger une baguette.
 Je veux boire quelque chose.
 Je veux un poisson rouge.
@@ -906,6 +916,7 @@ La chatte est grise.
 La chatte et la souris
 La chatte mange la souris.
 La chienne mange l'oiseau.
+La femme donne sa robe.
 La femme lave son enfant.
 La fille a un manteau bleu.
 La fille appelle le garçon.
@@ -926,6 +937,7 @@ La tortue mange des pâtes.
 La vache est petite.
 Laquelle connaît-il ?
 Le bœuf est froid.
+Le canard est vert.
 Le canard mange une mouche.
 Le chapeau du garçon est noir.
 Le chapeau est grand.
@@ -990,16 +1002,19 @@ Les filles mangent des fruits.
 Les filles mangent du beurre.
 Les filles sont petites.
 Les haricots sont rouges.
+Les haricots sont verts.
 Les hommes mangent du fromage.
 Les hommes mangent une fraise.
 Les hommes sont calmes et riches.
 Les jeunes enfants mangent le chocolat.
 Les limonades coûtent neuf euros.
+Les ours mangent des citrons.
 Les pastis ne sont pas chers.
 Les poches des chemises
 Les poches des vêtements
 Les pommes des filles
 Les pommes sont rouges.
+Les pommes sont vertes.
 Les robes sont bleues.
 Les robes sont rouges.
 Lesquelles parlent ?
@@ -1011,6 +1026,7 @@ Leur cochon mange du riz.
 Leur robe noire est jolie.
 Leurs chiens mangent du poisson.
 Ma mère
+Ma poche contient une pomme.
 Mais ce sont papa et maman !
 Merci beaucoup !
 Merci et à bientôt!
@@ -1031,6 +1047,7 @@ Nous avons un chien.
 Nous avons une voiture verte.
 Nous cherchons un livre.
 Nous comprenons le journal.
+Nous donnons des pommes.
 Nous lavons nos chaussettes.
 Nous lisons ses lettres.
 Nous lisons tes lettres.
@@ -1048,6 +1065,7 @@ Nous sommes riches.
 Nous sommes ses enfants.
 Nous sommes seuls.
 Nous voulons une chienne.
+Nous vous parlons.
 Nous écrivons quelque chose.
 On fait ce qu'on peut.
 Oui ou non ?
@@ -1065,6 +1083,7 @@ Pourquoi aimes-tu bien les poissons ?
 Pourquoi aimes-tu le poisson ?
 Pourquoi lave-t-il le citron ?
 Pourquoi manges-tu du pain ?
+Pourquoi mangez-vous du pain ?
 Pourquoi parle-t-elle ?
 Pourquoi écrit-il ?
 Qu as-tu ?
@@ -1081,6 +1100,7 @@ Qu'est-ce que tu laves ?
 Qu'est-ce que tu veux ?
 Qu'est-ce que vous buvez ?
 Qu'est-ce que vous lavez ?
+Quand agit-il ?
 Quand boit-elle ?
 Quand est votre anniversaire ? Le mien c'est en mai.
 Quand lit-elle ?
@@ -1145,6 +1165,7 @@ Un homme cherche une femme.
 Un papillon est un animal.
 Une baleine est un animal.
 Une tomate est rouge.
+Une veste est un vêtement.
 Veux-tu des fraises ?
 Votre sac contient des légumes.
 Voulez-vous un enfant ou une chienne ?
@@ -1154,6 +1175,7 @@ Vous avez des bottes.
 Vous avez des vêtements.
 Vous avez un chat.
 Vous connaissez ma femme.
+Vous donnez des chemises blanches.
 Vous mangez des pommes.
 Vous mangez le citron.
 Vous mangez une carotte.
