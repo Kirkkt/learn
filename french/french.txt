@@ -526,6 +526,7 @@ bleu, bleue, bleus, bleues
 jeune, jeune, jeunes, jeunes
 second, seconde, seconds, secondes
 ,,, mauvais
+même, même, mêmes, mêmes
 nouveau, nouvel (before vowel) nouvelle, nouveaux, nouvelles
 
 \pagebreak
@@ -660,7 +661,10 @@ Bonjour ! Comment ça va ?
 Bonjour le lapin! Comment ça va?
 Bonjour, vas-tu bien ?
 Bonsoir !
+C'est comme ça.
 C'est du café, mais il aime ça !
+C'est l'homme que je connais.
+C'est la même couleur.
 C'est ma seconde chaussure.
 C'est notre enfant.
 C'est ta nouvelle ceinture ?
@@ -678,6 +682,7 @@ Ce sont de grands hommes avec de petits chapeaux.
 Ce sont des chats.
 Ce sont nos livres.
 Ces enfants mangent.
+Ces garçons lisent des livres.
 Cet enfant mange du poisson.
 Cet homme est jeune.
 Cet insecte est noir et jaune.
@@ -732,6 +737,7 @@ Elle mange du poisson et du poulet.
 Elle mange une crêpe.
 Elle mange une pomme.
 Elle met son manteau.
+Elle montre une mouche.
 Elle mérite une jolie jupe.
 Elle mérite ça.
 Elle te lit un journal.
@@ -741,6 +747,7 @@ Elles donnent des vêtements.
 Elles lisent ce menu.
 Elles lisent seules.
 Elles mangent une fraise.
+Elles mettent des robes.
 Elles ont des livres.
 Elles ont du vin.
 Elles sont calmes.
@@ -756,6 +763,7 @@ Est-ce que tu l'aides ?
 Est-ce que vous aimez le chocolat ?
 Est-ce que vous avez des légumes ?
 Hélène est la professeur.
+Il a le même chapeau.
 Il a un costume et un portefeuille.
 Il a un costume noir.
 Il a un enfant.
@@ -791,6 +799,8 @@ Il mange une banane.
 Il mange une orange.
 Il mange, donc je mange.
 Il me cherche.
+Il met un chapeau.
+Il montre une vache.
 Il mérite des frites.
 Il nous aime.
 Il nous faut du pain.
@@ -803,6 +813,7 @@ Il s'appelle comment ?
 Il veut une pomme.
 Ils achètent le cheval.
 Ils lavent des légumes.
+Ils lisent les mêmes livres.
 Ils mangent du bœuf.
 Ils mangent une banane.
 Ils mangent une fraise.
@@ -857,6 +868,7 @@ Je l'ai.
 Je l'attends.
 Je les aime.
 Je lis, car j'aime ce livre.
+Je m'en vais.
 Je mange des pommes.
 Je mange des pâtes.
 Je mange des sandwichs.
@@ -873,6 +885,7 @@ Je parle.
 Je prends une salade.
 Je respecte ta femme.
 Je sais où c'est.
+Je sais où elle est.
 Je sais que tu sais que je sais.
 Je suis jeune.
 Je suis second.
@@ -884,6 +897,7 @@ Je suis une femme.
 Je te lis un livre.
 Je te veux.
 Je vais manger une baguette.
+Je vais manger.
 Je veux boire quelque chose.
 Je veux un poisson rouge.
 Je veux une boisson.
@@ -1048,6 +1062,7 @@ Nous avons une voiture verte.
 Nous cherchons un livre.
 Nous comprenons le journal.
 Nous donnons des pommes.
+Nous finissons notre boisson.
 Nous lavons nos chaussettes.
 Nous lisons ses lettres.
 Nous lisons tes lettres.
@@ -1059,6 +1074,7 @@ Nous mangeons du poulet.
 Nous mangeons du sucre.
 Nous mangeons le chocolat.
 Nous mangeons une salade.
+Nous mettons nos cravates.
 Nous pouvons manger le repas.
 Nous sommes contents.
 Nous sommes riches.
@@ -1073,6 +1089,8 @@ Oui, elles coûtent combien, les chips ?
 Oui, je comprends. Merci.
 Oui, je dois manger et boire.
 Oui, je peux !
+Oui, je t'aime.
+Oui, je vous aime.
 Oui, oui, le monsieur à côté de la fille très mince
 Oui, s'il te plaît !
 Où sont les chaussures ?
@@ -1167,6 +1185,7 @@ Une baleine est un animal.
 Une tomate est rouge.
 Une veste est un vêtement.
 Veux-tu des fraises ?
+Votre femme est grande.
 Votre sac contient des légumes.
 Voulez-vous un enfant ou une chienne ?
 Vous aidez votre femme.
@@ -1213,6 +1232,7 @@ la boisson
 la ceinture
 la confiture
 la mouche
+la même fraise
 la viande
 le riz
 le sel
