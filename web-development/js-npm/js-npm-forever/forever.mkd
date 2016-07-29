@@ -25,5 +25,7 @@ Helper commands <!-- {{{2 -->
     - `kill {pid}` : kill the process specified by {pid}, note that if this
       process is run by forever, forever will start a new thread in order to
       rerun the same js file. This is exactly what we need forever for.
-- `forever stop {pid}` : permanently stop the thread specified by {pid}
+- `forever restart server.js` : restart server.js
+- `forever stop server.js` or `forever stop {pid}` : permanently stop the thread specified by {pid},
+  or server.js
 - `forever stopall` : permanently stop all forever threads
