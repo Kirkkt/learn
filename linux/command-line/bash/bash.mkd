@@ -59,10 +59,11 @@ mv <!-- {{{1 -->
   directories into one directory, this will fail if the last argument is not a directory
 - `mv -v` : verbose mode, useful when used with wildcards
 - `mv -i` : interactive mode, prompts before overwrite
-- `mv -u` : TODO linux only, update mode, overwrite only if source is newer than destination, otherwise doesn't do anything
+- `mv -u` : linux only, update mode, overwrite only if source is newer than destination, otherwise
+  doesn't do anything
 - `mv -n` : do not overwrite. Skips silents when destination has already existed.
 - `mv -f` : force mode, always overwrite.
-- `mv -b` : TODO linux only, overwrites but creates a backup file that looks something like
+- `mv -b` : linux only, overwrites but creates a backup file that looks something like
   destination.file~
 
 \pagebreak
