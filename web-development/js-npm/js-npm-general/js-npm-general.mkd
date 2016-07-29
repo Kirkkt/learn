@@ -33,10 +33,20 @@ topic.
 
 \pagebreak
 
-Try not to install node-sass <!-- {{{1 -->
-============================
+npm commands <!-- {{{1 -->
+============
+- `npm run uncommonScriptName` : run script specified in package.json/scripts.uncommonScriptName.
+  These uncommonScriptName are script names that aren't start, test, i, install, and several others.
+- `npm run start:watch` : run script specified in package.json/scripts.start:watch (notice that the
+  colon : here acts as a normal character)
+
+\pagebreak
+
+npm modules <!-- {{{1 -->
+===========
+
+Try not to install node-sass <!-- {{{2 -->
+----------------------------
 It takes forever.
 
 It is not hard to get around *sass*. We can use javascript inline styles for variable sharing.
-
-TODO npm run start:watch
