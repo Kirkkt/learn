@@ -47,6 +47,12 @@ killall <!-- {{{2 -->
 
 \pagebreak
 
+rm <!-- {{{1 -->
+==
+- `rm -v` : verbose mode, show files deleted
+
+\pagebreak
+
 mv <!-- {{{1 -->
 ==
 - `mv file1 file2 file3 dir1 dir2/ dir3 destination_directory/` : mv multiple files and
