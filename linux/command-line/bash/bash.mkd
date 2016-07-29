@@ -32,6 +32,35 @@ A preceding or trailing colon actually has a meaning - it includes the current d
 
 \pagebreak
 
+kill <!-- {{{1 -->
+====
+kill <!-- {{{2 -->
+----
+- `kill process_id` : kill a process specified by process_id, which can be found via
+  `ps aux|grep some_search_keywords`
+
+killall <!-- {{{2 -->
+-------
+- `killall node` : kills all running node commands
+- `killall -I` : case insensitive
+- `killall -i` : interactive mode, prompts before kill
+
+\pagebreak
+
+mv <!-- {{{1 -->
+==
+- `mv file1 file2 file3 dir1 dir2/ dir3 destination_directory/` : mv multiple files and
+  directories into one directory, this will fail if the last argument is not a directory
+- `mv -v` : verbose mode, useful when used with wildcards
+- `mv -i` : interactive mode, prompts before overwrite
+- `mv -u` : TODO linux only, update mode, overwrite only if source is newer than destination, otherwise doesn't do anything
+- `mv -n` : do not overwrite. Skips silents when destination has already existed.
+- `mv -f` : force mode, always overwrite.
+- `mv -b` : TODO linux only, overwrites but creates a backup file that looks something like
+  destination.file~
+
+\pagebreak
+
 Pipe <!-- {{{1 -->
 ====
 Show no error message <!-- {{{2 -->
