@@ -377,3 +377,19 @@ const forOf = function() {
   // }
 };
 forOf();
+
+/**
+  $array.includes($item) returns true or false representing whether the $item
+  is included in $array. It's the same as $array.indexOf($item) !== -1 but more
+  readable
+  */
+const includes = function() {
+  console.log('# includes');
+  const a = [0, 1, 2, 3];
+  console.log(a.includes(0)); // true
+  console.log(a.includes('0')); // false
+  console.log(a.includes(-1)); // false
+  console.log(a.includes(null)); // false
+  console.log(a.includes(undefined)); // false
+};
+includes();
