@@ -41,8 +41,8 @@ ls <!-- {{{1 -->
 
 \pagebreak
 
-kill and ps <!-- {{{1 -->
-===========
+kill, ps, top and free <!-- {{{1 -->
+======================
 ps <!-- {{{2 -->
 --
 - `ps aux | grep process_name` : grep process with keyword process_name
@@ -62,6 +62,14 @@ killall <!-- {{{2 -->
 - `killall node` : kills all running node commands
 - `killall -I` : case insensitive
 - `killall -i` : interactive mode, prompts before kill
+
+top <!-- {{{2 -->
+---
+- `top` : display all running processes and their cpu and RAM footprint
+
+free <!-- {{{2 -->
+----
+- `free -h` : show RAM usage in general in human-friendly format
 
 \pagebreak
 
@@ -150,12 +158,18 @@ file <!-- {{{1 -->
 
 \pagebreak
 
-du <!-- {{{1 -->
-==
+du and df <!-- {{{1 -->
+=========
+du <!-- {{{2 -->
+--
 - `du -h | sort -rn` : list all directories recursively and their sizes, sorted with the largest on
   top
 - `du -cks * | sort -rn | less` : list all directories and files and their sizes, sorted with the
   largest on top
+
+df <!-- {{{2 -->
+--
+- `df` : list all disk partitions and their space usage
 
 \pagebreak
 
@@ -218,3 +232,17 @@ A example with fish <!-- {{{2 -->
       gitdo "git diff"
     end
 
+\pagebreak
+
+uptime, who and w <!-- {{{1 -->
+=================
+- `uptime` : check the uptime information of the current computer
+- `who` : display all logged-in users
+- `w` : display all logged-in users and their uptime
+
+\pagebreak
+
+mkpasswd <!-- {{{1 -->
+========
+- `sudo apt-get install whois`
+- `mkpasswd -l 12` : generate a random 12-digit password
