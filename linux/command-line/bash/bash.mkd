@@ -41,8 +41,17 @@ ls <!-- {{{1 -->
 
 \pagebreak
 
-kill <!-- {{{1 -->
-====
+kill and ps <!-- {{{1 -->
+===========
+ps <!-- {{{2 -->
+--
+- `ps aux | grep process_name` : grep process with keyword process_name
+
+pstree <!-- {{{2 -->
+------
+- `pstree` : show all processes in tree format
+- `pstree (whoami)` : fish only, show all processes that I started in tree format
+
 kill <!-- {{{2 -->
 ----
 - `kill process_id` : kill a process specified by process_id, which can be found via
@@ -79,11 +88,39 @@ mv <!-- {{{1 -->
 
 Pipe <!-- {{{1 -->
 ====
-Show no error message <!-- {{{2 -->
----------------------
+Show no error message with 2> /dev/null <!-- {{{2 -->
+---------------------------------------
 - `some_commend 2> /dev/null` : display no error message
     - `mkdir /tmp` : displays error message: dir /tmp exists
     - `mkdir /tmp 2> /dev/null` : displays no error message
+
+Add line number with nl <!-- {{{2 -->
+-----------------------
+- `some_command | nl` : add line number to each non-empty line
+    - `man ls | nl`
+- `nl some.file` : like cat, but with line numbers
+
+Text stream with pv <!-- {{{2 -->
+-------------------
+- `sudo apt-get install pv`
+- `cat bash.mkd | pv -qL 20` : stream content of bash.mkd to command line output
+
+Pipe to system clipboard with pbcopy or xclip <!-- {{{2 -->
+---------------------------------------------
+### pbcopy on mac
+- `pbcopy < a.file` : copy the content of a.file to system clipboard
+- `type vim | pbcopy` : copy the information regarding command vim to system clipboard
+
+### xclip on linux
+- `sudo apt-get install xclip`
+- `xclip -sel clip < a.file` : copy the content of a.file to system clipboard
+- `type vim | xclip -sel clip` : copy the information regarding command vim to system clipboard
+
+Create a large file fast with yes <!-- {{{2 -->
+---------------------------------
+- `yes "some string"` : repeatedly output "some string" to the command until <c-c>
+- `yes "some string" > my.large.file` : create a large garbage my.large.file with content of
+  "some string"
 
 \pagebreak
 
@@ -103,6 +140,43 @@ Determine if my system is 32bit or 64bit <!-- {{{2 -->
 - `uname -m`
     - if the output is **i686** or **i386**, it means 32bit
     - if the output is **x86_64**, it means 64bit
+- `getconf LONG_BIT` : it outputs either 32 or 64
+
+\pagebreak
+
+file <!-- {{{1 -->
+====
+- `file a.file` : show file type info
+
+\pagebreak
+
+du <!-- {{{1 -->
+==
+- `du -h | sort -rn` : list all directories recursively and their sizes, sorted with the largest on
+  top
+- `du -cks * | sort -rn | less` : list all directories and files and their sizes, sorted with the
+  largest on top
+
+\pagebreak
+
+python http server <!-- {{{1 -->
+==================
+- `python -m SimpleHTTPServer port_number` : start a simple python http server at port port_number,
+  by default, the port number is 8000
+
+\pagebreak
+
+Date and cal <!-- {{{1 -->
+============
+- `date` : check current date and time
+- `cal` : display calendar for the current month
+- `cal 2015` : display calendar for year 2015
+
+\pagebreak
+
+look <!-- {{{1 -->
+====
+- `look word` : show all English words that starts with word, useful to check for typos
 
 \pagebreak
 
