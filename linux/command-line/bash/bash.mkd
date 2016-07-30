@@ -79,9 +79,44 @@ free <!-- {{{2 -->
 
 \pagebreak
 
+cp <!-- {{{1 -->
+==
+cp -r on mac <!-- {{{2 -->
+------------
+- `cp -r from_directory/ to_directory/` or `cp -r from_directory/ to_directory` : cp the content of
+  from_directory, and not from_directory itself to below to_directory, regardless whether it exists.
+    - `cd /tmp; rm -rf 1 4 5; mkdir -p 1/2/3 4; cp -r 1/ 4; cp -r 1/ 5/; tree 4 5`
+        - `4/2/3` and `5/2/3`
+- `cp -r from_directory to_directory/` or `cp -r from_directory to_directory` : if to_directory
+  exists, cp from_directory itself to below to_directory; if to_directory doesn't exist, it creates
+  to_directory and cp the content of from_directory, and not from_directory itself to below
+  to_directory
+    - `cd /tmp; rm -rf 1 4 5; mkdir -p 1/2/3 4; cp -r 1 4; cp -r 1 5/; tree 4 5`
+        - `4/1/2/3` and `5/2/3`
+
+cp -r on linux <!-- {{{2 -->
+--------------
+- `cp -r from_directory to_directory` : regardless of the / placement, if to_directory exists, it
+  cp from_directory itself to below to_directory, and if to_directory doesn't exist, it creates
+  to_directory and cp the content of from_directory, instead of from_directory itself to below
+  to_directory.
+    - `cd /tmp; rm -rf 1 4 5; mkdir -p 1/2/3 4; cp -r 1/ 4; cp -r 1 5/; tree 4 5`
+        - `4/1/2/3` and `5/2/3`
+
+\pagebreak
+
+mkdir <!-- {{{1 -->
+=====
+- `mkdir -p 1/2/3` : recursively creates 1, then 2 under 1, and then 3 under 2
+    - `cd /tmp/; rm -rf 1; mkdir -p 1/2/3; tree 1`
+
+\pagebreak
+
 rm <!-- {{{1 -->
 ==
 - `rm -v` : verbose mode, show files deleted
+- `rm -f` : force mode, won't show error message if the file doesn't exist, no need to
+  `2> /dev/null`
 
 \pagebreak
 
