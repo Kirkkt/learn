@@ -68,5 +68,13 @@ Auto run commands on startup with rc.local <!-- {{{2 -->
     - note that rc.local doesn't understand ~. Absolute paths are needed.
 3. restart and check for effectiveness
 
+Another problem with /etc/rc.local, alongside that it requires the executable bit to be changed in
+order to run, and that it doesn't understand ~, is that the processes it starts requires sudo
+permission in order to stop. This means that the commands inside rc.local should really be those
+that 1. I don't want to kill often and 2. I don't want to modify often.
+
+One such example is when the machine is used as an HTTP node server, I put forever start server.js
+inside rc.local.
+
 \pagebreak
 
