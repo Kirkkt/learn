@@ -1,2 +1,14 @@
 try: linux /etc/rc.local is run automatically on boot
 q: how to detect os on fish?
+fish: $argv'something' adds something to the end of every item in $argv
+fish: eval executes a string as a command
+# vim open grepped result
+    type vo > /dev/null 2>&1; or function vo
+      eval $argv "| vim - -c 'runtime! 9manual/vimAndOpen.vim' -c 'silent! call VimAndOpenFunction()'"
+    end
+
+    type le > /dev/null 2>&1;or function le
+      eval $argv " | less"
+    end
+
+fish: how to detect $argv is empty
