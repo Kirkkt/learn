@@ -12,3 +12,12 @@ fish: eval executes a string as a command
     end
 
 fish: how to detect $argv is empty
+
+https://linux.cn/topic-commands.html
+
+http://www.tecmint.com/useful-linux-commands-for-newbies/
+http://www.tecmint.com/20-advanced-commands-for-middle-level-linux-users/
+http://www.tecmint.com/20-advanced-commands-for-linux-experts/
+https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html
+https://facebook.github.io/react/docs/transferring-props.html
+http://thebespokepixel.com/fish/mono/tutorial.html

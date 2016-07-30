@@ -36,8 +36,14 @@ ls <!-- {{{1 -->
 ==
 - `ls -d */` : list all directories under the current directory
 - `ls --color=never` : linux only, list without color
+- `ls --color=always` : linux only, list with color
 - `ls -p` : all forward slash / to the end of directories
 - `ls -r` : list in reverse order
+- `ls -S` : list ordered by size
+- `ls -lh` : list with humanly readable size info
+- `ls -R` : list files recursively
+- `ls -ltc` : list ordered by modified time with the latest on top
+- `ls -lX` or `ls --sort=extension` : linux only, sort by file extension
 
 \pagebreak
 
@@ -245,4 +251,5 @@ uptime, who and w <!-- {{{1 -->
 mkpasswd <!-- {{{1 -->
 ========
 - `sudo apt-get install whois`
-- `mkpasswd -l 12` : generate a random 12-digit password
+- `mkpasswd some_seed st` : generate a random 13-character-long password, notice that st must be 2
+  characters while some_seed can be of any length
