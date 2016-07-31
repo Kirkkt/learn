@@ -5,8 +5,8 @@ Stage <!-- {{{1 -->
 =====
 - `git add file_or_directory` : stage a single file or directory
     - `git add .`
-- `git add -p` : stage one modified page at a time with prompt (does not care about new files). A
-  single modified file can have multiple pages.
+- `git add -p` : stage one modified chunk at a time with prompt (does not care about new files). A
+  single modified file can have multiple modified chunks.
 - `git add --all` : add everything new under the git repository, including new files and files above
   the current directory
 
@@ -21,6 +21,18 @@ Commit <!-- {{{1 -->
 - `git commit -m 'longer commit message'` : quick commit with a message longer than one word
 - `git commit --allow-empty` : allow empty commits, that is, commits that are identical to its
   predecessor
+
+\pagebreak
+
+Branch management <!-- {{{1 -->
+=================
+- `git branch` : list all branches
+- `git branch --color=never` : list all branches, force no color
+- `git checkout branch_name` : switch to that branch
+- `git checkout -b new_branch_name` : create a new branch named new_branch_name with content
+  identical to the current branch and switch to new_branch_name
+- `git branch -D another_branch` : remove another_branch, you cannot remove the current branch
+- `git branch -m new_name`: rename the current branch
 
 \pagebreak
 
@@ -39,6 +51,7 @@ HEAD <!-- {{{2 -->
 - HEAD~1 is the same as HEAD^
     - `git diff HEAD~1 HEAD^` : returns empty
 - HEAD~10 is ten commits before.
+- head works just as fine
 
 Tedious but safe with git checkout <!-- {{{2 -->
 ----------------------------------
@@ -61,7 +74,12 @@ Faster but more dangerous with git reset <!-- {{{2 -->
 
 Fastest but most dangerous with git reset --hard <!-- {{{2 -->
 ------------------------------------------------
-TODO
+1. `git checkout -b branch_name` : crucial, backup first because git reset cannot be undone!
+2. `git log`
+3. pick a commit, and copy the commit hash
+4. `git reset --hard that_commit_hash` : this will reset the staging info and the file to
+  that_commit_hash. After this is done, git status will show that the branch is clean, and all
+  previous commits are lost.
 
 \pagebreak
 
@@ -82,7 +100,11 @@ Config <!-- {{{1 -->
     - `git config --global user.name "My Name"` : do so globally
 - `git config user.email "my@mail.address"` : set the user.email that appears in the commit message
   to be "my@mail.address"
--  `git config --global core.ignorecase false` TODO
+- `git config --global core.ignorecase false` : by default git ignores case, what this means is
+  that *mv FiLe file* won't be considered a change by git. Note that this *mv FiLe file* case is
+  particularly tricky on mac, MacOS doesn't recognize this as a change, which makes it impossible
+  for git to notice this change, even after git is set to not ignore case globally. The right
+  solution is *mv FiLe some_temp_name; mv some_temp_name file*.
 
 \pagebreak
 
