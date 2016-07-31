@@ -182,8 +182,8 @@ lxsplit <!-- {{{1 -->
 
 \pagebreak
 
-uname <!-- {{{1 -->
-=====
+uname and getconf <!-- {{{1 -->
+=================
 Determine if my system is 32bit or 64bit <!-- {{{2 -->
 ----------------------------------------
 - `uname -m`
@@ -288,3 +288,80 @@ mkpasswd <!-- {{{1 -->
 - `sudo apt-get install whois`
 - `mkpasswd some_seed st` : generate a random 13-character-long password, notice that st must be 2
   characters while some_seed can be of any length
+
+\pagebreak
+
+Fun in command line <!-- {{{1 -->
+===================
+Star wars via telnet <!-- {{{2 -->
+--------------------
+    telnet towel.blinkenlights.nl
+
+sl - Steam Locomotive <!-- {{{2 -->
+---------------------
+    sudo apt-get install sl
+    sl
+
+cowsay, cowthink and xcowsay <!-- {{{2 -->
+----------------------------
+    sudo apt-get install cowsay
+    cowsay I love Vim!
+    cowthink I love Vim!
+    sudo apt-get install xcowsay
+    xcowsay I love Vim!
+
+toilet and banner <!-- {{{2 -->
+-----------------
+    sudo apt-get install toilet
+    toilet I love you, Vim!
+    toilet -f mono12 -F metal Tecmint.com
+    while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
+    while true; do clear; echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
+
+    sudo apt-get install sysvbanner
+    banner good morning beautiful
+
+cmatrix and aafire <!-- {{{2 -->
+------------------
+    sudo apt-get install cmatrix
+    cmatrix
+    sudo apt-get install aafire
+    aafire
+
+oneko and xeyes mouse tracking <!-- {{{2 -->
+------------------------------
+    sudo apt-get install oneko
+    oneko
+    xeyes
+
+funny-manpages <!-- {{{2 -->
+--------------
+    sudo apt-get install funny-manpages
+    man sex
+
+rig for fake contact info <!-- {{{2 -->
+-------------------------
+    sudo apt-get install rig
+    rig
+
+asciiview for viewing images in ascii format <!-- {{{2 -->
+--------------------------------------------
+    sudo apt-get install aview
+    asciiview elephant.jpg -driver curses
+
+asciiquarium <!-- {{{2 -->
+------------
+    sudo apt-get install libcurses-perl
+    cd /tmp
+    wget http://search.cpan.org/CPAN/authors/id/K/KB/KBAUCOM/Term-Animation-2.4.tar.gz
+    tar -zxvf Term-Animation-2.4.tar.gz
+    cd Term-Animation-2.4/
+    sudo perl Makefile.PL && make && make test
+    make install
+    cd /tmp
+    wget http://www.robobunny.com/projects/asciiquarium/asciiquarium.tar.gz
+    tar -zxvf asciiquarium.tar.gz
+    cd asciiquarium_1.1/
+    sudo cp asciiquarium /usr/local/bin
+    sudo chmod a+x /usr/local/bin/asciiquarium
+    asciiquarium

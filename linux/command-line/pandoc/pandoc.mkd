@@ -1,0 +1,19 @@
+<!-- command line applications -->
+\pagebreak
+
+pandoc <!-- {{{1 -->
+======
+- `pandoc -o {output_file_name}.html {input_file_name}.mkd` : generate html file from markdown
+    - `pandoc -o resources/pandoc.html resources/pandoc.mkd`
+- `pandoc -o {output_file_name}.pdf {input_file_name}.mkd` : generate pdf file from markdown
+    - `pandoc -o resources/pandoc.pdf resources/pandoc.mkd`
+- `pandoc --toc --toc-depth={n} -o {output_file_name}.pdf {input_file_name}.mkd` : generate pdf file
+  from markdown, with 2 levels of table of contents (this means all level 1 and level 2 headers will
+  appear in the table of content generated)
+    - `pandoc --toc --toc-depth=2 -o resources/pandoc-toc2.pdf resources/pandoc.mkd`
+
+Other resources <!-- {{{2 -->
+---------------
+- [pandoc README](http://pandoc.org/README.html)
+- [LATEX general help)[http://www.personal.ceu.hu/tex/latex.htm)
+
