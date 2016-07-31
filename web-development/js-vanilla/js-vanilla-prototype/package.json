@@ -2,7 +2,7 @@
   "name": "prototype",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "prototype.js",
   "author": "",
   "license": "ISC"
 }

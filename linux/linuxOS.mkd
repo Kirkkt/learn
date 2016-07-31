@@ -1,4 +1,4 @@
-<!-- Ubuntu -->
+<!-- LinuxOS -->
 \pagebreak
 
 Ubuntu <!-- {{{1 -->
@@ -54,6 +54,19 @@ On `BIOS`, set touchpad from advanced to basic solves it.
 Hardware info <!-- {{{2 -->
 -------------
     sudo lshw | less
+
+\pagebreak
+
+Kernel <!-- {{{1 -->
+======
+Auto run commands on startup with rc.local <!-- {{{2 -->
+------------------------------------------
+`/etc/rc.local` is a place to run command line commands on startup.
+
+1. `sudo chmod a+x /etc/rc.local` : by default it is not executable by anyone
+2. `sudo vim /etc/rc.local` : edit and save
+    - note that rc.local doesn't understand ~. Absolute paths are needed.
+3. restart and check for effectiveness
 
 \pagebreak
 

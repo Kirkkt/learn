@@ -158,8 +158,9 @@ In addition to standard piping using a vertical bar, fish has its own syntax for
 
 - `vim (grep -r mark * | grep -v 'fish.md:' | cut -f1 -d: | sort -u)` : us vim to open all the files
     returned by the grep command group
-- `vim (fs nocolor \/findme\$)` : open all .js files, ignoring
-        certain file paths
+- `vim (fs nocolor \/findme\$)` : open all files that has findme in their names
+- `vim (ls *.txt)` : open all txt files
+- `cat (npm get userconfig)` : show the content of the file that npm get userconfig specifies
 
 \pagebreak
 
@@ -249,8 +250,8 @@ use `'` or `"` to escape spaces for file names and grep key words. In bash, `'` 
 different, as `"` doesn't prevent special characters from expanding, but in fish they are identical
 (which is really nice).
 
-Clean up SET and SET_EXPORT <!-- {{{2 -->
----------------------------
+Clean up <!-- {{{2 -->
+--------
 Often times I forget to clean up environment variables that I have created, but they remain there.
 
 To clean them up, go to `~/.config/fish` and delete the file named something like

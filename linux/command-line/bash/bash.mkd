@@ -30,6 +30,146 @@ A preceding or trailing colon actually has a meaning - it includes the current d
 - `new_path:new_path1:` : `new_path` first, then `new_path1`, and then the current directory
 - `new_path:new_path1` : `new_path` first, and the `new_path1`
 
+\pagebreak
+
+ls <!-- {{{1 -->
+==
+- `ls -d */` : list all directories under the current directory
+- `ls --color=never` : linux only, list without color
+- `ls --color=always` : linux only, list with color
+- `ls -p` : all forward slash / to the end of directories
+- `ls -r` : list in reverse order
+- `ls -S` : list ordered by size
+- `ls -lh` : list with humanly readable size info
+- `ls -R` : list files recursively
+- `ls -ltc` : list ordered by modified time with the latest on top
+- `ls -lX` or `ls --sort=extension` : linux only, sort by file extension
+
+\pagebreak
+
+kill, ps, top and free <!-- {{{1 -->
+======================
+ps <!-- {{{2 -->
+--
+- `ps aux | grep process_name` : grep process with keyword process_name
+
+pstree <!-- {{{2 -->
+------
+- `pstree` : show all processes in tree format
+- `pstree (whoami)` : fish only, show all processes that I started in tree format
+
+kill <!-- {{{2 -->
+----
+- `kill process_id` : kill a process specified by process_id, which can be found via
+  `ps aux|grep some_search_keywords`
+
+killall <!-- {{{2 -->
+-------
+- `killall node` : kills all running node commands
+- `killall -I` : case insensitive
+- `killall -i` : interactive mode, prompts before kill
+
+top <!-- {{{2 -->
+---
+- `top` : display all running processes and their cpu and RAM footprint
+
+free <!-- {{{2 -->
+----
+- `free -h` : show RAM usage in general in human-friendly format
+
+\pagebreak
+
+cp <!-- {{{1 -->
+==
+cp -r on mac <!-- {{{2 -->
+------------
+- `cp -r from_directory/ to_directory/` or `cp -r from_directory/ to_directory` : cp the content of
+  from_directory, and not from_directory itself to below to_directory, regardless whether it exists.
+    - `cd /tmp; rm -rf 1 4 5; mkdir -p 1/2/3 4; cp -r 1/ 4; cp -r 1/ 5/; tree 4 5`
+        - `4/2/3` and `5/2/3`
+- `cp -r from_directory to_directory/` or `cp -r from_directory to_directory` : if to_directory
+  exists, cp from_directory itself to below to_directory; if to_directory doesn't exist, it creates
+  to_directory and cp the content of from_directory, and not from_directory itself to below
+  to_directory
+    - `cd /tmp; rm -rf 1 4 5; mkdir -p 1/2/3 4; cp -r 1 4; cp -r 1 5/; tree 4 5`
+        - `4/1/2/3` and `5/2/3`
+
+cp -r on linux <!-- {{{2 -->
+--------------
+- `cp -r from_directory to_directory` : regardless of the / placement, if to_directory exists, it
+  cp from_directory itself to below to_directory, and if to_directory doesn't exist, it creates
+  to_directory and cp the content of from_directory, instead of from_directory itself to below
+  to_directory.
+    - `cd /tmp; rm -rf 1 4 5; mkdir -p 1/2/3 4; cp -r 1/ 4; cp -r 1 5/; tree 4 5`
+        - `4/1/2/3` and `5/2/3`
+
+\pagebreak
+
+mkdir <!-- {{{1 -->
+=====
+- `mkdir -p 1/2/3` : recursively creates 1, then 2 under 1, and then 3 under 2
+    - `cd /tmp/; rm -rf 1; mkdir -p 1/2/3; tree 1`
+
+\pagebreak
+
+rm <!-- {{{1 -->
+==
+- `rm -v` : verbose mode, show files deleted
+- `rm -f` : force mode, won't show error message if the file doesn't exist, no need to
+  `2> /dev/null`
+
+\pagebreak
+
+mv <!-- {{{1 -->
+==
+- `mv file1 file2 file3 dir1 dir2/ dir3 destination_directory/` : mv multiple files and
+  directories into one directory, this will fail if the last argument is not a directory
+- `mv -v` : verbose mode, useful when used with wildcards
+- `mv -i` : interactive mode, prompts before overwrite
+- `mv -u` : linux only, update mode, overwrite only if source is newer than destination, otherwise
+  doesn't do anything
+- `mv -n` : do not overwrite. Skips silents when destination has already existed.
+- `mv -f` : force mode, always overwrite.
+- `mv -b` : linux only, overwrites but creates a backup file that looks something like
+  destination.file~
+
+\pagebreak
+
+Pipe <!-- {{{1 -->
+====
+Show no error message with 2> /dev/null <!-- {{{2 -->
+---------------------------------------
+- `some_commend 2> /dev/null` : display no error message
+    - `mkdir /tmp` : displays error message: dir /tmp exists
+    - `mkdir /tmp 2> /dev/null` : displays no error message
+
+Add line number with nl <!-- {{{2 -->
+-----------------------
+- `some_command | nl` : add line number to each non-empty line
+    - `man ls | nl`
+- `nl some.file` : like cat, but with line numbers
+
+Text stream with pv <!-- {{{2 -->
+-------------------
+- `sudo apt-get install pv`
+- `cat bash.mkd | pv -qL 20` : stream content of bash.mkd to command line output
+
+Pipe to system clipboard with pbcopy or xclip <!-- {{{2 -->
+---------------------------------------------
+### pbcopy on mac
+- `pbcopy < a.file` : copy the content of a.file to system clipboard
+- `type vim | pbcopy` : copy the information regarding command vim to system clipboard
+
+### xclip on linux
+- `sudo apt-get install xclip`
+- `xclip -sel clip < a.file` : copy the content of a.file to system clipboard
+- `type vim | xclip -sel clip` : copy the information regarding command vim to system clipboard
+
+Create a large file fast with yes <!-- {{{2 -->
+---------------------------------
+- `yes "some string"` : repeatedly output "some string" to the command until <c-c>
+- `yes "some string" > my.large.file` : create a large garbage my.large.file with content of
+  "some string"
 
 \pagebreak
 
@@ -42,13 +182,14 @@ lxsplit <!-- {{{1 -->
 
 \pagebreak
 
-uname <!-- {{{1 -->
-=====
+uname and getconf <!-- {{{1 -->
+=================
 Determine if my system is 32bit or 64bit <!-- {{{2 -->
 ----------------------------------------
 - `uname -m`
     - if the output is **i686** or **i386**, it means 32bit
     - if the output is **x86_64**, it means 64bit
+- `getconf LONG_BIT` : it outputs either 32 or 64
 
 \pagebreak
 
@@ -127,3 +268,100 @@ asciiquarium <!-- {{{2 -->
     sudo chmod a+x /usr/local/bin/asciiquarium
     asciiquarium
 
+\pagebreak
+
+file <!-- {{{1 -->
+====
+- `file a.file` : show file type info
+
+\pagebreak
+
+du and df <!-- {{{1 -->
+=========
+du <!-- {{{2 -->
+--
+- `du -h | sort -rn` : list all directories recursively and their sizes, sorted with the largest on
+  top
+- `du -cks * | sort -rn | less` : list all directories and files and their sizes, sorted with the
+  largest on top
+
+df <!-- {{{2 -->
+--
+- `df` : list all disk partitions and their space usage
+
+\pagebreak
+
+python http server <!-- {{{1 -->
+==================
+- `python -m SimpleHTTPServer port_number` : start a simple python http server at port port_number,
+  by default, the port number is 8000
+
+\pagebreak
+
+Date and cal <!-- {{{1 -->
+============
+- `date` : check current date and time
+- `cal` : display calendar for the current month
+- `cal 2015` : display calendar for year 2015
+
+\pagebreak
+
+look <!-- {{{1 -->
+====
+- `look word` : show all English words that starts with word, useful to check for typos
+
+\pagebreak
+
+eval <!-- {{{1 -->
+====
+- `eval "command"` : run a string as a command
+    - `eval "echo $PATH"` : same as echo $PATH
+
+A example with fish <!-- {{{2 -->
+-------------------
+    type _cdanddo > /dev/null 2>&1; or function _cdanddo
+      cd $argv[1]
+      eval $argv[2]
+      cd -
+    end
+
+    type gitdo > /dev/null 2>&1; or function gitdo
+      _cdanddo ~/github/dot-files $argv[1]
+      _cdanddo ~/github/learn $argv[1]
+      _cdanddo ~/git/active-notes $argv[1]
+      _cdanddo ~/git/legacy-notes $argv[1]
+      _cdanddo ~/git/drawer $argv[1]
+      _cdanddo ~/git/stash $argv[1]
+    end
+
+    type pullall > /dev/null 2>&1; or function pullall
+      gitdo "git pull"
+    end
+
+    type pushall > /dev/null 2>&1; or function pushall
+      gitdo "git push"
+    end
+
+    type stall > /dev/null 2>&1; or function stall
+      gitdo "git status"
+    end
+
+    type gdall > /dev/null 2>&1; or function gdall
+      gitdo "git diff"
+    end
+
+\pagebreak
+
+uptime, who and w <!-- {{{1 -->
+=================
+- `uptime` : check the uptime information of the current computer
+- `who` : display all logged-in users
+- `w` : display all logged-in users and their uptime
+
+\pagebreak
+
+mkpasswd <!-- {{{1 -->
+========
+- `sudo apt-get install whois`
+- `mkpasswd some_seed st` : generate a random 13-character-long password, notice that st must be 2
+  characters while some_seed can be of any length

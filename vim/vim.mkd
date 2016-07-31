@@ -216,3 +216,22 @@ Mark <!-- {{{1 -->
 
     `> : end of last visual selection
     '> : the ^ of end of last visual selection
+
+\pagebreak
+
+Abbreviation <!-- {{{1 -->
+============
+Single-line abbreviation <!-- {{{2 -->
+------------------------
+- `inoreabbrev qcl console.log('highlightme` : define a simple abbreviation
+- `inoreabbrev qdl <c-r>=strftime("%Y/%m/%d")<cr><left><esc>` : abbreviation for quickly insert a
+  long date, like 2016/07/30
+- `inoreabbrev qds <c-r>=strftime("%Y%m%d")<cr><left><esc>` : abbreviation for quickly insert a
+  short date, like 20160730
+
+Multi-line abbreviation <!-- {{{2 -->
+-----------------------
+    inoreabbrev func type FUNCTION_NAME > /dev/null 2>&1; or function FUNCTION_NAME
+      \<cr>end<esc>k$*
+
+The above abbreviation expands, escapes to normal mode and * search FUNCTION_NAME to quickly replace
