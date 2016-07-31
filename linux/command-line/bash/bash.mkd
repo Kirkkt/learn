@@ -20,7 +20,6 @@ Wildcards <!-- {{{1 -->
 
 Path <!-- {{{1 -->
 ====
-
 A path is an ordered list. When the operating system uses a path, it search from the beginning of
 the ordered list to the end, and stops upon found or termination. Items are separated by colons `:`.
 
@@ -81,6 +80,11 @@ free <!-- {{{2 -->
 
 cp <!-- {{{1 -->
 ==
+Basic cp <!-- {{{2 -->
+--------
+- `cp file1 file2 file3 dir/` : cp all three files into dir
+    - `cp file1 file2 file3 dir/; ls dir; rm dir/*`
+
 cp -r on mac <!-- {{{2 -->
 ------------
 - `cp -r from_directory/ to_directory/` or `cp -r from_directory/ to_directory` : cp the content of
@@ -199,8 +203,8 @@ file <!-- {{{1 -->
 
 \pagebreak
 
-du and df <!-- {{{1 -->
-=========
+Disk space <!-- {{{1 -->
+==========
 du <!-- {{{2 -->
 --
 - `du -h | sort -rn` : list all directories recursively and their sizes, sorted with the largest on
@@ -211,6 +215,11 @@ du <!-- {{{2 -->
 df <!-- {{{2 -->
 --
 - `df` : list all disk partitions and their space usage
+
+dfc <!-- {{{2 -->
+---
+- `sudo apt-get install dfc`
+- `dfc` : show disk usage info in a nicer way than df and du
 
 \pagebreak
 
@@ -288,6 +297,13 @@ mkpasswd <!-- {{{1 -->
 - `sudo apt-get install whois`
 - `mkpasswd some_seed st` : generate a random 13-character-long password, notice that st must be 2
   characters while some_seed can be of any length
+
+\pagebreak
+
+Miscellaneous <!-- {{{1 -->
+=============
+- `\command` : bash only, doesn't work on fish run the vanilla version of the command, ignore bash
+  alias settings
 
 \pagebreak
 
