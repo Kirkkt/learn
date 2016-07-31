@@ -1,6 +1,24 @@
 <!-- bash -->
 \pagebreak
 
+cp <!-- {{{1 -->
+==
+cp -r <!-- {{{2 -->
+-----
+**The behavior of cp -r is inconsistent. WATCH OUT!**
+
+### on mac
+- `cp -r dir1/ dir2` or `cp -r dir1/ dir2/` : cp the content of dir1 under dir2, instead of
+  dir1
+  itself. The forward slash doesn't matter in the second argument.
+- `cp -r dir1 dir2` or `cp -r dir1 dir2/` : cp dir1 itself under dir2. The forward slash doesn't
+  matter in the second argument as well.
+
+### on linux
+- `cp -r dir1 dir2` always cp dir1 under dir2, no matter how the forward slashes are used.
+
+\pagebreak
+
 Wildcards <!-- {{{1 -->
 =========
 - `*` : matches zero or more characters
