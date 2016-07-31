@@ -169,6 +169,14 @@ Pipe to system clipboard with pbcopy or xclip <!-- {{{2 -->
 - `xclip -sel clip < a.file` : copy the content of a.file to system clipboard
 - `type vim | xclip -sel clip` : copy the information regarding command vim to system clipboard
 
+Pipe the last run command to system clipboard <!-- {{{2 -->
+---------------------------------------------
+### on mac
+- TODO
+
+### on linux
+- `history | head -n 1 | xclip -sel clip`
+
 Create a large file fast with yes <!-- {{{2 -->
 ---------------------------------
 - `yes "some string"` : repeatedly output "some string" to the command until <c-c>
