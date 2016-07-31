@@ -1,32 +1,6 @@
 <!-- bash -->
 \pagebreak
 
-cp <!-- {{{1 -->
-==
-cp -r on mac <!-- {{{2 -->
-------------
-- `cp -r from_directory/ to_directory/` or `cp -r from_directory/ to_directory` : cp the content of
-  from_directory, and not from_directory itself to below to_directory, regardless whether it exists.
-    - `cd /tmp; rm -rf 1 4 5; mkdir -p 1/2/3 4; cp -r 1/ 4; cp -r 1/ 5/; tree 4 5`
-        - `4/2/3` and `5/2/3`
-- `cp -r from_directory to_directory/` or `cp -r from_directory to_directory` : if to_directory
-  exists, cp from_directory itself to below to_directory; if to_directory doesn't exist, it creates
-  to_directory and cp the content of from_directory, and not from_directory itself to below
-  to_directory
-    - `cd /tmp; rm -rf 1 4 5; mkdir -p 1/2/3 4; cp -r 1 4; cp -r 1 5/; tree 4 5`
-        - `4/1/2/3` and `5/2/3`
-
-cp -r on linux <!-- {{{2 -->
---------------
-- `cp -r from_directory to_directory` : regardless of the / placement, if to_directory exists, it
-  cp from_directory itself to below to_directory, and if to_directory doesn't exist, it creates
-  to_directory and cp the content of from_directory, instead of from_directory itself to below
-  to_directory.
-    - `cd /tmp; rm -rf 1 4 5; mkdir -p 1/2/3 4; cp -r 1/ 4; cp -r 1 5/; tree 4 5`
-        - `4/1/2/3` and `5/2/3`
-
-\pagebreak
-
 Wildcards <!-- {{{1 -->
 =========
 - `*` : matches zero or more characters
@@ -102,6 +76,32 @@ top <!-- {{{2 -->
 free <!-- {{{2 -->
 ----
 - `free -h` : show RAM usage in general in human-friendly format
+
+\pagebreak
+
+cp <!-- {{{1 -->
+==
+cp -r on mac <!-- {{{2 -->
+------------
+- `cp -r from_directory/ to_directory/` or `cp -r from_directory/ to_directory` : cp the content of
+  from_directory, and not from_directory itself to below to_directory, regardless whether it exists.
+    - `cd /tmp; rm -rf 1 4 5; mkdir -p 1/2/3 4; cp -r 1/ 4; cp -r 1/ 5/; tree 4 5`
+        - `4/2/3` and `5/2/3`
+- `cp -r from_directory to_directory/` or `cp -r from_directory to_directory` : if to_directory
+  exists, cp from_directory itself to below to_directory; if to_directory doesn't exist, it creates
+  to_directory and cp the content of from_directory, and not from_directory itself to below
+  to_directory
+    - `cd /tmp; rm -rf 1 4 5; mkdir -p 1/2/3 4; cp -r 1 4; cp -r 1 5/; tree 4 5`
+        - `4/1/2/3` and `5/2/3`
+
+cp -r on linux <!-- {{{2 -->
+--------------
+- `cp -r from_directory to_directory` : regardless of the / placement, if to_directory exists, it
+  cp from_directory itself to below to_directory, and if to_directory doesn't exist, it creates
+  to_directory and cp the content of from_directory, instead of from_directory itself to below
+  to_directory.
+    - `cd /tmp; rm -rf 1 4 5; mkdir -p 1/2/3 4; cp -r 1/ 4; cp -r 1 5/; tree 4 5`
+        - `4/1/2/3` and `5/2/3`
 
 \pagebreak
 
@@ -190,83 +190,6 @@ Determine if my system is 32bit or 64bit <!-- {{{2 -->
     - if the output is **i686** or **i386**, it means 32bit
     - if the output is **x86_64**, it means 64bit
 - `getconf LONG_BIT` : it outputs either 32 or 64
-
-\pagebreak
-
-Fun in command line <!-- {{{1 -->
-===================
-Star wars via telnet <!-- {{{2 -->
---------------------
-    telnet towel.blinkenlights.nl
-
-sl - Steam Locomotive <!-- {{{2 -->
----------------------
-    sudo apt-get install sl
-    sl
-
-cowsay, cowthink and xcowsay <!-- {{{2 -->
-----------------------------
-    sudo apt-get install cowsay
-    cowsay I love Vim!
-    cowthink I love Vim!
-    sudo apt-get install xcowsay
-    xcowsay I love Vim!
-
-toilet and banner <!-- {{{2 -->
------------------
-    sudo apt-get install toilet
-    toilet I love you, Vim!
-    toilet -f mono12 -F metal Tecmint.com
-    while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
-    while true; do clear; echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
-
-    sudo apt-get install sysvbanner
-    banner good morning beautiful
-
-cmatrix and aafire <!-- {{{2 -->
-------------------
-    sudo apt-get install cmatrix
-    cmatrix
-    sudo apt-get install aafire
-    aafire
-
-oneko and xeyes mouse tracking <!-- {{{2 -->
-------------------------------
-    sudo apt-get install oneko
-    oneko
-    xeyes
-
-funny-manpages <!-- {{{2 -->
---------------
-    sudo apt-get install funny-manpages
-    man sex
-
-rig for fake contact info <!-- {{{2 -->
--------------------------
-    sudo apt-get install rig
-    rig
-
-asciiview for viewing images in ascii format <!-- {{{2 -->
---------------------------------------------
-    sudo apt-get install aview
-    asciiview elephant.jpg -driver curses
-
-asciiquarium <!-- {{{2 -->
-------------
-    sudo apt-get install libcurses-perl
-    cd /tmp
-    wget http://search.cpan.org/CPAN/authors/id/K/KB/KBAUCOM/Term-Animation-2.4.tar.gz
-    tar -zxvf Term-Animation-2.4.tar.gz
-    cd Term-Animation-2.4/
-    sudo perl Makefile.PL && make && make test
-    make install
-    cd /tmp
-    wget http://www.robobunny.com/projects/asciiquarium/asciiquarium.tar.gz
-    tar -zxvf asciiquarium.tar.gz
-    cd asciiquarium_1.1/
-    sudo cp asciiquarium /usr/local/bin
-    sudo chmod a+x /usr/local/bin/asciiquarium
-    asciiquarium
 
 \pagebreak
 
@@ -365,3 +288,80 @@ mkpasswd <!-- {{{1 -->
 - `sudo apt-get install whois`
 - `mkpasswd some_seed st` : generate a random 13-character-long password, notice that st must be 2
   characters while some_seed can be of any length
+
+\pagebreak
+
+Fun in command line <!-- {{{1 -->
+===================
+Star wars via telnet <!-- {{{2 -->
+--------------------
+    telnet towel.blinkenlights.nl
+
+sl - Steam Locomotive <!-- {{{2 -->
+---------------------
+    sudo apt-get install sl
+    sl
+
+cowsay, cowthink and xcowsay <!-- {{{2 -->
+----------------------------
+    sudo apt-get install cowsay
+    cowsay I love Vim!
+    cowthink I love Vim!
+    sudo apt-get install xcowsay
+    xcowsay I love Vim!
+
+toilet and banner <!-- {{{2 -->
+-----------------
+    sudo apt-get install toilet
+    toilet I love you, Vim!
+    toilet -f mono12 -F metal Tecmint.com
+    while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
+    while true; do clear; echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
+
+    sudo apt-get install sysvbanner
+    banner good morning beautiful
+
+cmatrix and aafire <!-- {{{2 -->
+------------------
+    sudo apt-get install cmatrix
+    cmatrix
+    sudo apt-get install aafire
+    aafire
+
+oneko and xeyes mouse tracking <!-- {{{2 -->
+------------------------------
+    sudo apt-get install oneko
+    oneko
+    xeyes
+
+funny-manpages <!-- {{{2 -->
+--------------
+    sudo apt-get install funny-manpages
+    man sex
+
+rig for fake contact info <!-- {{{2 -->
+-------------------------
+    sudo apt-get install rig
+    rig
+
+asciiview for viewing images in ascii format <!-- {{{2 -->
+--------------------------------------------
+    sudo apt-get install aview
+    asciiview elephant.jpg -driver curses
+
+asciiquarium <!-- {{{2 -->
+------------
+    sudo apt-get install libcurses-perl
+    cd /tmp
+    wget http://search.cpan.org/CPAN/authors/id/K/KB/KBAUCOM/Term-Animation-2.4.tar.gz
+    tar -zxvf Term-Animation-2.4.tar.gz
+    cd Term-Animation-2.4/
+    sudo perl Makefile.PL && make && make test
+    make install
+    cd /tmp
+    wget http://www.robobunny.com/projects/asciiquarium/asciiquarium.tar.gz
+    tar -zxvf asciiquarium.tar.gz
+    cd asciiquarium_1.1/
+    sudo cp asciiquarium /usr/local/bin
+    sudo chmod a+x /usr/local/bin/asciiquarium
+    asciiquarium
