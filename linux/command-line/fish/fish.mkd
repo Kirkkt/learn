@@ -38,6 +38,8 @@ Fish-specific keyboard shortcuts <!-- {{{1 -->
 
 If statement <!-- {{{1 -->
 ============
+Check an environment variable <!-- {{{2 -->
+-----------------------------
 
     set -xU I_AM_TRUE 1
     if test -n "$I_AM_TRUE"
@@ -46,6 +48,22 @@ If statement <!-- {{{1 -->
     if test -n "$I_AM_FALSE"
       echo "now you don't"
     end
+    # now you see me
+
+Check function argument empty <!-- {{{2 -->
+-----------------------------
+
+    function a
+      if test -n "$argv"
+        echo 'the arguments are' $argv
+      else
+        echo 'no argument found'
+      end
+    end
+    a
+    # no argument found
+    a some arguments
+    # the arguments are some arguments
 
 \pagebreak
 
@@ -88,6 +106,20 @@ argv <!-- {{{2 -->
       vim -u NONE -N $argv
     end
     vimvanilla $GITHUB_DIR/learn/learn-linux/command-line/fish/fish.md +55 #this line
+
+`$argv` concatenation can be tricky. Be careful when `$argv` and a string are adjacent.
+
+    function argvConcat
+      echo $argv 'and me'
+      echo $argv' and me each'
+      echo 'everything and' $argv
+      echo 'everything each and '$argv
+    end
+    argvConcat hello world
+    # hello world and me
+    # hello and me each world and me each
+    # everything and hello world
+    # everything each and hello everything each and world
 
 Only define undefined functions <!-- {{{2 -->
 -------------------------------

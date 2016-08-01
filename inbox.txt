@@ -10,8 +10,6 @@ fish: eval executes a string as a command
       eval $argv " | less"
     end
 
-fish: how to detect $argv is empty
-
 https://linux.cn/topic-commands.html
 
 http://www.tecmint.com/useful-linux-commands-for-newbies/
