@@ -169,3 +169,45 @@ In ES6, `...varialbe` is used so that we no longer need `arguments`.
     };
     a(1,2,3); // 1 2 [3]
 */
+
+/**
+  The this key word is always accessible within a function.
+
+  By default, it binds to the global object (which is very dangerous!).
+
+  $function.bind($this) : returns a function that binds $this to the this inside $function,
+    $function itself is intact
+
+  $function.call($this) : run $function with its this binds to $this
+  */
+const thisDemo = function() {
+  console.log('# thisDemo');
+  const dog = {
+    name: 'woofy',
+    bark: function() {
+      console.log('woofe from', this.name);
+    },
+    barkEs6: () => console.log('woofees6 from', this.name),
+  };
+  const robot = {
+    name: 'erica',
+  };
+  dog.bark(); // woofe from
+  dog.barkEs6(); // woofees6 from, this is because the this keyword is not available in objects,
+    // only functions, which means that the this in barkEs6 is still bound to the global object
+  const sayName = function() {
+    const a = function() {console.log('my name is', this.name);};
+    setTimeout(a.bind(this), 1000);
+  };
+  sayName.call(dog); // my name is woofy
+
+  const sayNameEs6 = () => console.log(this);
+  sayNameEs6.call(dog); // this won't work, it returns the global object!!
+
+  const sayNameMixed = function() {
+    setTimeout(() => console.log('my namees6 is', this.name), 1000);
+  };
+  sayNameMixed.call(dog); // my namees6 is woofy
+
+};
+thisDemo();
