@@ -47,6 +47,15 @@ If statement <!-- {{{1 -->
       echo "now you don't"
     end
 
+Do something only when directory contains certain file <!-- {{{2 -->
+------------------------------------------------------
+    ls *.foo # might yell error, not graceful
+
+    set foos *.foo
+    if count $foos >/dev/null
+      ls $foos
+    end # gracefully noop if no file are found, because count won't throw an error
+
 \pagebreak
 
 Switch statement <!-- {{{1 -->
@@ -208,6 +217,25 @@ input of the next command. It is possible to explicitly use the standard error o
 command instead.
 
 - `mkdir /tmp 2>| less` : pipes standard error to less
+
+\pagebreak
+
+Count <!-- {{{1 -->
+=====
+Count array <!-- {{{2 -->
+-----------
+- `count $PATH` : return the number of items inside array $PATH
+- `count $argv` : return the number of items in the argument
+
+Count files <!-- {{{2 -->
+-----------
+When counting files, `count` is almost always used with wildcards. When the result counting is zero,
+`count` won't throw an error.
+
+- `count dsafdafdsaf` : 1
+- `count fdsfdaqweuuz?fafd*saz` : 0
+- `count **/*.mkd` : 1
+- `count ***.mkd` : 2
 
 \pagebreak
 
