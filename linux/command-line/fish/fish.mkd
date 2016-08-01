@@ -34,6 +34,8 @@ Fish-specific keyboard shortcuts <!-- {{{1 -->
 
 `bind` see all fish command line shortcuts
 
+`help` to open fish help document
+
 \pagebreak
 
 If statement <!-- {{{1 -->
