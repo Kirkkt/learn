@@ -152,15 +152,35 @@ A safer mv <!-- {{{2 -->
 
 \pagebreak
 
-Piping <!-- {{{1 -->
-======
-In addition to standard piping using a vertical bar, fish has its own syntax for piping.
-
+IO <!-- {{{1 -->
+==
+Parentheses for evaluation <!-- {{{2 -->
+--------------------------
 - `vim (grep -r mark * | grep -v 'fish.md:' | cut -f1 -d: | sort -u)` : us vim to open all the files
     returned by the grep command group
 - `vim (fs nocolor \/findme\$)` : open all files that has findme in their names
 - `vim (ls *.txt)` : open all txt files
 - `cat (npm get userconfig)` : show the content of the file that npm get userconfig specifies
+
+Pipe error <!-- {{{2 -->
+----------
+There are three file discriptors, 0 for standard input, 1 for standard output and 2 for standard
+error.
+
+For each there is a redirection mechanism.
+
+- `< a.file` : redirects the content of a.file to the command instead of standard input
+- `> a.file` : redirects standard output to a.file. It is the same as `1>`
+- `>> a.file` : redirects standard output to append to a.file. It is the same as `1>>`
+- `>&-` : close standard output
+- `^ a.file` : redirects standard error to a.file. It is the same as `2>`
+- `^^ a.file` : redirects standard error to append to a.file. Same as `2>>`
+    - `rm -rf /tmp/1; mkdir /tmp ^/tmp/1; mkdir /tmp ^^/tmp/1; cat /tmp/1;` : 2 lines of error
+    - `rm -rf /tmp/1; mkdir /tmp 2>/tmp/1; mkdir /tmp 2>>/tmp/1; cat /tmp/1;` : 2 lines of error
+- `^&-` : close standard error
+  - `mkdir /tmp ^ /dev/null` : shows no error
+  - `mkdir /tmp ^&-` : shows no error. `&-` means to close the file discriptor, which was specified
+    by `&` to be standard error
 
 \pagebreak
 
@@ -248,7 +268,13 @@ Single quotes and double quotes <!-- {{{2 -->
 -------------------------------
 use `'` or `"` to escape spaces for file names and grep key words. In bash, `'` and `"` are slightly
 different, as `"` doesn't prevent special characters from expanding, but in fish they are identical
-(which is really nice).
+other than that `'` is automatically escaped inside a pair of `"`s and `"` is automatically escaped
+inside a pair of `'`s. This simplicity makes it less tricky to script in fish than in bash.
+
+- `echo '"'` : echoes "
+- `echo "'"` : echoes '
+- `echo 'a\bb'` or `echo "a\bb"` : echoes `a\bb`
+- `echo a\bb` : echoes `b`
 
 Clean up <!-- {{{2 -->
 --------
