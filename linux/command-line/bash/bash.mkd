@@ -20,7 +20,6 @@ Wildcards <!-- {{{1 -->
 
 Path <!-- {{{1 -->
 ====
-
 A path is an ordered list. When the operating system uses a path, it search from the beginning of
 the ordered list to the end, and stops upon found or termination. Items are separated by colons `:`.
 
@@ -81,6 +80,11 @@ free <!-- {{{2 -->
 
 cp <!-- {{{1 -->
 ==
+Basic cp <!-- {{{2 -->
+--------
+- `cp file1 file2 file3 dir/` : cp all three files into dir
+    - `cp file1 file2 file3 dir/; ls dir; rm dir/*`
+
 cp -r on mac <!-- {{{2 -->
 ------------
 - `cp -r from_directory/ to_directory/` or `cp -r from_directory/ to_directory` : cp the content of
@@ -165,6 +169,14 @@ Pipe to system clipboard with pbcopy or xclip <!-- {{{2 -->
 - `xclip -sel clip < a.file` : copy the content of a.file to system clipboard
 - `type vim | xclip -sel clip` : copy the information regarding command vim to system clipboard
 
+Pipe the last run command to system clipboard <!-- {{{2 -->
+---------------------------------------------
+### on mac
+- TODO
+
+### on linux
+- `history | head -n 1 | xclip -sel clip`
+
 Create a large file fast with yes <!-- {{{2 -->
 ---------------------------------
 - `yes "some string"` : repeatedly output "some string" to the command until <c-c>
@@ -182,8 +194,8 @@ lxsplit <!-- {{{1 -->
 
 \pagebreak
 
-uname <!-- {{{1 -->
-=====
+uname and getconf <!-- {{{1 -->
+=================
 Determine if my system is 32bit or 64bit <!-- {{{2 -->
 ----------------------------------------
 - `uname -m`
@@ -199,8 +211,8 @@ file <!-- {{{1 -->
 
 \pagebreak
 
-du and df <!-- {{{1 -->
-=========
+Disk space <!-- {{{1 -->
+==========
 du <!-- {{{2 -->
 --
 - `du -h | sort -rn` : list all directories recursively and their sizes, sorted with the largest on
@@ -211,6 +223,11 @@ du <!-- {{{2 -->
 df <!-- {{{2 -->
 --
 - `df` : list all disk partitions and their space usage
+
+dfc <!-- {{{2 -->
+---
+- `sudo apt-get install dfc`
+- `dfc` : show disk usage info in a nicer way than df and du
 
 \pagebreak
 
@@ -288,3 +305,87 @@ mkpasswd <!-- {{{1 -->
 - `sudo apt-get install whois`
 - `mkpasswd some_seed st` : generate a random 13-character-long password, notice that st must be 2
   characters while some_seed can be of any length
+
+\pagebreak
+
+Miscellaneous <!-- {{{1 -->
+=============
+- `\command` : bash only, doesn't work on fish run the vanilla version of the command, ignore bash
+  alias settings
+
+\pagebreak
+
+Fun in command line <!-- {{{1 -->
+===================
+Star wars via telnet <!-- {{{2 -->
+--------------------
+    telnet towel.blinkenlights.nl
+
+sl - Steam Locomotive <!-- {{{2 -->
+---------------------
+    sudo apt-get install sl
+    sl
+
+cowsay, cowthink and xcowsay <!-- {{{2 -->
+----------------------------
+    sudo apt-get install cowsay
+    cowsay I love Vim!
+    cowthink I love Vim!
+    sudo apt-get install xcowsay
+    xcowsay I love Vim!
+
+toilet and banner <!-- {{{2 -->
+-----------------
+    sudo apt-get install toilet
+    toilet I love you, Vim!
+    toilet -f mono12 -F metal Tecmint.com
+    while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
+    while true; do clear; echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
+
+    sudo apt-get install sysvbanner
+    banner good morning beautiful
+
+cmatrix and aafire <!-- {{{2 -->
+------------------
+    sudo apt-get install cmatrix
+    cmatrix
+    sudo apt-get install aafire
+    aafire
+
+oneko and xeyes mouse tracking <!-- {{{2 -->
+------------------------------
+    sudo apt-get install oneko
+    oneko
+    xeyes
+
+funny-manpages <!-- {{{2 -->
+--------------
+    sudo apt-get install funny-manpages
+    man sex
+
+rig for fake contact info <!-- {{{2 -->
+-------------------------
+    sudo apt-get install rig
+    rig
+
+asciiview for viewing images in ascii format <!-- {{{2 -->
+--------------------------------------------
+    sudo apt-get install aview
+    asciiview elephant.jpg -driver curses
+
+asciiquarium <!-- {{{2 -->
+------------
+    sudo apt-get install libcurses-perl
+    cd /tmp
+    wget http://search.cpan.org/CPAN/authors/id/K/KB/KBAUCOM/Term-Animation-2.4.tar.gz
+    tar -zxvf Term-Animation-2.4.tar.gz
+    cd Term-Animation-2.4/
+    sudo perl Makefile.PL && make && make test
+    make install
+    cd /tmp
+    wget http://www.robobunny.com/projects/asciiquarium/asciiquarium.tar.gz
+    tar -zxvf asciiquarium.tar.gz
+    cd asciiquarium_1.1/
+    sudo cp asciiquarium /usr/local/bin
+    sudo chmod a+x /usr/local/bin/asciiquarium
+    asciiquarium
