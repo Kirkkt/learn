@@ -162,9 +162,9 @@ Parentheses for evaluation <!-- {{{2 -->
 - `vim (ls *.txt)` : open all txt files
 - `cat (npm get userconfig)` : show the content of the file that npm get userconfig specifies
 
-Pipe error <!-- {{{2 -->
-----------
-There are three file discriptors, 0 for standard input, 1 for standard output and 2 for standard
+Redirection <!-- {{{2 -->
+-----------
+There are three file descriptors, 0 for standard input, 1 for standard output and 2 for standard
 error.
 
 For each there is a redirection mechanism.
@@ -181,6 +181,14 @@ For each there is a redirection mechanism.
   - `mkdir /tmp ^ /dev/null` : shows no error
   - `mkdir /tmp ^&-` : shows no error. `&-` means to close the file discriptor, which was specified
     by `&` to be standard error
+
+Piping <!-- {{{2 -->
+------
+By default, the vertical bar `|` pipes the standard output of the previous command to the standard
+input of the next command. It is possible to explicitly use the standard error of the previous
+command instead.
+
+- `mkdir /tmp 2>| less` : pipes standard error to less
 
 \pagebreak
 

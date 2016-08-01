@@ -292,6 +292,17 @@ A example with fish <!-- {{{2 -->
 
 \pagebreak
 
+Job control <!-- {{{1 -->
+===========
+Most programs allow you to press <c-z> to return control to bash and make the program stop.
+- `fg` : go back to that program and thereby restart it.
+- `bg` : send the previous suspended program to run in the background.
+- `jobs` lists all the programs run in the background with their job id.
+- `fg job_id` : bring job_id to foreground
+- `bg job_id` : bring job_id to background
+
+\pagebreak
+
 uptime, who and w <!-- {{{1 -->
 =================
 - `uptime` : check the uptime information of the current computer
