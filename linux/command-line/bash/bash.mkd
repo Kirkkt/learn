@@ -33,7 +33,7 @@ A preceding or trailing colon actually has a meaning - it includes the current d
 
 ls <!-- {{{1 -->
 ==
-- `ls -d */` : list all directories under the current directory
+- `ls -d */` : list all directories under the current directory, but not ls into them
 - `ls --color=never` : linux only, list without color
 - `ls --color=always` : linux only, list with color
 - `ls -p` : all forward slash / to the end of directories

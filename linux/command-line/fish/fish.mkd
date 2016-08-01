@@ -109,6 +109,25 @@ Only define undefined functions <!-- {{{2 -->
     end
     onlydefinemeonce
 
+Explicitly use the built-in version of a command <!-- {{{2 -->
+------------------------------------------------
+    function ls
+      command ls --color=auto $argv
+    end
+
+Without adding `command`, an infinite recursion bug will occur. `command` explicitly points to the
+built-in version of the command, instead of the new function defined here.
+
+Alias <!-- {{{2 -->
+-----
+The following are equivalent
+
+    alias rmi "rm -i"
+
+    function rmi
+      rm -i $argv
+    end
+
 \pagebreak
 
 and, or <!-- {{{1 -->
@@ -269,8 +288,14 @@ Miscellaneous <!-- {{{1 -->
 =============
 Wildcard <!-- {{{2 -->
 --------
-- `**` : matches zero or more characters recursively, this is specific to *fish*
+- `**` : matches zero or more characters recursively, including `/`, this is specific to fish
     - `ls ~/git/**/*.xmind`
+- `ls -d **` : list every unhidden file and directory. It essentially carries the same information
+  as tree but less graphical
+- `**/*.fish` : matches all .fish files in subdirectories
+    - `ls **/*.mkd` : shows only resources/sample.mkd
+- `***.fish` : matches all .fish files in subdirectories as well as PWD
+    - `ls ***.mkd` : shows fish.mkd and resources/sample.mkd
 
 Single quotes and double quotes <!-- {{{2 -->
 -------------------------------
