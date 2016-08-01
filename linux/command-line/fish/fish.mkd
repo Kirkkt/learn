@@ -109,6 +109,9 @@ argv <!-- {{{2 -->
 
 `$argv` concatenation can be tricky. Be careful when `$argv` and a string are adjacent.
 
+`$argv'something'` adds something to the end of every item in `$argv`, while `$argv 'something'`
+returns an array with the entirety of `$argv` before `something`.
+
     function argvConcat
       echo $argv 'and me'
       echo $argv' and me each'
@@ -193,6 +196,19 @@ In addition to standard piping using a vertical bar, fish has its own syntax for
 - `vim (fs nocolor \/findme\$)` : open all files that has findme in their names
 - `vim (ls *.txt)` : open all txt files
 - `cat (npm get userconfig)` : show the content of the file that npm get userconfig specifies
+
+\pagebreak
+
+Eval <!-- {{{1 -->
+====
+`eval` executes a string as a command. This is useful when I want to escape special characters, like
+the pipe bar `|`.
+
+    function quickless
+      eval $argv "| less"
+    end
+    quickless ls -al ~
+    # same as ls -al ~ | less
 
 \pagebreak
 
