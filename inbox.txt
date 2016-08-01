@@ -1,2 +1,24 @@
-try: linux /etc/rc.local is run automatically on boot
 q: how to detect os on fish?
+fish: $argv'something' adds something to the end of every item in $argv
+fish: eval executes a string as a command
+# vim open grepped result
+    type vo > /dev/null 2>&1; or function vo
+      eval $argv "| vim - -c 'runtime! 9manual/vimAndOpen.vim' -c 'silent! call VimAndOpenFunction()'"
+    end
+
+    type le > /dev/null 2>&1;or function le
+      eval $argv " | less"
+    end
+
+fish: how to detect $argv is empty
+
+https://linux.cn/topic-commands.html
+
+http://www.tecmint.com/useful-linux-commands-for-newbies/
+http://www.tecmint.com/20-advanced-commands-for-middle-level-linux-users/
+http://www.tecmint.com/20-advanced-commands-for-linux-experts/
+https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html
+https://facebook.github.io/react/docs/transferring-props.html
+http://thebespokepixel.com/fish/mono/tutorial.html
+
+try: ~username on d.txdev.org

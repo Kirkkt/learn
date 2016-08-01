@@ -24,6 +24,18 @@ Commit <!-- {{{1 -->
 
 \pagebreak
 
+Branch management <!-- {{{1 -->
+=================
+- `git branch` : list all branches
+- `git branch --color=never` : list all branches, force no color
+- `git checkout branch_name` : switch to that branch
+- `git checkout -b new_branch_name` : create a new branch named new_branch_name with content
+  identical to the current branch and switch to new_branch_name
+- `git branch -D another_branch` : remove another_branch, you cannot remove the current branch
+- `git branch -m new_name`: rename the current branch
+
+\pagebreak
+
 Rollback <!-- {{{1 -->
 ========
 HEAD <!-- {{{2 -->
