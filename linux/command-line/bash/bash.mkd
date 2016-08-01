@@ -325,6 +325,21 @@ Miscellaneous <!-- {{{1 -->
   alias settings
 - `~username` : root only, cd to the user folder of username
 
+Basename and dirname <!-- {{{2 -->
+--------------------
+`basename` returns the file name portion of a string representing a file by omitting the directory
+portion. `dirname` returns the directory portion instead.
+
+Note that these two functions are purely based on strings, they don't care if that file actually
+exists.
+
+    basename path/to/a.file # a.file
+    basename a.file # a.file
+    basename path/to/a.file .file # a
+    basename path/to/a.file . # a.file (no match for suffix)
+    dirname path/to/a.file # path/to/
+    dirname a.file # .
+
 \pagebreak
 
 Fun in command line <!-- {{{1 -->
