@@ -312,6 +312,7 @@ Miscellaneous <!-- {{{1 -->
 =============
 - `\command` : bash only, doesn't work on fish run the vanilla version of the command, ignore bash
   alias settings
+- `~username` : root only, cd to the user folder of username
 
 \pagebreak
 
