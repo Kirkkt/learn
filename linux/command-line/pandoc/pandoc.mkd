@@ -17,3 +17,13 @@ Other resources <!-- {{{2 -->
 - [pandoc README](http://pandoc.org/README.html)
 - [LATEX general help)[http://www.personal.ceu.hu/tex/latex.htm)
 
+\pagebreak
+
+Verbatim text to pdf conversion with enscript and ghostscript <!-- {{{1 -->
+=============================================================
+The combination of enscript and ghostscript coverts text to pdf without any markups.
+
+- `sudo apt-get install enscript ghostscript`
+- `enscript -p intermediary.ps input.txt` : first convert to postscript
+- `ps2pdf intermediary.ps output.pdf` : convert to pdf finally
+    - `enscript -p resources/test.ps resources/test.txt; ps2pdf resources/test.ps resources/test.pdf; open resources/test.pdf`

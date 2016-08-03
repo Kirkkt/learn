@@ -158,11 +158,15 @@ Text stream with pv <!-- {{{2 -->
 - `sudo apt-get install pv`
 - `cat bash.mkd | pv -qL 20` : stream content of bash.mkd to command line output
 
-Pipe to system clipboard with pbcopy or xclip <!-- {{{2 -->
----------------------------------------------
+Pipe to and from system clipboard <!-- {{{2 -->
+---------------------------------
 ### pbcopy on mac
 - `pbcopy < a.file` : copy the content of a.file to system clipboard
 - `type vim | pbcopy` : copy the information regarding command vim to system clipboard
+
+### pbpaste on mac
+- `pbpaste > a.file` : create a.file with content of system clipboard
+- `pbpaste | vim -` : open an unnamed buffer in vim with the content of system clipboard
 
 ### xclip on linux
 - `sudo apt-get install xclip`
@@ -172,7 +176,7 @@ Pipe to system clipboard with pbcopy or xclip <!-- {{{2 -->
 Pipe the last run command to system clipboard <!-- {{{2 -->
 ---------------------------------------------
 ### on mac
-- TODO
+- `history | head -n 1 | pbcopy`
 
 ### on linux
 - `history | head -n 1 | xclip -sel clip`
