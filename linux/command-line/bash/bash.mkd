@@ -1,20 +1,33 @@
 <!-- bash -->
 \pagebreak
 
-Wildcards <!-- {{{1 -->
-=========
+Wildcards and expansions <!-- {{{1 -->
+========================
+Wildcards <!-- {{{2 -->
+---------
 - `*` : matches zero or more characters
     - `whereis ~/git/*e*`
 - `?` : matches exactly 1 characters
     - `whereis ~/git/?e*`
-- `[abc]` : matches any one of a, b or c, notice this doesn't work in fish
+
+Square bracket match-any-of, doesn't work in fish <!-- {{{2 -->
+-------------------------------------------------
+- `[abc]` : doesn't work in fish, matches any one of a, b or c
     - `whereis ~/git/[dl]*`
-- `[e-m]` : matches any one of e to m, inclusive, notice this doesn't work in fish
+- `[e-m]` : doesn't work in fish, matches any one of e to m, inclusive
     - `whereis ~/git/[e-m][a-g][d-h]*`
-- `[!abc]` : matches any character but a, b and c, notice this doesn't work in fish
+- `[!abc]` : doesn't work in fish, matches any character but a, b and c
     - `whereis ~/git/[!dl]*`
-- `[!e-m]` : matches any character but a, b and c, notice this doesn't work in fish
+- `[!e-m]` : doesn't work in fish, matches any character but a, b and c
     - `whereis ~/git/[!e-m][a-g]*`
+
+Brace expansion <!-- {{{2 -->
+---------------
+- `{a,b,c}` : expands to three items a, b and c
+    - `ls {.,..,../..}` : list PWD, its parent directory and the parent directory above that
+    - `mkdir {/tmp/1,/tmp/2,/tmp/3}` : mkdir three directories
+    - `mv *.{mp4,m4v,mkv,avi,rmvb,flv,wmv,srt} ~/Videos 2> /dev/null` : mv all videos to system
+      video directory, suppress errors
 
 \pagebreak
 
