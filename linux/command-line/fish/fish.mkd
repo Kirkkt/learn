@@ -88,6 +88,27 @@ For loop <!-- {{{1 -->
       zip -r (basename $i).zip $i
     end # zips each directory into its own zip
 
+Do something only when directory contains certain file <!-- {{{2 -->
+------------------------------------------------------
+    ls *.foo # might yell error, not graceful
+
+    set foos *.foo
+    if count $foos >/dev/null
+      ls $foos
+    end # gracefully noop if no file are found, because count won't throw an error
+
+\pagebreak
+
+For loop <!-- {{{1 -->
+========
+    for i in *.jpg
+      cp $i (basename $i .jpg)-1.jpg
+    end # creates a copy for each .jpg file
+
+    for i in */
+      zip -r (basename $i).zip $i
+    end # zips each directory into its own zip
+
 \pagebreak
 
 Switch statement <!-- {{{1 -->
