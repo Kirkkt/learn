@@ -302,8 +302,8 @@ Count files <!-- {{{2 -->
 When counting files, `count` is almost always used with wildcards. When the result counting is zero,
 `count` won't throw an error.
 
-- `count dsafdafdsaf` : 1
-- `count fdsfdaqweuuz?fafd*saz` : 0
+- `count somethingunheardof` : 1
+- `count something?unheard*of` : 0
 - `count **/*.mkd` : 1
 - `count ***.mkd` : 2
 
@@ -410,15 +410,30 @@ Wildcard <!-- {{{2 -->
 
 Single quotes and double quotes <!-- {{{2 -->
 -------------------------------
-use `'` or `"` to escape spaces for file names and grep key words. In bash, `'` and `"` are slightly
-different, as `"` doesn't prevent special characters from expanding, but in fish they are identical
-other than that `'` is automatically escaped inside a pair of `"`s and `"` is automatically escaped
-inside a pair of `'`s. This simplicity makes it less tricky to script in fish than in bash.
+### Single quotes
+Single quotes in fish prevents all expansions.
 
 - `echo '"'` : echoes "
+- `echo 'a\bb'` : echoes `a\bb`
+    - `echo a\bb` : echoes `b`
+- `echo '*???'` : echoes `*???`
+    - `echo *???` : echoes all files with at least three-character long file name
+- `echo '{yo,lo}'` : echoes `{yo,lo}`
+    - `echo {yo,lo}` : echoes `yo lo`
+- `set hello gen; echo '$hello'` : echoes `$hello`
+    - `set hello gen; echo $hello` : echoes `gen`
+
+### Double quotes
+Variable expansion is the only type of expansion that takes effect inside double quotes.
+
 - `echo "'"` : echoes '
-- `echo 'a\bb'` or `echo "a\bb"` : echoes `a\bb`
-- `echo a\bb` : echoes `b`
+- `echo "a\bb"` : echoes `a\bb`
+    - `echo a\bb` : echoes `b`
+- `echo "*???"` : echoes `*???`
+    - `echo *???` : echoes all files with at least three-character long file name
+- `echo "{yo,lo}"` : echoes `{yo,lo}`
+    - `echo {yo,lo}` : echoes `yo lo`
+- `set hello gen; echo "$hello"` : echoes `gen`
 
 Clean up <!-- {{{2 -->
 --------
