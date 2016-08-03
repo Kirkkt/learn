@@ -15,6 +15,8 @@ How <!-- {{{2 -->
 ---
 1. `npm i forever --global`
 2. `forever start server.js` or whatever the name of the js file is that I want to run forever
+    - or `forever -c "npm start" ./` : equivalent of running *npm start* but with forever, note that
+      `./` can also be any directory with a package.json file
 3. `sudo vim /etc/rc.local`
     - add `cd /absolute/path/to/the/directory;forever start server.js`
 
