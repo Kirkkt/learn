@@ -528,6 +528,7 @@ second, seconde, seconds, secondes
 ,,, mauvais
 même, même, mêmes, mêmes
 nouveau, nouvel (before vowel) nouvelle, nouveaux, nouvelles
+sec, sèche, secs, sèches
 
 \pagebreak
 
@@ -743,7 +744,10 @@ Elle montre une mouche.
 Elle mérite une jolie jupe.
 Elle mérite ça.
 Elle perd un cochon.
+Elle prend mon sucre.
 Elle te lit un journal.
+Elle trouve laquelle ?
+Elle trouve lequel ?
 Elle veut une robe.
 Elles achètent le cheval.
 Elles donnent des vêtements.
@@ -788,6 +792,7 @@ Il coupe le sandwich.
 Il coûte combien, le croque-monsieur ?
 Il dit non.
 Il donne une pomme.
+Il est bête.
 Il est calme.
 Il est content parce qu'il a un nouveau stylo.
 Il est content.
@@ -815,6 +820,7 @@ Il parle.
 Il respecte sa femme.
 Il s'aime.
 Il s'appelle comment ?
+Il trouve une pomme.
 Il veut une pomme.
 Ils achètent le cheval.
 Ils lavent des légumes.
@@ -892,6 +898,7 @@ Je respecte ta femme.
 Je sais où c'est.
 Je sais où elle est.
 Je sais que tu sais que je sais.
+Je souhaite manger du riz.
 Je suis jeune.
 Je suis second.
 Je suis un garçon.
@@ -1050,6 +1057,7 @@ Ma ceinture est grosse.
 Ma chemise est large.
 Ma mère
 Ma poche contient une pomme.
+Ma robe est sèche.
 Mais ce sont papa et maman !
 Merci beaucoup !
 Merci et à bientôt!
@@ -1085,6 +1093,7 @@ Nous mangeons du sucre.
 Nous mangeons le chocolat.
 Nous mangeons une salade.
 Nous mettons nos cravates.
+Nous portons l'eau.
 Nous pouvons manger le repas.
 Nous sommes contents.
 Nous sommes riches.
@@ -1156,6 +1165,7 @@ S'il vous plaît, non !
 Sa femme attend un enfant. (his wife is pregnant)
 Ses vêtements sont petits.
 Sommes-nous mauvais ?
+Son pantalon est sec.
 Son père
 Ta femme est jolie.
 Tes garçons lisent un journal.
@@ -1169,7 +1179,9 @@ Tu as des chemises roses.
 Tu as un chapeau marron.
 Tu as une chemise bleue.
 Tu entres et elle entre.
+Tu es bête.
 Tu es riche.
+Tu es un garçon américain
 Tu es un garçon.
 Tu es un homme.
 Tu manges comme un cochon.
