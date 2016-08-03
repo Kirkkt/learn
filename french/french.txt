@@ -663,12 +663,14 @@ Bonjour, vas-tu bien ?
 Bonsoir !
 C'est comme ça.
 C'est du café, mais il aime ça !
+C'est dur.
 C'est l'homme que je connais.
 C'est la même couleur.
 C'est ma seconde chaussure.
 C'est notre enfant.
 C'est ta nouvelle ceinture ?
 C'est un grand garçon très mince.
+C'est un homme dur.
 C'est un homme mauvais.
 C'est un oiseau jaune.
 C'est une couleur.
@@ -740,6 +742,7 @@ Elle met son manteau.
 Elle montre une mouche.
 Elle mérite une jolie jupe.
 Elle mérite ça.
+Elle perd un cochon.
 Elle te lit un journal.
 Elle veut une robe.
 Elles achètent le cheval.
@@ -762,6 +765,7 @@ Est-ce que tu aimes le chocolat ?
 Est-ce que tu l'aides ?
 Est-ce que vous aimez le chocolat ?
 Est-ce que vous avez des légumes ?
+Est-elle difficile ?
 Hélène est la professeur.
 Il a le même chapeau.
 Il a un costume et un portefeuille.
@@ -787,6 +791,7 @@ Il donne une pomme.
 Il est calme.
 Il est content parce qu'il a un nouveau stylo.
 Il est content.
+Il est dur.
 Il est quatre heures.
 Il faut boire.
 Il faut du pain.
@@ -937,6 +942,7 @@ La fille appelle le garçon.
 La fille lance une chaussure.
 La fille mange de la soupe.
 La fille mange une fraise.
+La fille perd son manteau bleu.
 La fourmi est un insecte.
 La fourmi mange une pomme.
 La lettre est rouge.
@@ -993,6 +999,7 @@ Le thé est chaud.
 Le tigre attend le repas.
 Le vin agit.
 Le vin est froid.
+Lequel connaît-il ?
 Les chats blancs boivent du lait.
 Les chats mangent des poissons.
 Les chiennes noires mangent les canards blancs.
@@ -1039,6 +1046,8 @@ Lesquels voulez-vous ?
 Leur cochon mange du riz.
 Leur robe noire est jolie.
 Leurs chiens mangent du poisson.
+Ma ceinture est grosse.
+Ma chemise est large.
 Ma mère
 Ma poche contient une pomme.
 Mais ce sont papa et maman !
@@ -1046,6 +1055,7 @@ Merci beaucoup !
 Merci et à bientôt!
 Mon anniversaire est en septembre.
 Mon jour préféré est lundi.
+Mon livre est difficile.
 Mon père
 Mon second parapluie est noir.
 Nos lêgumes sont mauvais.
@@ -1137,6 +1147,7 @@ Quelle est ta chienne ?
 Qui ?
 Qui est ce monsieur ?
 Qui veut des frites ?
+Qui êtes-vous ?
 Quoi ?
 Regarde la jolie photo !
 S'il te plaît !
@@ -1176,6 +1187,7 @@ Tu veux lesquels ?
 Tu veux mon portefeuille.
 Tu veux un cheval noir.
 Tu veux un enfant ou un chien ?
+Tu veux un vin italien.
 Un dauphin est un animal.
 Un dauphin et une baleine
 Un homme apporte du vin.
@@ -1206,8 +1218,11 @@ Vous savez ?
 Vous voulez des fraises ?
 Vous voulez lesquels ?
 Vous voulez un cheval noir.
+Vous voulez un vin italien.
 Vous voulez une vache.
+Vous vous connaissez.
 Vous êtes grandes.
+Vous êtes impossible.
 Vous êtes jeune.
 Waouh ! Ils sont vraiment contents sur la photo !
 de grands hommes

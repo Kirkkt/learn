@@ -33,7 +33,7 @@ A preceding or trailing colon actually has a meaning - it includes the current d
 
 ls <!-- {{{1 -->
 ==
-- `ls -d */` : list all directories under the current directory
+- `ls -d */` : list all directories under the current directory, but not ls into them
 - `ls --color=never` : linux only, list without color
 - `ls --color=always` : linux only, list with color
 - `ls -p` : all forward slash / to the end of directories
@@ -292,6 +292,17 @@ A example with fish <!-- {{{2 -->
 
 \pagebreak
 
+Job control <!-- {{{1 -->
+===========
+Most programs allow you to press <c-z> to return control to bash and make the program stop.
+- `fg` : go back to that program and thereby restart it.
+- `bg` : send the previous suspended program to run in the background.
+- `jobs` lists all the programs run in the background with their job id.
+- `fg job_id` : bring job_id to foreground
+- `bg job_id` : bring job_id to background
+
+\pagebreak
+
 uptime, who and w <!-- {{{1 -->
 =================
 - `uptime` : check the uptime information of the current computer
@@ -312,6 +323,22 @@ Miscellaneous <!-- {{{1 -->
 =============
 - `\command` : bash only, doesn't work on fish run the vanilla version of the command, ignore bash
   alias settings
+- `~username` : root only, cd to the user folder of username
+
+Basename and dirname <!-- {{{2 -->
+--------------------
+`basename` returns the file name portion of a string representing a file by omitting the directory
+portion. `dirname` returns the directory portion instead.
+
+Note that these two functions are purely based on strings, they don't care if that file actually
+exists.
+
+    basename path/to/a.file # a.file
+    basename a.file # a.file
+    basename path/to/a.file .file # a
+    basename path/to/a.file . # a.file (no match for suffix)
+    dirname path/to/a.file # path/to/
+    dirname a.file # .
 
 \pagebreak
 
