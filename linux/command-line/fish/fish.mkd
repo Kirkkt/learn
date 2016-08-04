@@ -42,7 +42,6 @@ If statement <!-- {{{1 -->
 ============
 Check an environment variable <!-- {{{2 -->
 -----------------------------
-
     set -xU I_AM_TRUE 1
     if test -n "$I_AM_TRUE"
       echo "now you see me"
@@ -54,7 +53,6 @@ Check an environment variable <!-- {{{2 -->
 
 Check function argument empty <!-- {{{2 -->
 -----------------------------
-
     function a
       if test -n "$argv"
         echo 'the arguments are' $argv
@@ -80,14 +78,6 @@ Do something only when directory contains certain file <!-- {{{2 -->
 
 For loop <!-- {{{1 -->
 ========
-    for i in *.jpg
-      cp $i (basename $i .jpg)-1.jpg
-    end # creates a copy for each .jpg file
-
-    for i in */
-      zip -r (basename $i).zip $i
-    end # zips each directory into its own zip
-
 Do something only when directory contains certain file <!-- {{{2 -->
 ------------------------------------------------------
     ls *.foo # might yell error, not graceful
@@ -97,10 +87,27 @@ Do something only when directory contains certain file <!-- {{{2 -->
       ls $foos
     end # gracefully noop if no file are found, because count won't throw an error
 
-\pagebreak
+For-loop with counts <!-- {{{2 -->
+--------------------
+    for i in (seq 10)
+      echo -n $i
+    end
+    # echoes 12345678910
 
-For loop <!-- {{{1 -->
-========
+For-loop an array <!-- {{{2 -->
+-----------------
+    function checkArgumentsContainCase
+      set -l message not found
+      for i in (seq (count $argv))
+        if test $argv[$i] = case
+          set message found
+        end
+      end
+      echo $message
+    end
+
+For-loop files <!-- {{{2 -->
+--------------
     for i in *.jpg
       cp $i (basename $i .jpg)-1.jpg
     end # creates a copy for each .jpg file
@@ -170,7 +177,6 @@ returns an array with the entirety of `$argv` before `something`.
 
 Only define undefined functions <!-- {{{2 -->
 -------------------------------
-
     # new definition wins
     function ilikenewdefinition
       echo 'hello world'
@@ -206,6 +212,26 @@ The following are equivalent
     function rmi
       rm -i $argv
     end
+
+\pagebreak
+
+Variables <!-- {{{1 -->
+=========
+Count of array <!-- {{{2 -->
+--------------
+- `set a 1 hello gen; echo (count $a)` : echoes 3
+
+seq <!-- {{{2 -->
+---
+- `seq 10` : returns an array of 1, 2, 3, ..., 10
+
+Double reference <!-- {{{2 -->
+----------------
+- `set a 10; set foo a; echo $foo $$foo` : echoes a 10
+
+When a variable is expanded, it returns a simple string; yet to evaluate that string as an variable
+with the same name, we need another dollar sign for that. In other words, the difference is `a` and
+`$a`.
 
 \pagebreak
 
