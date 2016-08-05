@@ -78,15 +78,6 @@ Do something only when directory contains certain file <!-- {{{2 -->
 
 For loop <!-- {{{1 -->
 ========
-Do something only when directory contains certain file <!-- {{{2 -->
-------------------------------------------------------
-    ls *.foo # might yell error, not graceful
-
-    set foos *.foo
-    if count $foos >/dev/null
-      ls $foos
-    end # gracefully noop if no file are found, because count won't throw an error
-
 For-loop with counts <!-- {{{2 -->
 --------------------
     for i in (seq 10)
@@ -217,6 +208,11 @@ The following are equivalent
 
 Variables <!-- {{{1 -->
 =========
+Variables are default to empty string <!-- {{{2 -->
+-------------------------------------
+- `set hello; echo $hello` : echoes empty string
+- `function hello; set -l world; echo $world; end; hello` : echoes empty string
+
 Count of array <!-- {{{2 -->
 --------------
 - `set a 1 hello gen; echo (count $a)` : echoes 3
@@ -421,10 +417,16 @@ a slightly simpler prompt that looks like: `~/g/active-notes:master`, or
 
 \pagebreak
 
-Miscellaneous <!-- {{{1 -->
-=============
-Wildcard <!-- {{{2 -->
---------
+Begin block <!-- {{{1 -->
+===========
+`begin...end` creates a block and is always run.
+
+- `begin; set -l hello world; echo $hello; end; echo $hello` : echoes world and empty string
+
+\pagebreak
+
+Wildcard <!-- {{{1 -->
+========
 - `**` : matches zero or more characters recursively, including `/`, this is specific to fish
     - `ls ~/git/**/*.xmind`
 - `ls -d **` : list every unhidden file and directory. It essentially carries the same information
@@ -434,6 +436,10 @@ Wildcard <!-- {{{2 -->
 - `***.fish` : matches all .fish files in subdirectories as well as PWD
     - `ls ***.mkd` : shows fish.mkd and resources/sample.mkd
 
+\pagebreak
+
+Miscellaneous <!-- {{{1 -->
+=============
 Single quotes and double quotes <!-- {{{2 -->
 -------------------------------
 ### Single quotes
