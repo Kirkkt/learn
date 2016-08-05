@@ -107,6 +107,12 @@ For-loop files <!-- {{{2 -->
       zip -r (basename $i).zip $i
     end # zips each directory into its own zip
 
+For-loop to create a file with 100 lines <!-- {{{2 -->
+----------------------------------------
+    for i in (seq 100)
+      echo $i >> resources/100line.txt
+    end
+
 \pagebreak
 
 Switch statement <!-- {{{1 -->
@@ -231,6 +237,20 @@ with the same name, we need another dollar sign for that. In other words, the di
 
 \pagebreak
 
+Brace expansion <!-- {{{1 -->
+===============
+Brace expansion of constants <!-- {{{2 -->
+----------------------------
+Brace expansion expands to all the items inside the pair of braces.
+
+- `echo {some,thing}` : echoes some thing
+- `echo {some,every}{thing,body}` : echoes *something everything somebody everybody*
+
+Brace expansion of variables <!-- {{{2 -->
+----------------------------
+
+\pagebreak
+
 and, or <!-- {{{1 -->
 =======
 `and` only runs when the previous command returns true.
@@ -274,13 +294,20 @@ A safer mv <!-- {{{2 -->
 
 IO <!-- {{{1 -->
 ==
-Parentheses for evaluation <!-- {{{2 -->
---------------------------
+Parentheses for command expansion <!-- {{{2 -->
+---------------------------------
 - `vim (grep -r mark * | grep -v 'fish.md:' | cut -f1 -d: | sort -u)` : us vim to open all the files
     returned by the grep command group
 - `vim (fs nocolor \/findme\$)` : open all files that has findme in their names
 - `vim (ls *.txt)` : open all txt files
 - `cat (npm get userconfig)` : show the content of the file that npm get userconfig specifies
+
+### IFS
+set IFS to empty string prevents multiline command expansion output from being split into arrays by
+the new line character.
+
+- `begin; set -l IFS; echo (count (cat resources/100line.txt)); end` : echoes 1
+- `begin; echo (count (cat resources/100line.txt)); end` : echoes 100
 
 Redirection <!-- {{{2 -->
 -----------
