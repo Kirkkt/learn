@@ -1,0 +1,15 @@
+{
+  "name": "js-npm-budo-watchify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "budo app.js:bundle.js --live --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "budo": "^8.3.0",
+    "watchify": "^3.7.0"
+  }
+}

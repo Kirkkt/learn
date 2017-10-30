@@ -1,0 +1,29 @@
+{
+  "name": "js-npm-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint js/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.5.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ]
+    }
+  }
+}

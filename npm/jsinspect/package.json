@@ -1,0 +1,14 @@
+{
+  "name": "js-npm-jsinspect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "inspect": "jsinspect *.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsinspect": "^0.9.0"
+  }
+}

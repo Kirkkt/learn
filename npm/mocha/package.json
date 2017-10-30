@@ -1,0 +1,14 @@
+{
+  "name": "js-npm-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Bear.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.0.2"
+  }
+}

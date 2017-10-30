@@ -1,0 +1,8 @@
+<!-- react -->
+
+\pagebreak
+
+react <!-- {{{1 -->
+=====
+
+- `this.forceUpdate()` is the same as `this.setState(this.state)` but more elegant

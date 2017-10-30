@@ -1,0 +1,15 @@
+<!-- eslint -->
+
+\pagebreak
+
+Installation <!-- {{{1 -->
+============
+`npm i eslint --save-dev`
+
+No need to --save
+
+\pagebreak
+
+add eslintConfig section in package.json <!-- {{{1 -->
+========================================
+better than dot files for easier migration

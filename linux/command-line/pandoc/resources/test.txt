@@ -1,1 +1,0 @@
-There’s a lot more require’s in our app of course. And these are nested pretty deep. The files referenced in the root file have more child routes, and those use require.ensure which you can read about in the webpack docs on code splitting. It tells webpack to make a new bundle, and then load that bundle when require.ensure is called on the client. Here’s an example:

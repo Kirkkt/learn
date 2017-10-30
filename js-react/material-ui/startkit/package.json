@@ -1,0 +1,39 @@
+{
+  "name": "muitest",
+  "version": "1.0.0",
+  "description": "description",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack-dev-server.config.js --progress --inline --colors",
+    "build": "webpack --config webpack-production.config.js --progress --colors"
+  },
+  "author": "Tang Ke",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "http://git.txdev.org/projects/FP/repos/ui-components/browse"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-node5": "^11.1.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "history": "^3.0.0",
+    "jsdom": "^9.2.1",
+    "material-ui": "^0.15.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-hot-loader": "^1.3.0",
+    "react-router": "^2.4.1",
+    "react-tap-event-plugin": "^1.0.0",
+    "transfer-webpack-plugin": "^0.1.4",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "babel": {
+    "presets": ["es2015", "react"]
+  }
+}
