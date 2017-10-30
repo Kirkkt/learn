@@ -13,3 +13,6 @@
 9. `git push -u origin master`
 10. `yarn run deploy`
 11. now you can visit <https://your-name.github.io/your-app-name>
+
+## Move about create-react-app
+- `create-react-app -h`
